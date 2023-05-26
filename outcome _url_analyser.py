@@ -7,4 +7,4 @@ with open("outcomes_software_urls.csv") as data_in:
 print(df)
 
 for url in df.Url:
-    print(url)
+    print(url)source 
