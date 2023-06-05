@@ -6,11 +6,12 @@ from requests.exceptions import ConnectionError, TooManyRedirects, ReadTimeout
 
 
 def main():
-
+    
     df = get_df_from_csv("outcomes_software_urls.csv")
 
     url_list = get_urls(df)
 
+    '''
     print(url_list)
 
     responses = []
@@ -25,8 +26,57 @@ def main():
     with open('responses.csv','w') as outfile:
         writer = csv.writer(outfile)
         writer.writerows(responses)
-        
+    '''
 
+    categories = []
+    for url in url_list:
+        cat = url, analyse_keywords_in_url(url)
+        categories.append(cat)
+    with open('cats.csv','w') as outfile:
+        writer = csv.writer(outfile)
+        writer.writerows(categories)
+
+           
+def analyse_keywords_in_url(url: str):
+
+    institutional = ['.ac.uk']
+    international_institutional = ['.edu','http://fair.dei.unipd.it']
+    public_commercial_code_repo = ['github', 'bitbucket','sourceforge','gitlab']
+    public_noncommercial_archive_repo = ['zenodo','figshare']
+    public_noncommercial_package_repo = ['r-project','mathworks']
+    publisher = ['sciencedirect','researchgate','thelancet','tandfonline',
+                 'dx.doi.org/10','wiley.com','pubs.acs.org','nature.com']
+    documentation_site = ['readthedocs']
+    software_specific_website = ['jalview']
+    preprint_site = ['arxiv']
+    software_paper = ['joss.theoj.org']
+
+    unknowns = 0
+    if not url =='missing':
+        if any([x in url for x in institutional]):
+                return 'institutional'
+        if any([x in url for x in international_institutional]):
+                return 'international_institutional'
+        if any([x in url for x in public_commercial_code_repo]):
+                return 'public_commercial_code_repo'
+        if any([x in url for x in public_noncommercial_archive_repo]):
+                return 'public_noncommercial_archive_repo'
+        if any([x in url for x in public_noncommercial_package_repo]):
+                return 'public_noncommercial_package_repo'
+        if any([x in url for x in publisher]):
+                return 'publisher'
+        if any([x in url for x in documentation_site]):
+                return 'documentation_site'
+        if any([x in url for x in software_specific_website]):
+                return 'software_specific_website'
+        if any([x in url for x in preprint_site]):
+                return 'preprint_site'
+        if any([x in url for x in software_paper]):
+                return 'software_paper'
+      
+        else:
+
+            return 'unknown'
 
 def get_df_from_csv(csv_to_read: str) -> pd.DataFrame:
 
