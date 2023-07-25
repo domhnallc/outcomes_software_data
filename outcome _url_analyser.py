@@ -112,6 +112,8 @@ def get_urls(df_in: pd.DataFrame) -> list:
 
 
 def check_url(url: str):
+
+    
     hostname = get_hostname_from_url(url)
     headers = {
         "Host": hostname,
