@@ -52,67 +52,51 @@ def csv_to_df(csv_in: str, index_col: str, header: int) -> pd.DataFrame:
 
 
 def count_per_funder(df_in: pd.DataFrame):
-    print("Counts per research funder \n\n")
-    print(df_in.describe())
-    print(df_in)
-
-    # df_in.groupby('Funding OrgName').count()
     vals = (
         df_in.groupby("Funding OrgName", sort=True).size().sort_values(ascending=False)
     )
-    print(vals)
+
+    return vals
 
 
 def count_per_PI(df_in: pd.DataFrame):
-    print("Counts per PI \n\n")
-    print(df_in.describe())
-    print(df_in)
-
-    # df_in.groupby('Funding OrgName').count()
     vals = df_in.groupby("PIId", sort=True).size().sort_values(ascending=False)
-    print(vals)
+
+    return vals
 
 
 def count_per_RO(df_in: pd.DataFrame):
-    print("Counts per RO \n\n")
-    print(df_in.describe())
-    print(df_in)
-
-    # df_in.groupby('Funding OrgName').count()
     vals = df_in.groupby("LeadRO Name", sort=True).size().sort_values(ascending=False)
-    print(vals)
+
+    return vals
 
 
 def count_per_open_sourced(df_in: pd.DataFrame):
-    print("Counts per open sourced \n\n")
-    print(df_in.describe())
-    print(df_in)
-
-    # df_in.groupby('Funding OrgName').count()
     vals = (
         df_in.groupby("Software Open Sourced?", sort=True)
         .size()
         .sort_values(ascending=False)
     )
-    print(vals)
+    return vals
 
 
 def count_per_year(df_in: pd.DataFrame):
-    print("Counts per year \n\n")
-    print(df_in.describe())
-    print(df_in)
     df_in["Year Produced"] = df_in["Year Produced"].fillna(0).astype(int)
-    # df_in.groupby('Funding OrgName').count()
     vals = df_in.groupby("Year Produced", sort=True).size()
-    print(vals)
+
+    return vals
 
 
 def count_per_department(df_in: pd.DataFrame):
-    print("Counts per Dept \n\n")
+    vals = df_in.groupby("Department", sort=True).size().sort_values(ascending=False)
+
+    return vals
+
+
+def print_out(title: str, df_in: pd.DataFrame):
+    print("\n\n", title, "\n\n")
     print(df_in.describe())
     print(df_in)
-    vals = df_in.groupby("Department", sort=True).size().sort_values(ascending=False)
-    print(vals)
 
 
 def main():
@@ -123,28 +107,29 @@ def main():
     # Counts per funder
 
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
-    count_per_funder(df_funder)
+    funder = count_per_funder(df_funder)
+    print_out("Counts per funder", funder)
 
     # Counts per PI using PIId (orcid is missing a lot)
-    df_funder = pd.DataFrame(df_all_data, columns=["PIId"])
-    count_per_PI(df_funder)
+    df_PrincipleInv = pd.DataFrame(df_all_data, columns=["PIId"])
+    print_out("Counts per PI", count_per_PI(df_PrincipleInv))
 
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
-    count_per_RO(df_RO)
+    print_out("Counts per RO", count_per_RO(df_RO))
 
-    # Counts per Research Organisation (lead)
+    # Counts per Software Open Source?
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
     df_os.fillna("No/missing", inplace=True)
-    count_per_open_sourced(df_os)
+    print_out("Counts of Open Source", count_per_open_sourced(df_os))
 
-    # Counts per Research Organisation (lead)
+    # Counts per Year
     df_year = pd.DataFrame(df_all_data, columns=["Year Produced"])
-    count_per_year(df_year)
+    print_out("Counts per year", count_per_year(df_year))
 
-    # Counts per Research Organisation (lead)
+    # Counts per Department
     df_dept = pd.DataFrame(df_all_data, columns=["Department"])
-    count_per_department(df_dept)
+    print_out("Counts per dept", count_per_department(df_dept))
 
     # Get count of each http response code
     # df_responses = get_dataframe_from_csv('./data/responses.csv')
