@@ -51,25 +51,6 @@ def csv_to_df(csv_in: str, index_col: str, header: int) -> pd.DataFrame:
     return df
 
 
-# Software Open Sourced?	Year Produced		Url
-
-
-def chart_data(data_df: pd.DataFrame):
-    slice_data_df = data_df[["Software Open Sourced?", "Year Produced", "Url"]]
-    slice_data_df.plot(kind="bar")
-    plt.show()
-    print(slice_data_df)
-    num_rows = len(slice_data_df.index)
-    print("xx", num_rows - slice_data_df["Software Open Sourced?"].value_counts())
-    print("Total:", num_rows)
-    print(
-        "Software Open Sourced? ",
-        slice_data_df["Software Open Sourced?"].value_counts(),
-        "No:",
-    )
-    print("URL ", slice_data_df.count())
-
-
 def count_per_funder(df_in: pd.DataFrame):
     print("Counts per research funder \n\n")
     print(df_in.describe())
