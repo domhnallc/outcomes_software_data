@@ -121,7 +121,6 @@ def main():
     )
 
     # Counts per funder
-
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
     count_per_funder(df_funder)
 
@@ -133,16 +132,16 @@ def main():
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     count_per_RO(df_RO)
 
-    # Counts per Research Organisation (lead)
+    # Counts per open source
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
     df_os.fillna("No/missing", inplace=True)
     count_per_open_sourced(df_os)
 
-    # Counts per Research Organisation (lead)
+    # Counts per year
     df_year = pd.DataFrame(df_all_data, columns=["Year Produced"])
     count_per_year(df_year)
 
-    # Counts per Research Organisation (lead)
+    # Counts per dept
     df_dept = pd.DataFrame(df_all_data, columns=["Department"])
     count_per_department(df_dept)
 
@@ -151,6 +150,20 @@ def main():
 
     # print(df_responses.groupby(1).count())
 
+
+    ####subanalysis
+
+    #df_ris_counts_per_country = df_all_data.groupby(["country_name","repository_metadata_software_name"])["repository_metadata_software_name"].count()
+    df_os_per_year = pd.DataFrame(df_all_data, columns=["Software Open Sourced?","Year Produced"])
+    df_os_per_year.fillna("No/missing", inplace=True)
+    print(df_os_per_year.groupby(["Software Open Sourced?", "Year Produced"])["Software Open Sourced?"].count().unstack(level=0))
+
+    df_os_per_ro = pd.DataFrame(df_all_data, columns=["Software Open Sourced?","LeadRO Name"])
+    df_os_per_ro.fillna("No/missing", inplace=True)
+    print(df_os_per_ro.groupby(["Software Open Sourced?", "LeadRO Name"])["Software Open Sourced?"].count().unstack(level=0))
+
+    df_os_per_funder = df_all_data.groupby(["Software Open Sourced?", "Funding OrgName"])["Software Open Sourced?"].count().unstack(level=0)
+    print(df_os_per_funder)
 
 if __name__ == "__main__":
     main()
