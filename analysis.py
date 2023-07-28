@@ -151,19 +151,43 @@ def main():
     # print(df_responses.groupby(1).count())
 
 
-    ####subanalysis
+    ####subanalysis of sware being open sourced
 
-    #df_ris_counts_per_country = df_all_data.groupby(["country_name","repository_metadata_software_name"])["repository_metadata_software_name"].count()
+    # dichotomous sware os? per year
     df_os_per_year = pd.DataFrame(df_all_data, columns=["Software Open Sourced?","Year Produced"])
     df_os_per_year.fillna("No/missing", inplace=True)
-    print(df_os_per_year.groupby(["Software Open Sourced?", "Year Produced"])["Software Open Sourced?"].count().unstack(level=0))
+    print("\n\n\n", df_os_per_year.groupby(["Software Open Sourced?", "Year Produced"])["Software Open Sourced?"].count().unstack(level=0))
 
+    # dichotomous sware os? per RO
     df_os_per_ro = pd.DataFrame(df_all_data, columns=["Software Open Sourced?","LeadRO Name"])
     df_os_per_ro.fillna("No/missing", inplace=True)
-    print(df_os_per_ro.groupby(["Software Open Sourced?", "LeadRO Name"])["Software Open Sourced?"].count().unstack(level=0))
+    print("\n\n\n", df_os_per_ro.groupby(["Software Open Sourced?", "LeadRO Name"])["Software Open Sourced?"].count().unstack(level=0))
 
-    df_os_per_funder = df_all_data.groupby(["Software Open Sourced?", "Funding OrgName"])["Software Open Sourced?"].count().unstack(level=0)
-    print(df_os_per_funder)
+    # dichotomous sware os? per funder
+    df_os_per_funder = pd.DataFrame(df_all_data, columns=["Software Open Sourced?", "Funding OrgName"])
+    df_os_per_funder.fillna("No/missing", inplace=True)
+    print("\n\n\n", df_os_per_funder.groupby(["Software Open Sourced?", "Funding OrgName"])["Software Open Sourced?"].count().unstack(level=0))
+    
+    # dichotomous sware os? per PI
+    df_os_per_PI = pd.DataFrame(df_all_data, columns=["Software Open Sourced?", "PIId"])
+    df_os_per_PI.fillna("No/missing", inplace=True)
+    print("\n\n\n", df_os_per_PI.groupby(["Software Open Sourced?", "PIId"])["Software Open Sourced?"].count().unstack(level=0))
+    
+
+    ####subanalysis of vars over time
+    print("\n\n\nsubanalysis of vars over time\n\n\n")
+
+
+    df_ro_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "LeadRO Name"])
+    df_ro_per_year.fillna("No/missing", inplace=True)
+    print("\n\n\n", df_ro_per_year.groupby(["Year Produced", "LeadRO Name"])["Year Produced"].count().unstack(level=0).astype("Int64"))
+
+    df_funder_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "Funding OrgName"])
+    df_grouped = df_funder_per_year.groupby(["Year Produced", "Funding OrgName"])["Year Produced"].count().unstack(level=0).astype("Int64").fillna(0)
+    print(df_grouped)
+    df.pl
+
+
 
 if __name__ == "__main__":
     main()
