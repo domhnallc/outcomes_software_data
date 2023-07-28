@@ -178,15 +178,27 @@ def main():
     ####subanalysis of vars over time
     print("\n\n\nsubanalysis of vars over time\n\n\n")
 
-
+    #ro per year
     df_ro_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "LeadRO Name"])
     df_ro_per_year.fillna("No/missing", inplace=True)
-    print("\n\n\n", df_ro_per_year.groupby(["Year Produced", "LeadRO Name"])["Year Produced"].count().unstack(level=0).astype("Int64"))
+    df_grouped =  df_ro_per_year.groupby(["Year Produced", "LeadRO Name"])["Year Produced"].count().unstack(level=0).astype("Int64")
+    print(df_grouped)
+  
 
+    #funder per year
     df_funder_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "Funding OrgName"])
     df_grouped = df_funder_per_year.groupby(["Year Produced", "Funding OrgName"])["Year Produced"].count().unstack(level=0).astype("Int64").fillna(0)
     print(df_grouped)
+    #plot
     df_grouped.T.plot()
+    plt.show()
+
+    #os per year
+    df_os_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "Software Open Sourced?"])
+    df_grouped_os = df_os_per_year.groupby(["Year Produced", "Software Open Sourced?"])["Year Produced"].count().unstack(level=0).astype("Int64").fillna(0)
+    print(df_grouped_os)
+    #plot
+    df_grouped_os.T.plot()
     plt.show()
 
 
