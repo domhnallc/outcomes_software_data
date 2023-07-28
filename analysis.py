@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
+import seaborn as sns
 
 
 """gtr_raw_data.csv headers:
@@ -185,7 +186,8 @@ def main():
     df_funder_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "Funding OrgName"])
     df_grouped = df_funder_per_year.groupby(["Year Produced", "Funding OrgName"])["Year Produced"].count().unstack(level=0).astype("Int64").fillna(0)
     print(df_grouped)
-    df.pl
+    df_grouped.T.plot()
+    plt.show()
 
 
 
