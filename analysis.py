@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
+import seaborn as sns
 
 
 """gtr_raw_data.csv headers:
@@ -105,7 +106,6 @@ def main():
     )
 
     # Counts per funder
-
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
     funder = count_per_funder(df_funder)
     print_out("Counts per funder", funder)
@@ -118,16 +118,16 @@ def main():
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     print_out("Counts per RO", count_per_RO(df_RO))
 
-    # Counts per Software Open Source?
+    # Counts per open source
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
     df_os.fillna("No/missing", inplace=True)
     print_out("Counts of Open Source", count_per_open_sourced(df_os))
 
-    # Counts per Year
+    # Counts per year
     df_year = pd.DataFrame(df_all_data, columns=["Year Produced"])
     print_out("Counts per year", count_per_year(df_year))
 
-    # Counts per Department
+    # Counts per dept
     df_dept = pd.DataFrame(df_all_data, columns=["Department"])
     print_out("Counts per dept", count_per_department(df_dept))
 
@@ -135,6 +135,112 @@ def main():
     # df_responses = get_dataframe_from_csv('./data/responses.csv')
 
     # print(df_responses.groupby(1).count())
+
+    ####subanalysis of sware being open sourced
+
+    # dichotomous sware os? per year
+    df_os_per_year = pd.DataFrame(
+        df_all_data, columns=["Software Open Sourced?", "Year Produced"]
+    )
+    df_os_per_year.fillna("No/missing", inplace=True)
+    print(
+        "\n\n\n",
+        df_os_per_year.groupby(["Software Open Sourced?", "Year Produced"])[
+            "Software Open Sourced?"
+        ]
+        .count()
+        .unstack(level=0),
+    )
+
+    # dichotomous sware os? per RO
+    df_os_per_ro = pd.DataFrame(
+        df_all_data, columns=["Software Open Sourced?", "LeadRO Name"]
+    )
+    df_os_per_ro.fillna("No/missing", inplace=True)
+    print(
+        "\n\n\n",
+        df_os_per_ro.groupby(["Software Open Sourced?", "LeadRO Name"])[
+            "Software Open Sourced?"
+        ]
+        .count()
+        .unstack(level=0),
+    )
+
+    # dichotomous sware os? per funder
+    df_os_per_funder = pd.DataFrame(
+        df_all_data, columns=["Software Open Sourced?", "Funding OrgName"]
+    )
+    df_os_per_funder.fillna("No/missing", inplace=True)
+    print(
+        "\n\n\n",
+        df_os_per_funder.groupby(["Software Open Sourced?", "Funding OrgName"])[
+            "Software Open Sourced?"
+        ]
+        .count()
+        .unstack(level=0),
+    )
+
+    # dichotomous sware os? per PI
+    df_os_per_PI = pd.DataFrame(df_all_data, columns=["Software Open Sourced?", "PIId"])
+    df_os_per_PI.fillna("No/missing", inplace=True)
+    print(
+        "\n\n\n",
+        df_os_per_PI.groupby(["Software Open Sourced?", "PIId"])[
+            "Software Open Sourced?"
+        ]
+        .count()
+        .unstack(level=0),
+    )
+
+    ####subanalysis of vars over time
+    print("\n\n\nsubanalysis of vars over time\n\n\n")
+
+    # ro per year
+    df_ro_per_year = pd.DataFrame(df_all_data, columns=["Year Produced", "LeadRO Name"])
+    df_ro_per_year.fillna("No/missing", inplace=True)
+    df_grouped = (
+        df_ro_per_year.groupby(["Year Produced", "LeadRO Name"])["Year Produced"]
+        .count()
+        .unstack(level=0)
+        .astype("Int64")
+    )
+    print(df_grouped)
+
+    # funder per year
+    df_funder_per_year = pd.DataFrame(
+        df_all_data, columns=["Year Produced", "Funding OrgName"]
+    )
+    df_grouped = (
+        df_funder_per_year.groupby(["Year Produced", "Funding OrgName"])[
+            "Year Produced"
+        ]
+        .count()
+        .unstack(level=0)
+        .astype("Int64")
+        .fillna(0)
+    )
+    print(df_grouped)
+    # plot
+    df_grouped.T.plot()
+    plt.show()
+
+    # os per year
+    df_os_per_year = pd.DataFrame(
+        df_all_data, columns=["Year Produced", "Software Open Sourced?"]
+    )
+    df_grouped_os = (
+        df_os_per_year.groupby(["Year Produced", "Software Open Sourced?"])[
+            "Year Produced"
+        ]
+        .count()
+        .unstack(level=0)
+        .astype("Int64")
+        .fillna(0)
+    )
+    print(df_grouped_os)
+    # plot
+    df_grouped_os.T.plot()
+    plt.show()
 
 
 if __name__ == "__main__":
