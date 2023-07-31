@@ -38,21 +38,26 @@ def main():
 
 
 def analyse_keywords_in_url(url: str):
-    institutional_group = ["http://spindynamics.org"]
+    institutional_group = [
+        "http://spindynamics.org",
+        "soft-dev.org",
+        "http://www.arg-tech.org",
+        "www.bioinf.org.uk",
+    ]
     institutional = [
+        "http://www.biospi.org",
         "http://t-stor.teagasc.ie/bitstream/11019/380/1/berry_imputation.pdf",
         "http://psrg.org.uk",
         "http://hdl.handle.net/10871/36891",
         ".ac.uk",
-        "https://soft-dev.org",
         "https://doi.org/10.5523/bris.2s1zavsbkctna2bnh6g6os9n2k",
         "https://doi.org/10.15131/shef.data.13713598.v1",
-        "http://bio.dei.unipd.it",
         "http://cvssp.org",
         "https://doi.org/10.17863/CAM.281",
-        "https://drops.dagstuhl.de/opus",
     ]
     international_institutional = [
+        "http://bio.dei.unipd.it",
+        "https://drops.dagstuhl.de/opus",
         "inria.fr",
         "http://paccanarolab.org",
         "http://lat.inf.tu-dresden.de/",
@@ -80,6 +85,8 @@ def analyse_keywords_in_url(url: str):
         "https://doi.org/10.17862/cranfield.rd.c.3292031",
     ]
     public_noncommercial_package_repo = [
+        "http://www.taverna.org.uk",
+        "http://www.eclipse.org",
         "https://crates.io/",
         "hackage",
         "CRAN.R-project.org",
@@ -92,9 +99,15 @@ def analyse_keywords_in_url(url: str):
         "pypi.org",
         "https://extensions.sketchup",
     ]
-    public_openscience_repo = ["osf.io"]
+    public_openscience_repo = ["osf.io", "http://www.iplantcollaborative.org"]
     publisher = [
-        "sagepub" "https://doi.org/10.1007/978-3-030-80439-8_13",
+        "https://aip.scitation.org",
+        "http://www.stata-journal.com",
+        "http://www.llcsjournal.org/",
+        "http://www.ifs.org.uk",
+        "http://www.earth-surf-dynam.net/4/655/2016/",
+        "sagepub",
+        "https://doi.org/10.1007/978-3-030-80439-8_13",
         "https://doi.org/10.1007/978-3-319-96151-4_27",
         "https://doi.org/10.1007%2Fs11222-020-09966-2",
         "https://doi.org/10.1016/j.cageo.2007.11.007",
@@ -157,6 +170,59 @@ def analyse_keywords_in_url(url: str):
     ]
     documentation_site = ["readthedocs"]
     software_specific_website = [
+        "http://www.seek4science.org",
+        "https://biosimspace.org",
+        "http://www.prismmodelchecker.org/",
+        "http://www.ldak.org",
+        "http://www.labtrove.org",
+        "http://www.k-wave.org",
+        "http://www.isale-code.de",
+        "http://www.insectvision.org/3d-reconstruction-tools/habitat3d",
+        "http://www.incompact3d.com",
+        "http://www.hande.org.uk/",
+        "http://www.gridcarbon.uk/",
+        "http://www.grchombo.org",
+        "http://www.geomorphology.com",
+        "http://www.genomehubs.org",
+        "http://www.gaussianprocess.org/gpml/code",
+        "http://www.gap-system.org/",
+        "http://www.flamegpu.com",
+        "http://www.fitbenchmarking.com",
+        "http://www.firedrakeproject.org",
+        "http://www.extremetomato.com/projects/graphcoll/",
+        "http://www.evosuite.org",
+        "http://www.empiricalimaging.com",
+        "http://www.dune-project.org",
+        "http://www.dual.sphysics.org",
+        "http://www.digtrace.co.uk",
+        "http://www.deft-whois.org/",
+        "http://www.defensivejs.com/",
+        "http://www.dandeliion.com",
+        "http://www.crystal.unito.it/index.php",
+        "http://www.cpl-library.org",
+        "http://www.cp2k.org",
+        "http://www.copasi.org",
+        "http://www.condatis.org.uk",
+        "http://www.cistools.net",
+        "http://www.chemshell.org",
+        "http://www.channotation.org",
+        "http://www.channelcoast.org",
+        "http://www.cemrg.co.uk/software/cemrgapp.html",
+        "http://www.ccalc.org.uk/",
+        "http://www.bonej.org",
+        "http://www.bone-finder.com",
+        "http://www.biopepa.org",
+        "http://www.biolayout.org/",
+        "http://www.bempp.org",
+        "http://www.avenirhealth.org/software-spectrum",
+        "http://www.animalsimulation.org",
+        "http://www.africanfarmergame.org/",
+        "http://wwpdb.org/validation/validation-reports",
+        "http://workcraft.org",
+        "http://w3id.org/mqtt-plan",
+        "http://tinyurl.com/9dhhgqj",
+        "http://tiny.uzh.ch/dm",
+        "http://thetisproject.org/",
         "http://tessa.tools/",
         "http://sleepful.me/download",
         "http://search.cpan.org/~ggallone/Bio-Homology-InterologWalk/",
@@ -196,7 +262,7 @@ def analyse_keywords_in_url(url: str):
         "http://lepbase.org/source-code/",
         "http://inlabru.org/",
         "http://isa-tools.org/",
-        "" "http://hts.sp.nitech.ac.jp",
+        "http://hts.sp.nitech.ac.jp",
         "http://hermit-reasoner.com/",
         "http://geokey.org.uk/",
         "http://flagellarcapture.com/",
@@ -267,7 +333,11 @@ def analyse_keywords_in_url(url: str):
         "https://keigoimai.info/session-ocaml/",
         "sites.google.com",
     ]
-    web_app = [
+    web_app_or_db = [
+        "https://biomodelanalyzer.org/",
+        "http://www.epigraphdb.org/",
+        "http://www.compadre-db.org",
+        "http://www.cerealsdb.uk.net/cerealgenomics/CerealsDB/select_QTL.php",
         "http://shiny90.unaids.org",
         "http://plants.ensembl.org",
         "https://Jmleaglacio.users.earthengine.app/view/rgi7alphareviewerv001",
@@ -286,6 +356,13 @@ def analyse_keywords_in_url(url: str):
         "google.com/patents",
     ]
     project_or_consortium = [
+        "http://www.repidemicsconsortium.org/",
+        "http://www.prime-project.org",
+        "http://www.magic-air.uk",
+        "http://www.cposs.org.uk/",
+        "http://www.ccpsas.org/",
+        "http://www.acceleratar.uk/",
+        "http://tropics.blogs.ilrt.org/",
         "http://solidityproject.com",
         "http://projectglobalview.blogspot.co.uk/",
         "http://performancewithoutbarriers.com/vrinstrument/",
@@ -326,9 +403,13 @@ def analyse_keywords_in_url(url: str):
         "https://cometinitiative.org/DelphiManager/",
         "observablehq.com",
     ]  # doesnt link to software, just
-    preprint_site = ["arxiv", "/www.biorxiv.org/", "https://doi.org/10.1101/481754"]
+    preprint_site = ["arxiv", "biorxiv.org", "https://doi.org/10.1101/481754"]
     software_paper = ["joss.theoj.org", "https://doi.org/10.21105/joss.02043"]
     discipline_software_repo = [
+        "http://www.coin-or.org/projects/oBB.xml",
+        "http://www.bionode.io",
+        "http://vallico.net/casinoqmc",
+        "http://tools.epidemiology.net",
         "http://sccs-studies.info",
         "http://mloss.org/",
         "openmicroscopy.org",
@@ -344,6 +425,8 @@ def analyse_keywords_in_url(url: str):
         "http://ascl.net/1803.008",
     ]
     discipline_non_software_repo = [
+        "http://www.integratedmodelling.org",
+        "http://www.incisenet.org/",
         "http://inspirehep.net/record/1520002",
         ".iacr.org",
         "siam.org",
@@ -362,6 +445,15 @@ def analyse_keywords_in_url(url: str):
         "https://www.food4rhino.com/",
     ]
     commercial_website = [
+        "http://www.ondex.org",
+        "http://www.niab.com/",
+        "http://www.lstm.co.uk",
+        "http://www.lets-explore.com",
+        "http://www.iotdatabox.com",
+        "http://www.ihs.com/info/st/e/smartpm.aspx",
+        "http://www.esa-da.org/content/finding-representativity-error",
+        "http://www.e3me.com",
+        "http://www.articulateinstruments.com/",
         "http://simpleware.com/software/physics-modules/",
         "https://hybridgifting.com/",
         "https://epic337255300.wordpress.com/our-product/",
@@ -387,6 +479,7 @@ def analyse_keywords_in_url(url: str):
         "http://bela.io",
     ]
     forum_mailing_list_blog = [
+        "http://www.gridqtl.org.uk",
         "http://seabedhabitats.org",
         "http://hotventscoldocean.blogspot.co.uk",
         "https://www.statalist.org/forums/",
@@ -421,6 +514,12 @@ def analyse_keywords_in_url(url: str):
     ]  # with code
     search_site = ["scholar.google."]
     personal_site = [
+        "http://www.louisaslett.com/",
+        "http://www.laurenceanthony.net/",
+        "http://www.derczynski.com",
+        "http://www.danielerotolo.com/#!medliner/cid7",
+        "http://www.coxphysics.com",
+        "http://www.code.daniel-williams.co.uk/minke/",
         "http://rtaylor-essex.droppages.com",
         "http://muxviz.net",
         "http://mmcheng.net/dss/",
@@ -446,6 +545,36 @@ def analyse_keywords_in_url(url: str):
     google_doc = ["http://goo.gl/VJKoBw"]
 
     unresponsive = [
+        "https://cemmapswl.blog/",
+        "http://www.urban-climate.net/",
+        "http://www.sixthsensetransport.com/",
+        "http://www.lifemirror.org/",
+        "http://www.killerfungus.org",
+        "http://www.jstarverifier.org",
+        "http://www.itrc.org.uk/nismod/#.WMbLiH8qtdg",
+        "http://www.inclusivedesigntoolkit.com/betterdesign2",
+        "http://www.iearth.org.au/codes/",
+        "http://www.handyurbansolutions.com",
+        "http://www.gowsb.com",
+        "http://www.gec-bas.info/",
+        "http://www.footmiles.org",
+        "http://www.esciencecentral.co.uk/",
+        "http://www.dnald.org/",
+        "http://www.dflybrain.org/GainControlModel.html",
+        "http://vallico.new/casinoqmc",
+        "http://www.dflybrain.org/FrequencyDomainMethods.html",
+        "http://www.deepearthobservation.com",
+        "http://www.datafax.com/software/idatafax/",
+        "http://www.cossan.co.uk/software/open-cossan-engine.php",
+        "http://www.constituencyexplorer.org.uk/explore/2015_election_results",
+        "http://www.coastalme.org.uk",
+        "http://www.click2go.umip.com/i/software/Biomedical_Software/TroGen.html",
+        "http://www.boscorf.org/instruments/corewall",
+        "http://www.acousticsensing.co.uk/",
+        "http://vprover.org",
+        "http://utopiadocs.com",
+        "http://tytra.org.uk/",
+        "http://tidal.lurk.org",
         "http://tapas-h2020.eu/results/",
         "http://staff.aist.go.jp/w.shinoda/MPDyn/index.html",
         "http://spiers-software.org/index.htm",
@@ -532,7 +661,7 @@ def analyse_keywords_in_url(url: str):
             return "discipline_software_repo"
         if any([x in url for x in public_openscience_repo]):
             return "public openscience repo"
-        if any([x in url for x in web_app]):
+        if any([x in url for x in web_app_or_db]):
             return "web app"
         if any([x in url for x in patent]):
             return "patent"
@@ -560,6 +689,15 @@ def analyse_keywords_in_url(url: str):
             return "search site"
         if any([x in url for x in personal_site]):
             return "personal website"
+        if any([x in url for x in inappropriate]):
+            return "inappropriate"
+        if any([x in url for x in news_blog]):
+            return "news_blog"
+        if any([x in url for x in google_doc]):
+            return "google_doc"
+        if any([x in url for x in institutional_group]):
+            return "institutional_group"
+
         else:
             return "unknown"
 
