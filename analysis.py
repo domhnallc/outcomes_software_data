@@ -210,6 +210,7 @@ def main():
     df_funder_per_year = pd.DataFrame(
         df_all_data, columns=["Year Produced", "Funding OrgName"]
     )
+
     df_grouped = (
         df_funder_per_year.groupby(["Year Produced", "Funding OrgName"])[
             "Year Produced"
