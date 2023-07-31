@@ -221,6 +221,7 @@ def main():
         .fillna(0)
     )
     print(df_grouped)
+    df_grouped.to_csv("./output/funder_per_year.csv")
     # plot
     df_grouped.T.plot()
     plt.show()

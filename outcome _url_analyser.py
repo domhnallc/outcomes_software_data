@@ -12,7 +12,7 @@ attempts made to reach URL. Saves to ./responses.csv.
 
 def main():
     """"""
-    df = get_df_from_csv("outcomes_software_urls.csv")
+    df = get_df_from_csv("./data/outcomes_software_urls.csv")
     url_list = get_urls(df)
 
     """
@@ -38,11 +38,13 @@ def main():
 
 
 def analyse_keywords_in_url(url: str):
+    institutional_group = ["http://spindynamics.org"]
     institutional = [
-        "http://lat.inf.tu-dresden.de/",
+        "http://t-stor.teagasc.ie/bitstream/11019/380/1/berry_imputation.pdf",
+        "http://psrg.org.uk",
         "http://hdl.handle.net/10871/36891",
         ".ac.uk",
-        "https://soft-dev.org/src/grmtools/",
+        "https://soft-dev.org",
         "https://doi.org/10.5523/bris.2s1zavsbkctna2bnh6g6os9n2k",
         "https://doi.org/10.15131/shef.data.13713598.v1",
         "http://bio.dei.unipd.it",
@@ -51,6 +53,10 @@ def analyse_keywords_in_url(url: str):
         "https://drops.dagstuhl.de/opus",
     ]
     international_institutional = [
+        "inria.fr",
+        "http://paccanarolab.org",
+        "http://lat.inf.tu-dresden.de/",
+        "http://nso.narit.or.th",
         ".edu",
         "http://fair.dei.unipd.it",
         "https://www.georgeinstitute.org/",
@@ -58,6 +64,8 @@ def analyse_keywords_in_url(url: str):
         "https://hesperia.gsfc.nasa.gov/ssw/packages/xray/idl/f_thick_warm.pro",
     ]
     public_commercial_code_repo = [
+        "http://maximilian.strangeloop.co.uk",
+        "sf.net",
         "github",
         "bitbucket",
         "sourceforge",
@@ -149,6 +157,31 @@ def analyse_keywords_in_url(url: str):
     ]
     documentation_site = ["readthedocs"]
     software_specific_website = [
+        "http://tessa.tools/",
+        "http://sleepful.me/download",
+        "http://search.cpan.org/~ggallone/Bio-Homology-InterologWalk/",
+        "http://scip.zib.de",
+        "http://sbml.org/Software/JSBML",
+        "http://savara.jboss.org/",
+        "http://rivet.hepforge.org",
+        "http://reaction-networks.net/control/",
+        "http://radar-base.org",
+        "http://purl.org/td/transportdisruption",
+        "http://prismmodelchecker.org/games/",
+        "http://phpsemantics.org",
+        "http://page.mi.fu-berlin.de/cbenzmueller/leo/",
+        "http://oss.deltares.nl/web/xbeach/home",
+        "http://osnt.org/",
+        "http://OpenSAFELY.org",
+        "http://ompl.kavrakilab.org/",
+        "http://not.yet.com",
+        "http://natverse.org/",
+        "http://naomi.unaids.org",
+        "http://logiciels.pierrecouprie.fr/?page_id=402",
+        "http://www.gwoptics.org/finesse/",
+        "http://www.optados.org",
+        "https://amplemr.wordpress.com/",
+        "http://www.onetep.org",
         "https://irl.itch.io/narupaxr",
         "https://interactml.com/",
         "https://infobiotics.org",
@@ -235,6 +268,8 @@ def analyse_keywords_in_url(url: str):
         "sites.google.com",
     ]
     web_app = [
+        "http://shiny90.unaids.org",
+        "http://plants.ensembl.org",
         "https://Jmleaglacio.users.earthengine.app/view/rgi7alphareviewerv001",
         "https://jackolney.shinyapps.io/ShinyCascade/",
         "http://emboeditor.herokuapp.com/",
@@ -244,12 +279,18 @@ def analyse_keywords_in_url(url: str):
         "http://biomodelanalyzer.org/",
         "http://blog.debroglie.net/strategies/",
         "http://brandmaier.de/shiny/sample-apps/SimLCS_app/",
+        "http://ecohairandbeauty.com/virtual-salon",
     ]
     patent = [
         "https://www.ipo.gov.uk/p-ipsum/Case/ApplicationNumber/",
         "google.com/patents",
     ]
     project_or_consortium = [
+        "http://solidityproject.com",
+        "http://projectglobalview.blogspot.co.uk/",
+        "http://performancewithoutbarriers.com/vrinstrument/",
+        "http://mycoast-project.org/",
+        "http://ska-sdp.org",
         ".ecmwf.int",
         "https://projects.coin-or.org/oBB/",
         "https://kclhi.org/provenance",
@@ -288,6 +329,9 @@ def analyse_keywords_in_url(url: str):
     preprint_site = ["arxiv", "/www.biorxiv.org/", "https://doi.org/10.1101/481754"]
     software_paper = ["joss.theoj.org", "https://doi.org/10.21105/joss.02043"]
     discipline_software_repo = [
+        "http://sccs-studies.info",
+        "http://mloss.org/",
+        "openmicroscopy.org",
         "http://bx-community.wikidot.com/examples:home",
         "https://www.bioconductor.org",
         "https://www.vaccineimpact.org",
@@ -307,12 +351,18 @@ def analyse_keywords_in_url(url: str):
     ]
     video = ["youtu.be", "youtube", "vimeo"]
     social_media = ["twitter.com"]
-    commercial_appstore = ["unrealengine", "play.google.com", "itunes.apple.com"]
+    commercial_appstore = [
+        "unrealengine",
+        "play.google.com",
+        "itunes.apple.com",
+        "softonic",
+    ]
     non_commercial_appstore = [
         "http://apps.cytoscape.org/apps/slimscape",
         "https://www.food4rhino.com/",
     ]
     commercial_website = [
+        "http://simpleware.com/software/physics-modules/",
         "https://hybridgifting.com/",
         "https://epic337255300.wordpress.com/our-product/",
         "http://keyfort.co.uk/solutions/software/freightvista",
@@ -337,6 +387,7 @@ def analyse_keywords_in_url(url: str):
         "http://bela.io",
     ]
     forum_mailing_list_blog = [
+        "http://seabedhabitats.org",
         "http://hotventscoldocean.blogspot.co.uk",
         "https://www.statalist.org/forums/",
         "https://www.mail-archive.com",
@@ -345,6 +396,9 @@ def analyse_keywords_in_url(url: str):
         "https://medium.com/",
     ]
     conference_site = [
+        "http://proceedings.asmedigitalcollection.asme.org",
+        "http://papers.nips.cc",
+        "http://openaccess.thecvf.com/",
         "https://www.stata.com/meeting/uk18/",
         "https://www.ndss-symposium.org",
         "supercomputing.org",
@@ -352,6 +406,7 @@ def analyse_keywords_in_url(url: str):
         "meetingorganizer.copernicus.org",
     ]
     uk_public_govt_news = [
+        "http://publications.naturalengland.org.uk/",
         ".nhs.uk",
         "https://www.gov.uk/hiv-overall-prevalence",
         "https://www.gov.uk/government/statistics/hiv-annual-data-tables"
@@ -366,6 +421,9 @@ def analyse_keywords_in_url(url: str):
     ]  # with code
     search_site = ["scholar.google."]
     personal_site = [
+        "http://rtaylor-essex.droppages.com",
+        "http://muxviz.net",
+        "http://mmcheng.net/dss/",
         "http://www.pierrecouprie.fr/",
         "http://kurlin.org",
         "http://gabrielegan.com/",
@@ -381,7 +439,30 @@ def analyse_keywords_in_url(url: str):
         "https://ecohairandbeauty.com/virtual-salon/",
     ]
 
+    inappropriate = ["http://extasy-project.org", "http://rmox.net/"]
+
+    news_blog = ["http://eyeonearth.org"]
+
+    google_doc = ["http://goo.gl/VJKoBw"]
+
     unresponsive = [
+        "http://tapas-h2020.eu/results/",
+        "http://staff.aist.go.jp/w.shinoda/MPDyn/index.html",
+        "http://spiers-software.org/index.htm",
+        "http://recomp.org.uk",
+        "http://play-fair.uksouth.cloudapp.azure.com/?uid=137966&n-frames=10",
+        "http://parafem.org.uk/news/general/179-geometric-and-material-nonlinearity",
+        "http://orcahub.dsmynas.com:30000/orcahub/wp1/orb-slam/tree/raluca_dvl_integration",
+        "http://octopus-code.org/wiki/Libxc",
+        "http://oceans11.lanl.gov/cism/",
+        "http://mio.pytheas.univ-amu.fr/~nencioli/research.php?type=eddy_detection",
+        "http://metexplore.toulouse.inra.fr/joomla3/index.php",
+        "http://dynamomd.org",
+        "http://www.masssmappy.org",
+        "http://mio.pytheas.univ-amu.fr/~doglioli/spasso.html",
+        "http://www.latfield.org/",
+        "http://TurkVolc.com",
+        "http://www.sixthsensetransport.com/mobile-apps/wsb-mobile-app/",
         "https://www.attachment-monitor.org.uk/",
         "https://www.digitalthreads.co.uk/software",
         "http://125.22.91.149:5050/MemberLogin.aspx#b",
@@ -407,7 +488,11 @@ def analyse_keywords_in_url(url: str):
         "http://docs.heliopy.org/en/stable/",
     ]
 
-    cloud_filestore = ["drive.google", "http://goo.gl/NOnpmf"]
+    cloud_filestore = [
+        "drive.google",
+        "http://goo.gl/NOnpmf",
+        "http://purl.oclc.org/NET/cudaMap",
+    ]
     data_platform = ["http://datadryad.org", "http://gigadb.org/"]
 
     if not url == "missing" or not url == "None":
@@ -503,8 +588,6 @@ def get_urls(df_in: pd.DataFrame) -> list:
 
 
 def check_url(url: str):
-
-    
     hostname = get_hostname_from_url(url)
     headers = {
         "Host": hostname,
