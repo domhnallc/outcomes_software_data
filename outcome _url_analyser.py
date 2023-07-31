@@ -624,6 +624,9 @@ def analyse_keywords_in_url(url: str):
     ]
     data_platform = ["http://datadryad.org", "http://gigadb.org/"]
 
+    if url == "missing":
+        return "missing"
+
     if not url == "missing" or not url == "None":
         if any([x in url for x in discipline_non_software_repo]):
             return "discipline-specific (non-software repo)"
