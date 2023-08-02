@@ -70,15 +70,12 @@ def analyse_keywords_in_url(url: str):
         "https://www.georgeinstitute.org/",
         "http://bioinfo.utu.fi",
         "https://hesperia.gsfc.nasa.gov/ssw/packages/xray/idl/f_thick_warm.pro",
-
     ]
 
     # e.g. confluence
-    commercial_workspace_wiki = [
-        "https://commons.lbl.gov/display/bisicles/BISICLES"
-    ]
+    commercial_workspace_wiki = ["https://commons.lbl.gov/display/bisicles/BISICLES"]
 
-    #not necessarily for sale, but held by a commercial site (like nvidia)
+    # not necessarily for sale, but held by a commercial site (like nvidia)
     public_commercial_code_repo = [
         "http://www.w3id.org/sdpo/",
         "https://developer.nvidia.com/",
@@ -87,7 +84,7 @@ def analyse_keywords_in_url(url: str):
         "codeocean.com",
         "http://maximilian.strangeloop.co.uk",
         "sf.net",
-        "github",
+        "github.com",
         "bitbucket",
         "sourceforge",
         "gitlab",
@@ -118,7 +115,6 @@ def analyse_keywords_in_url(url: str):
     ]
     public_openscience_repo = ["osf.io", "http://www.iplantcollaborative.org"]
     publisher = [
-        
         "https://aip.scitation.org",
         "http://www.stata-journal.com",
         "http://www.llcsjournal.org/",
@@ -188,6 +184,7 @@ def analyse_keywords_in_url(url: str):
     ]
     documentation_site = ["readthedocs"]
     software_specific_website = [
+        "github.io",
         "http://www.nmr-titan.com",
         "https://docs.lightkurve.org/index.html",
         "https://degiacomi.org/software/biobox/",
@@ -615,13 +612,17 @@ def analyse_keywords_in_url(url: str):
         "https://ecohairandbeauty.com/virtual-salon/",
     ]
 
-    inappropriate = ["http://extasy-project.org", "http://rmox.net/", "http://www.transforming-musicology.org/tools/metaMuSAK/"]
+    inappropriate = [
+        "http://extasy-project.org",
+        "http://rmox.net/",
+        "http://www.transforming-musicology.org/tools/metaMuSAK/",
+    ]
 
     news_blog = ["http://eyeonearth.org"]
 
     google_doc = ["http://goo.gl/VJKoBw"]
 
-    #includes where the parent website exists, but the webpage doesnt (i.e. not necessarily a 404)
+    # includes where the parent website exists, but the webpage doesnt (i.e. not necessarily a 404)
     # or where the domain is back up for sale, so no 404 either
     # includes 1x login-walled that cannot be determined
     unresponsive = [
@@ -750,7 +751,11 @@ def analyse_keywords_in_url(url: str):
         "http://goo.gl/NOnpmf",
         "http://purl.oclc.org/NET/cudaMap",
     ]
-    data_platform = ["datadryad.org", "http://gigadb.org/", "https://contribute.data.humancellatlas.org/"]
+    data_platform = [
+        "datadryad.org",
+        "http://gigadb.org/",
+        "https://contribute.data.humancellatlas.org/",
+    ]
 
     if url == "missing":
         return "missing"

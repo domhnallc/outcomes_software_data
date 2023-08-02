@@ -278,7 +278,7 @@ http://www.ccp5.ac.uk/DL_POLY/,institutional
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
 https://www.birmingham.ac.uk/research/activity/itsee/projects/workspace.aspx,institutional
 https://www.i-sense.org.uk/news/harnessing-mobile-phones-stop-spread-hiv-international-collaboration,project or consortium
-https://smallareahealthstatisticsunit.github.io/algae/index.html,public_commercial_code_repo
+https://smallareahealthstatisticsunit.github.io/algae/index.html,software_specific_website
 https://github.com/NMRExchangeFormat/NEF/,public_commercial_code_repo
 https://cfsa-pmw.warwick.ac.uk/EPOCH/epoch,institutional
 https://www.stata-journal.com/article.html?article=st0571,publisher
@@ -299,7 +299,7 @@ https://github.com/reconhub/epiflows,public_commercial_code_repo
 missing,missing
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6738191/,publisher
 http://naomi.unaids.org,software_specific_website
-https://bobverity.github.io/MALECOT/,public_commercial_code_repo
+https://bobverity.github.io/MALECOT/,software_specific_website
 https://github.com/bioinfologics/skm-tools,public_commercial_code_repo
 http://www.star.bris.ac.uk/~mbt/topcat/,institutional
 missing,missing
@@ -348,7 +348,7 @@ http://corpora.lancs.ac.uk/lancsbox,institutional
 http://www.starlink.ac.uk/stil/,institutional
 http://web4.cs.ucl.ac.uk/research/vis/toast/index.html,institutional
 http://www.mrc-lmb.cam.ac.uk/harry/mosflm/,institutional
-http://quantomatic.github.io,public_commercial_code_repo
+http://quantomatic.github.io,software_specific_website
 missing,missing
 http://dolfin-adjoint.org,software_specific_website
 missing,missing
@@ -445,7 +445,7 @@ http://utopiadocs.com,Non-responsive
 missing,missing
 missing,missing
 https://github.com/glukicov/alignTrack,public_commercial_code_repo
-https://brainsonboard.github.io/bob_robotics/,public_commercial_code_repo
+https://brainsonboard.github.io/bob_robotics/,software_specific_website
 https://figshare.com/articles/software/Code_used_for_data_processing_and_analysis_-_Honeybee_drone_tracking/14462070/1,public_noncommercial_archive_repo
 https://github.com/genn-team/genn,public_commercial_code_repo
 https://figshare.shef.ac.uk/articles/software/Honeybees_cheat_on_math_tests_examining_the_use_of_numerosity_in_numerical_cognition_tasks/12101403/1,institutional
@@ -481,7 +481,7 @@ https://www.aclweb.org/anthology/D19-3024.pdf,publisher
 http://www.firedrakeproject.org/,software_specific_website
 http://opentidalfarm.readthedocs.io/,documentation_site
 http://www.pyfr.org,software_specific_website
-http://meshadaptation.github.io/,public_commercial_code_repo
+http://meshadaptation.github.io/,software_specific_website
 http://thetisproject.org/,software_specific_website
 http://www.pyfr.org,software_specific_website
 http://www.pyfr.org,software_specific_website
@@ -586,7 +586,7 @@ missing,missing
 missing,missing
 https://github.com/PPPI/POSIT,public_commercial_code_repo
 https://www.tandfonline.com/doi/full/10.1080/21678421.2018.1562553,publisher
-https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,public_commercial_code_repo
+https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,software_specific_website
 https://cran.r-project.org/web/packages/lavaan/lavaan.pdf,public_noncommercial_package_repo
 https://cfsa-pmw.warwick.ac.uk/Odin/Odin,institutional
 missing,missing
@@ -603,7 +603,7 @@ https://deft.limsi.fr/2015/tools/evaldeft2015_20150513.tar.gz,Non-responsive
 http://www.starlink.ac.uk/stil/,institutional
 http://www.starlink.ac.uk/topcat/,institutional
 http://cmic.cs.ucl.ac.uk/mig/index.php?n=Tutorial.NODDImatlab,institutional
-https://ekaden.github.io,public_commercial_code_repo
+https://ekaden.github.io,software_specific_website
 https://github.com/klusta-team/spikedetekt2,public_commercial_code_repo
 https://github.com/klusta-team/klustakwik,public_commercial_code_repo
 http://digitisingscotland.cs.st-andrews.ac.uk/population_model/,institutional
@@ -622,7 +622,7 @@ https://dl.acm.org/doi/abs/10.1145/3366610.3368099,publisher
 https://github.com/cdip-uk/cdip-governance,public_commercial_code_repo
 https://github.com/cdip-uk/cdip,public_commercial_code_repo
 missing,missing
-https://dmphillippo.github.io/multinma,public_commercial_code_repo
+https://dmphillippo.github.io/multinma,software_specific_website
 missing,missing
 http://www-wales.ch.cam.ac.uk/OPTIM/,institutional
 missing,missing
@@ -654,7 +654,7 @@ missing,missing
 https://github.com/AstroSnow/PIP,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/Primavera,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/saboteurs,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/saboteurs,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/DnaChisel,public_commercial_code_repo
 https://taurex3-public.readthedocs.io/en/latest/,documentation_site
 https://github.com/ucl-exoplanets/,public_commercial_code_repo
@@ -680,7 +680,7 @@ https://github.com/panweihit/BSID,public_commercial_code_repo
 http://bioinfo.utu.fi/biforcetoolbox,international_institutional
 http://kurlin.org,personal website
 http://tropics.blogs.ilrt.org/,project or consortium
-http://haselofflab.github.io/CellModeller/,public_commercial_code_repo
+http://haselofflab.github.io/CellModeller/,software_specific_website
 https://github.com/ManchesterBioinference/DEtime,public_commercial_code_repo
 http://www.lancaster.ac.uk/pg/hyder/Downloads/DDC-Source/ddc-source.html,institutional
 http://www.lancaster.ac.uk/pg/hyder/Downloads/CODAS-Source/codas-source.html,institutional
@@ -718,7 +718,7 @@ http://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-015-0053-8,p
 http://ccpforge.cse.rl.ac.uk/gf/project/lb3d,institutional
 missing,missing
 https://zenodo.org/record/4593857,public_noncommercial_archive_repo
-http://gdelaurentis.github.io/seampy/,public_commercial_code_repo
+http://gdelaurentis.github.io/seampy/,software_specific_website
 https://zenodo.org/record/3739235,public_noncommercial_archive_repo
 https://www.cs.york.ac.uk/circus/isabelle-utp/,institutional
 https://zenodo.org/record/3541080,public_noncommercial_archive_repo
@@ -775,7 +775,7 @@ http://wwpdb.org/validation/validation-reports,software_specific_website
 https://cran.r-project.org/web/packages/PlackettLuce/index.html,public_noncommercial_package_repo
 missing,missing
 https://pubs.acs.org/doi/10.1021/acs.jpcb.1c03661,publisher
-https://echojulia.github.io/,public_commercial_code_repo
+https://echojulia.github.io/,software_specific_website
 http://langsrv.astro.cf.ac.uk/HIA/HIA.html,institutional
 missing,missing
 https://www.idris-lang.org/,software_specific_website
@@ -879,7 +879,7 @@ http://cran.r-project.org/,public_noncommercial_package_repo
 https://zenodo.org/record/4337258#.YDZjki2l0Wo,public_noncommercial_archive_repo
 https://gitlab.com/Uk-amor,public_commercial_code_repo
 https://gitlab.com/Uk-amor,public_commercial_code_repo
-http://basp-group.github.io/purify/,public_commercial_code_repo
+http://basp-group.github.io/purify/,software_specific_website
 https://cran.r-project.org/web/packages/PAFway/index.html,public_noncommercial_package_repo
 http://www.ccp4.ac.uk/download/,institutional
 https://fg.oisin.rc-harwell.ac.uk/projects/clipper-python/,institutional
@@ -917,7 +917,7 @@ http://www-wales.ch.cam.ac.uk/PATHSAMPLE/,institutional
 https://researchdata.brighton.ac.uk/78/,institutional
 missing,missing
 missing,missing
-https://gammacombo.github.io,public_commercial_code_repo
+https://gammacombo.github.io,software_specific_website
 http://cran.r-project.org/web/packages/nlt/index.html,public_noncommercial_package_repo
 missing,missing
 missing,missing
@@ -1022,7 +1022,7 @@ https://gtr.ukri.org/projects?ref=EP%2FV051555%2F1,project or consortium
 https://github.com/swesemeyer/BenchmarkingETicketingSystems,public_commercial_code_repo
 https://github.com/firedrakeproject/firedrake-helmholtzsolver,public_commercial_code_repo
 missing,missing
-https://nuscr.github.io/nuscr/,public_commercial_code_repo
+https://nuscr.github.io/nuscr/,software_specific_website
 https://zenodo.org/record/4581294,public_noncommercial_archive_repo
 http://mrg.doc.ic.ac.uk/tools/scribble-go/,institutional
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
@@ -1075,7 +1075,7 @@ https://cran.r-project.org/web/packages/unsystation/index.html,public_noncommerc
 https://figshare.dmu.ac.uk/articles/software/Embodied_Musicking_data_capture_software/19161269/1,institutional
 https://github.com/UCL-InfoSec/loopix,public_commercial_code_repo
 https://github.com/drd13/emulchem,public_commercial_code_repo
-https://ekaden.github.io,public_commercial_code_repo
+https://ekaden.github.io,software_specific_website
 https://github.com/UCL/pet-rd-tools/,public_commercial_code_repo
 https://zenodo.org/record/4733458,public_noncommercial_archive_repo
 missing,missing
@@ -1092,7 +1092,7 @@ missing,missing
 https://app-movement.com/d/60,non-commercial appstore
 missing,missing
 http://www.cs.cf.ac.uk/cosmos/,institutional
-https://ironstoolbox.github.io/,public_commercial_code_repo
+https://ironstoolbox.github.io/,software_specific_website
 https://www.safetoolbox.info,software_specific_website
 http://www.isale-code.de,software_specific_website
 missing,missing
@@ -1103,7 +1103,7 @@ https://github.com/ProjectPyRhO/PyRhO,public_commercial_code_repo
 http://ico2s.org/software/vrmlgen.html,project or consortium
 http://www.phenoimageshare.org,Non-responsive
 https://github.com/wimvanderbauwhede/RefactorF4Acc,public_commercial_code_repo
-https://gap-packages.github.io/agt/,public_commercial_code_repo
+https://gap-packages.github.io/agt/,software_specific_website
 missing,missing
 missing,missing
 https://youtu.be/iqqVdomWC6E,video
@@ -1166,13 +1166,13 @@ missing,missing
 http://vallico.net/casinoqmc/,discipline_software_repo
 https://gitlab.com/masr/hercule,public_commercial_code_repo
 https://www.doc.gold.ac.uk/~mas02mg/gestyour/,institutional
-http://pele-python.github.io/pele/,public_commercial_code_repo
+http://pele-python.github.io/pele/,software_specific_website
 https://sourceforge.net/projects/bristol-brain/,public_commercial_code_repo
 http://accelrys.com/products/materials-studio/quantum-and-catalysis-software.html,commercial website
 http://accelrys.com/products/materials-studio/quantum-and-catalysis-software.html,commercial website
 https://itunes.apple.com/gb/app/storicodes/id1038128280?mt=8,commercial appstore
 missing,missing
-https://ucam-smt.github.io/sgnmt/html/index.html,public_commercial_code_repo
+https://ucam-smt.github.io/sgnmt/html/index.html,software_specific_website
 http://www.acceleratar.uk/,project or consortium
 https://github.com/Fermat/FCR,public_commercial_code_repo
 http://oss.deltares.nl/web/xbeach/home,software_specific_website
@@ -1185,7 +1185,7 @@ https://zenodo.org/record/3894525,public_noncommercial_archive_repo
 https://github.com/ghthomas/motmot,public_commercial_code_repo
 http://cran.r-project.org/,public_noncommercial_package_repo
 http://www.lstm.co.uk,commercial website
-http://mriphysics.github.io,public_commercial_code_repo
+http://mriphysics.github.io,software_specific_website
 http://www.alphagenes.roslin.ed.ac.uk/alphasuite-softwares/alphasim/,institutional
 http://www.manchester.ac.uk/ifiss/,institutional
 missing,missing
@@ -1230,7 +1230,7 @@ missing,missing
 http://sccs-studies.info/r.html,discipline_software_repo
 http://doi.org/10.5281/zenodo.3632569,public_noncommercial_archive_repo
 https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa016/5719057,publisher
-https://mrc-ide.github.io/covid19-short-term-forecasts/index.html,public_commercial_code_repo
+https://mrc-ide.github.io/covid19-short-term-forecasts/index.html,software_specific_website
 missing,missing
 https://github.com/WSpiller,public_commercial_code_repo
 http://www.channelcoast.org/iCOASST/ASMITA,software_specific_website
@@ -1311,7 +1311,7 @@ https://bitbucket.org/bmskinner/nuclear_morphology/wiki/Home,public_commercial_c
 http://spindynamics.org,institutional_group
 https://github.com/urbanbigdatacentre/ubdc-airbnb,public_commercial_code_repo
 https://safecap.co.uk/,commercial website
-https://mdhurst1.github.io/RoBoCoP_CRN_Documentation/,public_commercial_code_repo
+https://mdhurst1.github.io/RoBoCoP_CRN_Documentation/,software_specific_website
 https://hpdc-gitlab.eeecs.qub.ac.uk/lmukhanov/alea-release.git,institutional
 https://github.com/polymatrix-games,public_commercial_code_repo
 missing,missing
@@ -1355,10 +1355,10 @@ https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 http://mrg.doc.ic.ac.uk/tools/scribble-go/,institutional
 https://zenodo.org/record/4051783,public_noncommercial_archive_repo
 missing,missing
-https://alcestes.github.io/mpstk/,public_commercial_code_repo
+https://alcestes.github.io/mpstk/,software_specific_website
 https://bitbucket.org/MobilityReadingGroup/godel-checker,public_commercial_code_repo
 https://dl.acm.org/doi/abs/10.1145/3158138,publisher
-https://gillianplatform.github.io/,public_commercial_code_repo
+https://gillianplatform.github.io/,software_specific_website
 https://pds.group/ava-clastics/,"forum, mailinglist, blog"
 http://mofem.eng.gla.ac.uk/mofem/html/index.html,institutional
 https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer,public_commercial_code_repo
@@ -1378,7 +1378,7 @@ http://www.biosciences-labs.bham.ac.uk/hidalgo/Software.html,institutional
 missing,missing
 https://github.com/OpenRefine/OpenRefine,public_commercial_code_repo
 missing,missing
-https://smallareahealthstatisticsunit.github.io/algae/index.html,public_commercial_code_repo
+https://smallareahealthstatisticsunit.github.io/algae/index.html,software_specific_website
 https://arxiv.org/abs/2002.03646,preprint_site
 http://www.tech.dmu.ac.uk/~syang/Codes/DBGP.zip,institutional
 missing,missing
@@ -1387,7 +1387,7 @@ missing,missing
 https://zenodo.org/record/4598477,public_noncommercial_archive_repo
 http://texgen.sourceforge.net,public_commercial_code_repo
 http://www.spindynamica.soton.ac.uk,institutional
-http://basp-group.github.io/sopt/,public_commercial_code_repo
+http://basp-group.github.io/sopt/,software_specific_website
 missing,missing
 https://github.com/df1234,public_commercial_code_repo
 http://biomodelanalyzer.org/,web app
@@ -1399,7 +1399,7 @@ missing,missing
 https://arxiv.org/abs/2002.03678,preprint_site
 https://arxiv.org/abs/2110.03117,preprint_site
 missing,missing
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 missing,missing
 https://github.com/jstockwin/EpiEstimApp,public_commercial_code_repo
 missing,missing
@@ -1452,7 +1452,7 @@ missing,missing
 missing,missing
 https://cran.r-project.org/web/packages/phybreak/index.html,public_noncommercial_package_repo
 https://www.chemshell.org,software_specific_website
-https://materialsproject.github.io/atomate2/,public_commercial_code_repo
+https://materialsproject.github.io/atomate2/,software_specific_website
 http://www.nektar.info/downloads/file/nektar-source-tar-gz-2/,software_specific_website
 http://cmic.cs.ucl.ac.uk/camino//index.php?n=Tutorials.ActiveAx,institutional
 https://github.com/UCL-CERU/CESMapper,public_commercial_code_repo
@@ -1493,7 +1493,7 @@ missing,missing
 https://arxiv.org/abs/2002.02627,preprint_site
 missing,missing
 https://github.com/Edinburgh-Genome-Foundry/topkappy,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/blabel,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/blabel,software_specific_website
 https://link.springer.com/article/10.1007%2Fs10686-020-09676-7,publisher
 http://www.nmr-titan.com,software_specific_website
 missing,missing
@@ -1526,7 +1526,7 @@ http://www.gwoptics.org/finesse/,software_specific_website
 missing,missing
 missing,missing
 https://workspace.imperial.ac.uk/people/Public/sootla/pyFQI_v0.01.zip,institutional
-http://woolfson-group.github.io/index.html,public_commercial_code_repo
+http://woolfson-group.github.io/index.html,software_specific_website
 https://github.com/firedrakeproject/dcore,public_commercial_code_repo
 http://www.ccpem.ac.uk/download.php,institutional
 https://github.com/NMRExchangeFormat/NEF/,public_commercial_code_repo
@@ -1541,17 +1541,17 @@ http://ska-sdp.org,project or consortium
 https://figshare.shef.ac.uk/articles/software/TopoStats_-_an_automated_tracing_program_for_AFM_images/13103327/1,institutional
 missing,missing
 https://github.com/jstockwin/EpiEstimApp,public_commercial_code_repo
-https://mrc-ide.github.io/sircovid,public_commercial_code_repo
+https://mrc-ide.github.io/sircovid,software_specific_website
 https://github.com/emvolz/treedater,public_commercial_code_repo
 https://www.mdpi.com/2073-4425/10/9/687,publisher
 missing,missing
 https://github.com/mrc-ide/PhyDyn,public_commercial_code_repo
-https://mrc-ide.github.io/safir/,public_commercial_code_repo
+https://mrc-ide.github.io/safir/,software_specific_website
 http://pyseer.readthedocs.io/,documentation_site
 http://shiny90.unaids.org,web app
 missing,missing
-https://ropensci.github.io/rdhs/,public_commercial_code_repo
-https://mrc-ide.github.io/covid19-short-term-forecasts/index.html,public_commercial_code_repo
+https://ropensci.github.io/rdhs/,software_specific_website
+https://mrc-ide.github.io/covid19-short-term-forecasts/index.html,software_specific_website
 missing,missing
 https://github.com/mrc-ide/skygrowth,public_commercial_code_repo
 missing,missing
@@ -1682,7 +1682,7 @@ missing,missing
 http://www.cerealsdb.uk.net/cerealgenomics/CerealsDB/select_QTL.php,web app
 https://grassroots.tools,project or consortium
 http://www.biospi.org/research/ms/bayestraq/,institutional
-http://astro-informatics.github.io/so3/,public_commercial_code_repo
+http://astro-informatics.github.io/so3/,software_specific_website
 http://doi.org/10.5281/zenodo.1143675,public_noncommercial_archive_repo
 missing,missing
 https://github.com/alec-tschantz/infer-actively,public_commercial_code_repo
@@ -1753,7 +1753,7 @@ https://itunes.apple.com/gb/app/outstories-mapping-lgbt+-bristol/id1118681827?mt
 http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S1534580716305883/1-s2.0-S1534580716305883-mmc7.zip/272236/html/S1534580716305883/c5363c8cd2ba6b2bb5136eba21364f6a/mmc7.zip,publisher
 https://zenodo.org/record/574882#.WR8d0Mm1unc,public_noncommercial_archive_repo
 https://zenodo.org/record/574878#.WR8f3Mm1unc,public_noncommercial_archive_repo
-https://bonvision.github.io/#,public_commercial_code_repo
+https://bonvision.github.io/#,software_specific_website
 https://github.com/lukasturcani/stk,public_commercial_code_repo
 http://legorovers.csc.liv.ac.uk/download.html,institutional
 missing,missing
@@ -1797,11 +1797,11 @@ http://www-wales.ch.cam.ac.uk/OPTIM/,institutional
 http://www.nektar.info,software_specific_website
 missing,missing
 missing,missing
-https://snikumbh.github.io/archR/,public_commercial_code_repo
+https://snikumbh.github.io/archR/,software_specific_website
 missing,missing
 http://cath-tools.readthedocs.io/en/latest/tools/cath-resolve-hits/,documentation_site
 https://github.com/camfort/fortran-src,public_commercial_code_repo
-https://camfort.github.io,public_commercial_code_repo
+https://camfort.github.io,software_specific_website
 https://www.bgs.ac.uk/downloads/start.cfm?id=3383,institutional
 missing,missing
 https://github.com/thibautjombart/geograph,public_commercial_code_repo
@@ -1842,8 +1842,8 @@ https://pypi.org/project/mg-toolkit/,public_noncommercial_package_repo
 missing,missing
 http://www.dnald.org/planner/ACS_sb-2013-00161v_SI.zip,Non-responsive
 missing,missing
-https://ohba-analysis.github.io/osl-docs/,public_commercial_code_repo
-https://hmri-group.github.io/hMRI-toolbox/,public_commercial_code_repo
+https://ohba-analysis.github.io/osl-docs/,software_specific_website
+https://hmri-group.github.io/hMRI-toolbox/,software_specific_website
 http://bela.io,commercial website
 missing,missing
 https://github.com/policygrid/ourSpaces.git,public_commercial_code_repo
@@ -1869,7 +1869,7 @@ https://github.com/pybamm-team/PyBaMM,public_commercial_code_repo
 missing,missing
 missing,missing
 http://www.onetep.org,software_specific_website
-https://jennasimit.github.io/flashfm/,public_commercial_code_repo
+https://jennasimit.github.io/flashfm/,software_specific_website
 https://github.com/rainsworth/eMERLIN-IRIS,public_commercial_code_repo
 missing,missing
 http://www.dune-project.org,software_specific_website
@@ -2065,7 +2065,7 @@ missing,missing
 missing,missing
 missing,missing
 https://github.com/universe77/mr.ios,public_commercial_code_repo
-https://explodecomputer.github.io/tryx/,public_commercial_code_repo
+https://explodecomputer.github.io/tryx/,software_specific_website
 https://zenodo.org/record/3956390,public_noncommercial_archive_repo
 https://bitbucket.org/rkutlak/aspic,public_commercial_code_repo
 https://bitbucket.org/rkutlak/sassy,public_commercial_code_repo
@@ -2073,7 +2073,7 @@ http://www.defensivejs.com/,software_specific_website
 https://github.com/bonej-org/BoneJ2,public_commercial_code_repo
 https://github.com/Hub-of-all-Things,public_commercial_code_repo
 http://www.ccp4.ac.uk,institutional
-https://cmmid.github.io/colocation_dashboard_cmmid/,public_commercial_code_repo
+https://cmmid.github.io/colocation_dashboard_cmmid/,software_specific_website
 https://ideas.repec.org/c/boc/bocode/s458844.html,discipline_software_repo
 https://zenodo.org/record/4011842,public_noncommercial_archive_repo
 http://www.castep.org,software_specific_website
@@ -2194,7 +2194,7 @@ missing,missing
 https://hpdc-gitlab.eeecs.qub.ac.uk/lmukhanov/alea-release.git,institutional
 http://homepages.cs.ncl.ac.uk/victor.khomenko/tools/UnfoldingTools/current/,institutional
 http://psrg.org.uk,institutional
-http://lucmoreau.github.io/ProvToolbox/,public_commercial_code_repo
+http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 http://vampire.computing.dundee.ac.uk/publications,institutional
 http://www.firedrakeproject.org/demos/benney_luke.py.html,software_specific_website
 missing,missing
@@ -2398,8 +2398,8 @@ missing,missing
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
-https://ucam-smt.github.io/,public_commercial_code_repo
-https://opensbli.github.io/,public_commercial_code_repo
+https://ucam-smt.github.io/,software_specific_website
+https://opensbli.github.io/,software_specific_website
 http://www.ucl.ac.uk/lmcb/sites/default/files/Corrigan2016MatlabFiles.zip,institutional
 missing,missing
 missing,missing
@@ -2428,7 +2428,7 @@ http://savilerow.cs.st-andrews.ac.uk,institutional
 missing,missing
 missing,missing
 http://dynamorio.org/,software_specific_website
-https://wmcoombs.github.io/,public_commercial_code_repo
+https://wmcoombs.github.io/,software_specific_website
 https://figshare.shef.ac.uk/articles/software/TopoStats_-_an_automated_tracing_program_for_AFM_images/13103327/1,institutional
 http://cran.r-project.org/web/packages/dlnm/index.html,public_noncommercial_package_repo
 https://figshare.com/articles/R-codes_and_datasets/11536470,public_noncommercial_archive_repo
@@ -2552,7 +2552,7 @@ missing,missing
 https://github.com/petedodd/HEdtree,public_commercial_code_repo
 https://sites.google.com/site/fjavierrubio67/DTP_1.0.zip?attredirects=0&d=1,software_specific_website
 https://sites.google.com/site/fjavierrubio67/twopiece_1.0.zip?attredirects=0&d=1,software_specific_website
-http://meshadaptation.github.io/,public_commercial_code_repo
+http://meshadaptation.github.io/,software_specific_website
 http://www.firedrakeproject.org,software_specific_website
 https://code.soundsoftware.ac.uk/hg/dml-open-vis,institutional
 missing,missing
@@ -2585,7 +2585,7 @@ https://zenodo.org/record/4580970,public_noncommercial_archive_repo
 missing,missing
 https://github.com/dealii/dealii/pull/197,public_commercial_code_repo
 missing,missing
-https://nqcd.github.io/NQCDynamics.jl/dev/,public_commercial_code_repo
+https://nqcd.github.io/NQCDynamics.jl/dev/,software_specific_website
 https://github.com/firedrakeproject/dcore,public_commercial_code_repo
 https://github.com/xfold/NormativeApproachToDiscrimination,public_commercial_code_repo
 missing,missing
@@ -2666,8 +2666,8 @@ https://dl.acm.org/doi/abs/10.1145/3290379,publisher
 http://www.imperial.ac.uk/aeroelastics/sharpy,institutional
 missing,missing
 missing,missing
-http://alcestes.github.io/lchannels/,public_commercial_code_repo
-https://session-type-provider.github.io/,public_commercial_code_repo
+http://alcestes.github.io/lchannels/,software_specific_website
+https://session-type-provider.github.io/,software_specific_website
 missing,missing
 https://www.doc.ic.ac.uk/~dorchard/popl16/,institutional
 http://savara.jboss.org/,software_specific_website
@@ -2675,7 +2675,7 @@ missing,missing
 missing,missing
 missing,missing
 https://github.com/pyearthsci/lavendar,public_commercial_code_repo
-https://ccp-nc.github.io/soprano/,public_commercial_code_repo
+https://ccp-nc.github.io/soprano/,software_specific_website
 missing,missing
 https://sociam.org/mobile-app-x-ray,project or consortium
 https://sociam.org/sociagrams,project or consortium
@@ -2689,7 +2689,7 @@ missing,missing
 https://github.com/jseoane/FSMKL,public_commercial_code_repo
 https://mandrake.readthedocs.io/en/latest/,documentation_site
 missing,missing
-https://mrc-ide.github.io/safir/,public_commercial_code_repo
+https://mrc-ide.github.io/safir/,software_specific_website
 missing,missing
 missing,missing
 missing,missing
@@ -2739,7 +2739,7 @@ http://vas.doc.ic.ac.uk/software/extensions/,institutional
 http://aninternetofsoftthings.com/summary-of-network-topologies/,Non-responsive
 https://gist.github.com/dyadica/ccd400ce2968d87d97ed5113c44ec8e1,public_commercial_code_repo
 https://gist.github.com/dyadica/50ac3d7d4daaca84b8c81e0dd7bc7bc0,public_commercial_code_repo
-http://astro-informatics.github.io/ssht/,public_commercial_code_repo
+http://astro-informatics.github.io/ssht/,software_specific_website
 missing,missing
 https://peerj.com/preprints/27137/,publisher
 https://osf.io/z2dtq/,public openscience repo
@@ -2753,7 +2753,7 @@ missing,missing
 https://zenodo.org/record/4155210,public_noncommercial_archive_repo
 https://zenodo.org/record/3904454,public_noncommercial_archive_repo
 missing,missing
-http://statbio.github.io/Sargasso/,public_commercial_code_repo
+http://statbio.github.io/Sargasso/,software_specific_website
 http://openmicroscopy.org,discipline_software_repo
 https://github.com/aliFrancis/cloudFCN,public_commercial_code_repo
 missing,missing
@@ -2832,7 +2832,7 @@ http://www.met.reading.ac.uk/micromet/data-observations/,institutional
 https://zenodo.org/record/4120705,public_noncommercial_archive_repo
 https://zenodo.org/record/5798035,public_noncommercial_archive_repo
 missing,missing
-https://edinburgh-genome-foundry.github.io/icebreaker,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/icebreaker,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/Primavera,public_commercial_code_repo
 missing,missing
 missing,missing
@@ -2848,7 +2848,7 @@ missing,missing
 missing,missing
 missing,missing
 missing,missing
-https://ucrel.github.io/pymusas/,public_commercial_code_repo
+https://ucrel.github.io/pymusas/,software_specific_website
 http://ccpforge.cse.rl.ac.uk/gf/project/tntlibrary/,institutional
 http://ccpforge.cse.rl.ac.uk/gf/project/tntlibrary/,institutional
 http://ico2s.org/addons/jepetto.html,project or consortium
@@ -2924,9 +2924,9 @@ http://www.tech.dmu.ac.uk/~syang/Codes/ACODTSP.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/WeB-NES.rar,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/ETEA.rar,institutional
 https://github.com/Edinburgh-Genome-Foundry/sequenticon,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/icebreaker,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/icebreaker,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/DnaCauldron,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/genedom/,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/genedom/,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/crazydoc,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/kappagate,public_commercial_code_repo
 http://theswo.sourceforge.net,public_commercial_code_repo
@@ -3020,7 +3020,7 @@ missing,missing
 http://minotour.nottingham.ac.uk,institutional
 missing,missing
 https://github.com/ppharris/dry_spell_rwr,public_commercial_code_repo
-https://bobverity.github.io/MALECOT/,public_commercial_code_repo
+https://bobverity.github.io/MALECOT/,software_specific_website
 https://cran.r-project.org/web/packages/MBNMAdose/index.html,public_noncommercial_package_repo
 missing,missing
 http://isa-tools.org/,software_specific_website
@@ -3079,7 +3079,7 @@ https://github.com/GAIGResearch/Stratega,public_commercial_code_repo
 http://edata.bham.ac.uk/545/,institutional
 missing,missing
 https://github.com/OMS-NetZero/FAIR,public_commercial_code_repo
-http://lucmoreau.github.io/ProvToolbox/,public_commercial_code_repo
+http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 https://doi.org/10.5281/zenodo.1043868,public_noncommercial_archive_repo
 https://github.com/ISA-tools/isa-api,public_commercial_code_repo
 missing,missing
@@ -3098,7 +3098,7 @@ https://github.com/LooseLab/minotourcli,public_commercial_code_repo
 https://bitbucket.org/nicofmay/readuntilstrategy/src/master/,public_commercial_code_repo
 https://github.com/EGA-archive/ont_readuntil_server,public_commercial_code_repo
 http://www.oerc.ox.ac.uk/projects/op2,institutional
-http://op2.github.io/PyOP2/,public_commercial_code_repo
+http://op2.github.io/PyOP2/,software_specific_website
 http://www.firedrakeproject.org,software_specific_website
 missing,missing
 https://zoonproject.wordpress.com/,software_specific_website
@@ -3132,7 +3132,7 @@ missing,missing
 missing,missing
 missing,missing
 http://www.gla.ac.uk/samuels/,institutional
-http://kingsbsd.github.io/MobileMiner/,public_commercial_code_repo
+http://kingsbsd.github.io/MobileMiner/,software_specific_website
 https://spiqe.co.uk/#,project or consortium
 http://www.ccpn.ac.uk/v3-software,institutional
 http://www.ccpn.ac.uk/v3-software,institutional
@@ -3141,11 +3141,11 @@ https://ccpn.ac.uk,institutional
 https://www.ccpn.ac.uk/,institutional
 http://www.biospi.org/research/ms/seamass/,institutional
 https://arxiv.org/abs/2002.05626,preprint_site
-https://choishingwan.github.io/PRSice/quick_start/,public_commercial_code_repo
+https://choishingwan.github.io/PRSice/quick_start/,software_specific_website
 https://github.com/choishingwan/PRSice,public_commercial_code_repo
 missing,missing
 https://github.com/drelhaj/CFIE-FRSE,public_commercial_code_repo
-http://astro-informatics.github.io/flaglet/,public_commercial_code_repo
+http://astro-informatics.github.io/flaglet/,software_specific_website
 http://www.bioinf.org.uk/software/jsav/,institutional_group
 https://github.com/js2264/periodicDNA,public_commercial_code_repo
 https://zenodo.org/record/3931238,public_noncommercial_archive_repo
@@ -3199,7 +3199,7 @@ https://www.vaccineimpact.org/orderly/articles/orderly.html,discipline_software_
 https://github.com/mrc-ide/skygrowth,public_commercial_code_repo
 https://cran.r-project.org/web/packages/treestructure/index.html,public_noncommercial_package_repo
 missing,missing
-https://mrc-ide.github.io/sircovid,public_commercial_code_repo
+https://mrc-ide.github.io/sircovid,software_specific_website
 missing,missing
 missing,missing
 missing,missing
@@ -3308,7 +3308,7 @@ https://ieeexplore.ieee.org/abstract/document/8806715,publisher
 missing,missing
 https://siremol.org,software_specific_website
 https://metawards.org,software_specific_website
-https://vprover.github.io/,public_commercial_code_repo
+https://vprover.github.io/,software_specific_website
 https://zenodo.org/record/3647615,public_noncommercial_archive_repo
 https://safecap.co.uk/,commercial website
 https://zenodo.org/record/4118059,public_noncommercial_archive_repo
@@ -3342,7 +3342,7 @@ missing,missing
 missing,missing
 missing,missing
 missing,missing
-https://xavierdidelot.github.io/BactDating/,public_commercial_code_repo
+https://xavierdidelot.github.io/BactDating/,software_specific_website
 https://goat.genomehubs.org/,software_specific_website
 https://github.com/blobtoolkit/blobtoolkit,public_commercial_code_repo
 https://zenodo.org/record/4075284,public_noncommercial_archive_repo
@@ -3405,7 +3405,7 @@ missing,missing
 missing,missing
 https://github.com/dtschump/gmic-community/commits/master/include/jerome_boulanger.gmic,public_commercial_code_repo
 http://sbfc.sourceforge.net/mediawiki/index.php/Main_Page,public_commercial_code_repo
-https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,public_commercial_code_repo
+https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,software_specific_website
 https://github.com/urbanbigdatacentre/ubdc-airbnb,public_commercial_code_repo
 missing,missing
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
@@ -3434,7 +3434,7 @@ https://github.com/davecliff/BristolStockExchange,public_commercial_code_repo
 missing,missing
 missing,missing
 https://github.com/chrisburnett/TRAAC-Simulator,public_commercial_code_repo
-https://fornililab.github.io/dfs/,public_commercial_code_repo
+https://fornililab.github.io/dfs/,software_specific_website
 https://figshare.com/projects/NSPN_Adolescent_consolidation_of_human_connectome_hubs/4710,public_noncommercial_archive_repo
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
@@ -3471,7 +3471,7 @@ missing,missing
 https://zenodo.org/record/3924699,public_noncommercial_archive_repo
 missing,missing
 https://gitlab.com/ase/ase,public_commercial_code_repo
-http://hulluni-bioinformatics.github.io/ReproPhylo/,public_commercial_code_repo
+http://hulluni-bioinformatics.github.io/ReproPhylo/,software_specific_website
 http://www.firedrakeproject.org/,software_specific_website
 http://evansgroup.di.uq.edu.au/software.html,international_institutional
 https://zenodo.org/record/3670155,public_noncommercial_archive_repo
@@ -3485,7 +3485,7 @@ https://cran.r-project.org/package=dipw,public_noncommercial_package_repo
 https://github.com/Edinburgh-Genome-Foundry/Caravagene,public_commercial_code_repo
 missing,missing
 missing,missing
-https://edinburgh-genome-foundry.github.io/blabel,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/blabel,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/GoldenHinges,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/SBOL-Visual-CSS,public_commercial_code_repo
 https://zenodo.org/record/3541080,public_noncommercial_archive_repo
@@ -3559,7 +3559,7 @@ https://github.com/beatbox-heart,public_commercial_code_repo
 missing,missing
 https://github.com/BASIC-DNA-ASSEMBLY/DNA-BOT,public_commercial_code_repo
 http://sourceforge.net/projects/cnrun/,public_commercial_code_repo
-http://boutproject.github.io/,public_commercial_code_repo
+http://boutproject.github.io/,software_specific_website
 https://github.com/JuusolaLab/Microsaccadic_Sampling_Paper,public_commercial_code_repo
 missing,missing
 https://github.com/hjabird/cvortex,public_commercial_code_repo
@@ -3626,7 +3626,7 @@ missing,missing
 missing,missing
 http://blog.debroglie.net/strategies/,web app
 https://github.com/end2you/end2you,public_commercial_code_repo
-https://vprover.github.io/,public_commercial_code_repo
+https://vprover.github.io/,software_specific_website
 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127659,publisher
 http://visual.cs.ucl.ac.uk/pubs/monoDepth/,institutional
 http://visual.cs.ucl.ac.uk/pubs/rotopp/,institutional
@@ -3750,7 +3750,7 @@ https://github.com/policygrid/Provenance-Visualisation.git,public_commercial_cod
 http://csdms.colorado.edu/wiki/Model:Chi_analysis_tools,international_institutional
 http://www.earth-surf-dynam.net/4/655/2016/,publisher
 http://doi.org/10.5281/zenodo.3632569,public_noncommercial_archive_repo
-https://gammacombo.github.io,public_commercial_code_repo
+https://gammacombo.github.io,software_specific_website
 missing,missing
 https://www.georgeinstitute.org/projects/systematic-medical-appraisal-referral-and-treatment-smart-health,international_institutional
 https://github.com/JuliaRheology/RHEOS.jl,public_commercial_code_repo
@@ -3769,7 +3769,7 @@ http://ftp://ftp.essex.ac.uk/pub/oyster/polarization,institutional
 missing,missing
 missing,missing
 https://paulsbond.co.uk/modelcraft,personal website
-http://woolfson-group.github.io/index.html,public_commercial_code_repo
+http://woolfson-group.github.io/index.html,software_specific_website
 missing,missing
 http://stir.sourceforge.net/,public_commercial_code_repo
 https://www.ccpsynerbi.ac.uk/,institutional
@@ -3930,9 +3930,9 @@ missing,missing
 https://zenodo.org/record/4046892,public_noncommercial_archive_repo
 missing,missing
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-http://alcestes.github.io/lchannels/,public_commercial_code_repo
+http://alcestes.github.io/lchannels/,software_specific_website
 https://bitbucket.org/cogumbreiro/armus/wiki/PPoPP15,public_commercial_code_repo
-http://gdelaurentis.github.io/lips/,public_commercial_code_repo
+http://gdelaurentis.github.io/lips/,software_specific_website
 missing,missing
 http://www.ceh.ac.uk/services/possms,institutional
 http://sysbio3.fhms.surrey.ac.uk/sfba/index.html,institutional
@@ -3970,7 +3970,7 @@ https://www.robots.ox.ac.uk/~vgg/research/avobjects/,institutional
 missing,missing
 missing,missing
 https://github.com/viorik/unsupgpu,public_commercial_code_repo
-https://bonvision.github.io/#,public_commercial_code_repo
+https://bonvision.github.io/#,software_specific_website
 http://www.bioinf.manchester.ac.uk/segminator,institutional
 missing,missing
 http://www.manageplaces.com/,commercial website
@@ -4010,7 +4010,7 @@ https://zenodo.org/record/3746050,public_noncommercial_archive_repo
 http://www.roslin.ed.ac.uk/albert-tenesa/software/,institutional
 http://hdrvdp.sourceforge.net/wiki/,public_commercial_code_repo
 missing,missing
-https://dibernardogroup.github.io/Chronos/index.html,public_commercial_code_repo
+https://dibernardogroup.github.io/Chronos/index.html,software_specific_website
 missing,missing
 https://lscsoft.docs.ligo.org/bilby/,project or consortium
 https://academic.oup.com/plphys/article/183/2/468/6116394?login=true,publisher
@@ -4063,7 +4063,7 @@ http://www.jalview.org/development/release-history,software_specific_website
 http://www.jalview.org/development/release-history,software_specific_website
 http://www.jalview.org/development/release-history,software_specific_website
 http://www.jalview.org/development/release-history,software_specific_website
-https://sumitsinha.github.io/Deep_Learning_for_Manufacturing/html/index.html,public_commercial_code_repo
+https://sumitsinha.github.io/Deep_Learning_for_Manufacturing/html/index.html,software_specific_website
 https://CRAN.R-project.org/package=hdbinseg,public_noncommercial_package_repo
 https://zenodo.org/record/4598523,public_noncommercial_archive_repo
 https://github.com/kingsBSD/MobileMiner/tree/funf,public_commercial_code_repo
@@ -4119,7 +4119,7 @@ https://cfsa-pmw.warwick.ac.uk/Odin/Odin,institutional
 https://zenodo.org/record/4120626,public_noncommercial_archive_repo
 missing,missing
 missing,missing
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 http://www.tech.dmu.ac.uk/~syang/Codes/dynamic_multicast_general.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/wmn_multicast.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/EAlib.zip,institutional
@@ -4160,7 +4160,7 @@ https://github.com/Edinburgh-Genome-Foundry/kappagate,public_commercial_code_rep
 https://github.com/Edinburgh-Genome-Foundry/sequenticon,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/SBOL-Visual-CSS,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/DnaChisel,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/genedom/,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/genedom/,software_specific_website
 https://github.com/ESMValGroup/ESMValTool,public_commercial_code_repo
 https://zenodo.org/record/4155209,public_noncommercial_archive_repo
 https://github.com/pmlmodelling/nctoolkit,public_commercial_code_repo
@@ -4219,7 +4219,7 @@ missing,missing
 missing,missing
 http://www.bgs.ac.uk/research/environmentalModelling/groundhogDesktop.html,institutional
 missing,missing
-https://mrc-ide.github.io/sircovid,public_commercial_code_repo
+https://mrc-ide.github.io/sircovid,software_specific_website
 http://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/,institutional
 https://github.com/keitaroyam/servalcat,public_commercial_code_repo
 missing,missing
@@ -4271,7 +4271,7 @@ http://www.gap-system.org/Releases/4.8.3.html,software_specific_website
 http://www.nektar.info/downloads/file/nektar-source-tar-gz-2/,software_specific_website
 http://www.handyurbansolutions.com,Non-responsive
 https://github.com/ml-evs/vfmcpp,public_commercial_code_repo
-https://boydorr.github.io/Simulation.jl/dev,public_commercial_code_repo
+https://boydorr.github.io/Simulation.jl/dev,software_specific_website
 missing,missing
 http://www.cl.cam.ac.uk/~tmj32/data/,institutional
 missing,missing
@@ -4296,7 +4296,7 @@ http://web.mat.bham.ac.uk/A.Bespalov/software/,institutional
 https://github.com/JohnKendrick/PDielec,public_commercial_code_repo
 https://github.com/JohnKendrick/PDielec,public_commercial_code_repo
 http://vallico.net/casinoqmc,discipline_software_repo
-http://op2.github.io/PyOP2/,public_commercial_code_repo
+http://op2.github.io/PyOP2/,software_specific_website
 http://www.oerc.ox.ac.uk/projects/op2,institutional
 http://harmoni-web.physics.ox.ac.uk/Simulator/simulator.asp,institutional
 https://zenodo.org/record/4051783,public_noncommercial_archive_repo
@@ -4386,10 +4386,10 @@ missing,missing
 missing,missing
 https://entos.ai/qcore,commercial website
 missing,missing
-http://cvitolo.github.io/r_hddtools/,public_commercial_code_repo
+http://cvitolo.github.io/r_hddtools/,software_specific_website
 https://r-forge.r-project.org/projects/r-hydro/,public_noncommercial_package_repo
-http://cvitolo.github.io/r_pure/,public_commercial_code_repo
-http://cvitolo.github.io/r_rnrfa/,public_commercial_code_repo
+http://cvitolo.github.io/r_pure/,software_specific_website
+http://cvitolo.github.io/r_rnrfa/,software_specific_website
 missing,missing
 https://hybridgifting.com/,commercial website
 https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.13121,publisher
@@ -4413,7 +4413,7 @@ https://CRAN.R-project.org/package=hdbinseg,public_noncommercial_package_repo
 https://cran.r-project.org/web/packages/forecastSNSTS/index.html,public_noncommercial_package_repo
 https://www.gov.uk/hiv-overall-prevalence,UK Govt Public site
 https://www.cs.ox.ac.uk/projects/fdr/,institutional
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 http://www.cs.york.ac.uk/aig/sw/gobnilp/,institutional
 https://github.com/wtmatlock/flanker,public_commercial_code_repo
 https://github.com/bartongroup/profDGE48,public_commercial_code_repo
@@ -4435,8 +4435,8 @@ https://github.com/jovanbulck/0xbadc0de,public_commercial_code_repo
 https://www.unrealengine.com/marketplace/en-US/product/interactml-interactive-machine-learning-system,commercial appstore
 missing,missing
 https://github.com/taylorLab/LaggingStrand,public_commercial_code_repo
-http://basp-group.github.io/purify/,public_commercial_code_repo
-http://basp-group.github.io/sopt/,public_commercial_code_repo
+http://basp-group.github.io/purify/,software_specific_website
+http://basp-group.github.io/sopt/,software_specific_website
 https://srg.doc.ic.ac.uk/projects/compiler-bugs/,institutional
 https://commons.lbl.gov/display/bisicles/BISICLES,public_commercial_code_repo
 missing,missing
@@ -4550,7 +4550,7 @@ missing,missing
 http://www.sixthsensetransport.com/mobile-apps/6stcampsite/,Non-responsive
 https://itunes.apple.com/gb/app/coget/id843552747?mt=8,commercial appstore
 https://github.com/marcyin/siac,public_commercial_code_repo
-http://jgomezdans.github.io/gp_emulator,public_commercial_code_repo
+http://jgomezdans.github.io/gp_emulator,software_specific_website
 https://github.com/activityMonitoring/biobankAccelerometerAnalysis,public_commercial_code_repo
 https://pypi.org/project/seagen/,public_noncommercial_package_repo
 http://ccpforge.cse.rl.ac.uk/gf/project/lb3d,institutional
@@ -4598,7 +4598,7 @@ https://github.com/thomasallanhouse/elife-ebola-code,public_commercial_code_repo
 http://epistruct.sourceforge.net/,public_commercial_code_repo
 https://github.com/c4-project,public_commercial_code_repo
 https://figshare.com/articles/software/Isabelle_files_for_View-Based_Owicki-Gries_Reasoning_for_Persistent_x86-TSO_/18469103/1,public_noncommercial_archive_repo
-https://foodsentimentobservatory.github.io/PoPE/index-en.html,public_commercial_code_repo
+https://foodsentimentobservatory.github.io/PoPE/index-en.html,software_specific_website
 http://www.nottingham.ac.uk/astronomy/megamorph/,institutional
 https://figshare.com/articles/software/Tar_file_of_code_and_examples/16720306/1,public_noncommercial_archive_repo
 https://puma.nerc.ac.uk/trac/UM_TOOLS/wiki/MONC,institutional
@@ -4608,7 +4608,7 @@ http://cran.r-project.org/web/packages/mixmeta/index.html,public_noncommercial_p
 http://cran.r-project.org/web/packages/dlnm/index.html,public_noncommercial_package_repo
 https://github.com/Mobile-Radicals/BARTER,public_commercial_code_repo
 missing,missing
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 https://www.jneurosci.org/content/39/36/7132,publisher
 https://github.com/EBI-Metabolights/ISAcreatorPlugins,public_commercial_code_repo
 missing,missing
@@ -4616,7 +4616,7 @@ https://zenodo.org/record/3974592,public_noncommercial_archive_repo
 https://gitlab.ecosystem-modelling.pml.ac.uk/momm/pyprotex,institutional
 https://leatonhydrogeology.com/,commercial website
 missing,missing
-https://mrc-ide.github.io/MIPanalyzer/index.html,public_commercial_code_repo
+https://mrc-ide.github.io/MIPanalyzer/index.html,software_specific_website
 http://doi.org/10.5281/zenodo.3632569,public_noncommercial_archive_repo
 missing,missing
 https://github.com/ISA-tools/isa-api,public_commercial_code_repo
@@ -4642,13 +4642,13 @@ https://github.com/MicroNanoFlows,public_commercial_code_repo
 http://apps.cytoscape.org/apps/slimscape,non-commercial appstore
 http://rest.slimsuite.unsw.edu.au/slimbench,international_institutional
 http://rest.slimsuite.unsw.edu.au/slimmaker,international_institutional
-https://waterpurity.github.io/Clean-the-River/index.html,public_commercial_code_repo
+https://waterpurity.github.io/Clean-the-River/index.html,software_specific_website
 missing,missing
 http://mudshark.brookes.ac.uk/ScrumPy,institutional
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172292,publisher
 https://cgi.csc.liv.ac.uk/~ivb/SOFTware/DXSpiral.html,institutional
 http://digitisingscotland.cs.st-andrews.ac.uk/record_classification/index.html,institutional
-http://lscs-projects.github.io/HAGGIS/,public_commercial_code_repo
+http://lscs-projects.github.io/HAGGIS/,software_specific_website
 missing,missing
 missing,missing
 https://drive.google.com/drive/folders/0B7ZDkYLdRh3AUFlEaHFDR1N0Vk0?usp=sharing,Cloud filestore
@@ -4721,7 +4721,7 @@ https://github.com/nationalarchives/traces-through-time/tree/master/Leiden,publi
 http://sourceforge.net/projects/hercool/,public_commercial_code_repo
 missing,missing
 https://github.com/vbalnt/tfeat,public_commercial_code_repo
-http://lucmoreau.github.io/ProvToolbox/,public_commercial_code_repo
+http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 http://www.ccp5.ac.uk/DL_POLY/,institutional
 http://www.dual.sphysics.org,software_specific_website
 https://github.com/gap-packages/images,public_commercial_code_repo
@@ -4856,7 +4856,7 @@ http://www.siremol.org/Sire/Home.html,discipline_software_repo
 http://www.ccpbiosim.ac.uk,institutional
 missing,missing
 missing,missing
-http://ver228.github.io/tierpsy-tracker/,public_commercial_code_repo
+http://ver228.github.io/tierpsy-tracker/,software_specific_website
 https://github.com/ligo-cbc/pycbc,public_commercial_code_repo
 missing,missing
 missing,missing
@@ -4942,8 +4942,8 @@ missing,missing
 https://pubs.rsc.org/en/content/articlelanding/2018/nj/c8nj03237h#!divAbstract,publisher
 https://saturnsoftware2.co.uk/uploads/files/SATUGM17-SATGPU2.pdf,commercial website
 https://github.com/Edinburgh-Genome-Foundry/sequenticon,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/saboteurs,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/icebreaker,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/saboteurs,software_specific_website
+https://edinburgh-genome-foundry.github.io/icebreaker,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables,public_commercial_code_repo
 http://cath-tools.readthedocs.io/en/latest/tools/cath-superpose/,documentation_site
 missing,missing
@@ -5070,7 +5070,7 @@ http://gitlab.mbb.univ-montp2.fr/mbb/CroCo,public_commercial_code_repo
 http://www.physics.lancs.ac.uk/gollum/,institutional
 missing,missing
 missing,missing
-https://raphtory.github.io/,public_commercial_code_repo
+https://raphtory.github.io/,software_specific_website
 missing,missing
 http://www.macs.hw.ac.uk/sicsawiki/index.php/PhaseIII_Haskell_Versions,institutional
 https://tesarrec.web.app/,software_specific_website
@@ -5171,7 +5171,7 @@ https://datashare.is.ed.ac.uk/handle/10283/3009,institutional
 missing,missing
 missing,missing
 https://arxiv.org/abs/1805.06411,preprint_site
-https://opensbli.github.io/,public_commercial_code_repo
+https://opensbli.github.io/,software_specific_website
 missing,missing
 missing,missing
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
@@ -5189,7 +5189,7 @@ https://github.com/gavin-s-smith/Floor_ID,public_commercial_code_repo
 https://github.com/mrry/ciel,public_commercial_code_repo
 https://github.com/pszjmb1/observer,public_commercial_code_repo
 missing,missing
-https://smallareahealthstatisticsunit.github.io/algae/index.html,public_commercial_code_repo
+https://smallareahealthstatisticsunit.github.io/algae/index.html,software_specific_website
 missing,missing
 http://www.mrc-lmb.cam.ac.uk/tiltstats/index.html,institutional
 https://safecap.co.uk/,commercial website
@@ -5233,9 +5233,9 @@ https://bitbucket.org/julien-lange/gmc-synthesis/wiki/Home,public_commercial_cod
 http://savara.jboss.org/,software_specific_website
 missing,missing
 https://bitbucket.org/cogumbreiro/armus/wiki/Home,public_commercial_code_repo
-https://alcestes.github.io/effpi/,public_commercial_code_repo
-https://alcestes.github.io/mpstk/,public_commercial_code_repo
-https://session-type-provider.github.io/,public_commercial_code_repo
+https://alcestes.github.io/effpi/,software_specific_website
+https://alcestes.github.io/mpstk/,software_specific_website
+https://session-type-provider.github.io/,software_specific_website
 missing,missing
 https://zenodo.org/record/3766243,public_noncommercial_archive_repo
 https://zenodo.org/record/3764669,public_noncommercial_archive_repo
@@ -5333,7 +5333,7 @@ https://github.com/ageorgou/ProPPA,public_commercial_code_repo
 https://github.com/MicroPasts/MicroPasts-Scripts,public_commercial_code_repo
 https://github.com/MicroPasts/neighborly,public_commercial_code_repo
 missing,missing
-http://josephhughes.github.io/DiversiTools/,public_commercial_code_repo
+http://josephhughes.github.io/DiversiTools/,software_specific_website
 missing,missing
 https://github.com/policygrid/LanguageSpecCreator.git,public_commercial_code_repo
 https://github.com/policygrid/ontologies/tree/master/pgII,public_commercial_code_repo
@@ -5407,7 +5407,7 @@ https://www.dur.ac.uk/music/intcompviolproject/examples/,institutional
 https://github.com/apchsh/SAFPhot,public_commercial_code_repo
 https://github.com/kingsBSD/odopds-dev,public_commercial_code_repo
 http://www.biospi.org/research/ms/seamass-td/,institutional
-https://alan-turing-institute.github.io/ThermodynamicAnalyticsToolkit/,public_commercial_code_repo
+https://alan-turing-institute.github.io/ThermodynamicAnalyticsToolkit/,software_specific_website
 http://www.cs.kent.ac.uk/projects/ofa/kroc/,institutional
 https://www.engineering.leeds.ac.uk/computing/research/cse/meta/,institutional
 missing,missing
@@ -5478,7 +5478,7 @@ missing,missing
 http://www.quantemol.com/products/quantemol-n/,commercial website
 missing,missing
 http://constraintmodelling.org/minion/,software_specific_website
-https://reframe.github.io/background_check/,public_commercial_code_repo
+https://reframe.github.io/background_check/,software_specific_website
 http://www.ccp4.ac.uk/ccp4online,institutional
 https://github.com/fieldsend/local_optima_networks,public_commercial_code_repo
 https://ore.exeter.ac.uk/repository/bitstream/handle/10871/36825/fieldsend_gecco_2019_hypervolume.pdf?sequence=1&isAllowed=y,institutional
@@ -5512,10 +5512,10 @@ https://link.springer.com/article/10.1007/s10115-021-01560-w,publisher
 http://visual.cs.ucl.ac.uk/pubs/depthPrediction/,institutional
 https://github.com/phnmnl/container-scp-aspera,public_commercial_code_repo
 https://github.com/phnmnl/container-mtbl-labs-uploader,public_commercial_code_repo
-http://astro-informatics.github.io/s2let/,public_commercial_code_repo
-http://astro-informatics.github.io/so3/,public_commercial_code_repo
+http://astro-informatics.github.io/s2let/,software_specific_website
+http://astro-informatics.github.io/so3/,software_specific_website
 https://sites.google.com/site/therepiproject/r-pac/about,software_specific_website
-https://su2code.github.io/,public_commercial_code_repo
+https://su2code.github.io/,software_specific_website
 http://125.22.91.149:5050/MemberLogin.aspx#b,Non-responsive
 https://docs.lightkurve.org/api/lightkurve.seismology.Seismology.html,Non-responsive
 missing,missing
@@ -5527,11 +5527,11 @@ http://fpdpy.gitlab.io/fpd/index.html,public_commercial_code_repo
 http://atomap.org/index.html,software_specific_website
 https://fast_pixelated_detectors.gitlab.io/fpd_data_processing/,public_commercial_code_repo
 https://pixstem.org,software_specific_website
-https://mde-optimiser.github.io/,public_commercial_code_repo
+https://mde-optimiser.github.io/,software_specific_website
 http://www.ccpem.ac.uk/index.php,institutional
 http://www.ccpem.ac.uk/,institutional
 missing,missing
-https://su2code.github.io/,public_commercial_code_repo
+https://su2code.github.io/,software_specific_website
 https://zenodo.org/record/4068217,public_noncommercial_archive_repo
 https://github.com/pmlmodelling/ncplot,public_commercial_code_repo
 http://www.ccp4.ac.uk,institutional
@@ -5591,7 +5591,7 @@ https://github.com/nipreps/nirodents,public_commercial_code_repo
 https://github.com/poldracklab/fmriprep-rodents,public_commercial_code_repo
 http://www.dnald.org/planner/ACS_sb-2013-00161v_SI.zip,Non-responsive
 http://ensembl-hive.readthedocs.io/en/master/,documentation_site
-http://gadgetron.github.io,public_commercial_code_repo
+http://gadgetron.github.io,software_specific_website
 http://www.animalsimulation.org,software_specific_website
 missing,missing
 http://www.ucl.ac.uk/klmc/Software/,institutional
@@ -5613,7 +5613,7 @@ https://github.com/ORAC-CC/orac/wiki,public_commercial_code_repo
 missing,missing
 http://www.scribble.org/,Non-responsive
 https://github.com/bitml-lang,public_commercial_code_repo
-https://nuscr.github.io/nuscr/,public_commercial_code_repo
+https://nuscr.github.io/nuscr/,software_specific_website
 https://github.com/nickng/gong,public_commercial_code_repo
 missing,missing
 https://zenodo.org/record/4046892,public_noncommercial_archive_repo
@@ -5659,9 +5659,9 @@ https://github.com/orgs/AFMD/dashboard,public_commercial_code_repo
 http://www.urban-climate.net/umep/SUEWS,Non-responsive
 http://www.urban-climate.net/umep/UMEP,Non-responsive
 https://www.sciencedirect.com/science/article/abs/pii/S0010465519303856,publisher
-https://edinburgh-genome-foundry.github.io/saboteurs,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/saboteurs,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/topkappy,public_commercial_code_repo
-https://edinburgh-genome-foundry.github.io/blabel,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/blabel,software_specific_website
 https://github.com/Edinburgh-Genome-Foundry/Plateo,public_commercial_code_repo
 missing,missing
 missing,missing
@@ -5673,7 +5673,7 @@ https://iopscience.iop.org/article/10.1088/1361-6463/ab0261/meta,publisher
 http://www.robots.ox.ac.uk/~vgg/software/imcomp/,institutional
 missing,missing
 http://www.robots.ox.ac.uk/~vgg/publications/,institutional
-https://ekazakos.github.io/TBN/,public_commercial_code_repo
+https://ekazakos.github.io/TBN/,software_specific_website
 http://www.robots.ox.ac.uk/~vgg/software/textspot/,institutional
 https://arxiv.org/abs/2009.01225,preprint_site
 https://www.robots.ox.ac.uk/~vgg/research/FontAdaptor20/,institutional
@@ -5908,7 +5908,7 @@ http://cx.tools,Non-responsive
 missing,missing
 missing,missing
 https://github.com/baawolf,public_commercial_code_repo
-https://vprover.github.io/,public_commercial_code_repo
+https://vprover.github.io/,software_specific_website
 missing,missing
 missing,missing
 missing,missing
@@ -6064,7 +6064,7 @@ https://cran.r-project.org/web/packages/MBNMAtime/index.html,public_noncommercia
 http://isa-tools.org/2016/10/release-of-the-isa-specs/,software_specific_website
 https://dl.acm.org/doi/abs/10.1145/3290379,publisher
 http://www.cs.ox.ac.uk/isg/tools/PAGOdA/,institutional
-http://haselofflab.github.io/CellModeller/,public_commercial_code_repo
+http://haselofflab.github.io/CellModeller/,software_specific_website
 https://gitlab.ecosystem-modelling.pml.ac.uk/fvcom/fvcom-toolbox,institutional
 https://gitlab.ecosystem-modelling.pml.ac.uk/fvcom/pyfvcom,institutional
 https://www.geosci-model-dev.net/11/4215/2018/,publisher
@@ -6096,7 +6096,7 @@ missing,missing
 https://gitlab.edina.ac.uk,institutional
 missing,missing
 https://github.com/consult-kcl/drug-interaction,public_commercial_code_repo
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 http://accelrys.com/products/materials-studio/quantum-and-catalysis-software.html,commercial website
 http://accelrys.com/products/materials-studio/quantum-and-catalysis-software.html,commercial website
 https://github.com/giorgidze/Hydra,public_commercial_code_repo
@@ -6174,10 +6174,10 @@ http://www.cs.man.ac.uk/~schmidt/spass-yarralumla/,institutional
 missing,missing
 missing,missing
 missing,missing
-https://mrc-ide.github.io/MIPanalyzer/index.html,public_commercial_code_repo
+https://mrc-ide.github.io/MIPanalyzer/index.html,software_specific_website
 missing,missing
 missing,missing
-https://mrc-ide.github.io/drjacoby/,public_commercial_code_repo
+https://mrc-ide.github.io/drjacoby/,software_specific_website
 missing,missing
 https://github.com/emvolz/treedater,public_commercial_code_repo
 missing,missing
@@ -6201,7 +6201,7 @@ http://www.srl.cam.ac.uk/epic/epicffq/websitedocumentation.html,institutional
 https://figshare.shef.ac.uk/articles/software/TopoStats_-_an_automated_tracing_program_for_AFM_images/13103327/2,institutional
 missing,missing
 missing,missing
-http://bitseq.github.io/,public_commercial_code_repo
+http://bitseq.github.io/,software_specific_website
 https://CRAN.R-project.org/package=joineRML/,public_noncommercial_package_repo
 https://github.com/CSTR-Edinburgh/Ossian,public_commercial_code_repo
 https://github.com/xasheffield/hermes,public_commercial_code_repo
@@ -6265,7 +6265,7 @@ https://www.repository.cam.ac.uk/handle/1810/248270,institutional
 missing,missing
 https://cran.r-project.org/web/packages/rjpdmp/index.html,public_noncommercial_package_repo
 missing,missing
-https://gillianplatform.github.io/,public_commercial_code_repo
+https://gillianplatform.github.io/,software_specific_website
 https://github.com/jknightlab/SepstratifieR,public_commercial_code_repo
 missing,missing
 https://github.com/chrisburnett/PolicyProvenance,public_commercial_code_repo
@@ -6275,7 +6275,7 @@ http://www.grchombo.org,software_specific_website
 missing,missing
 http://www-wales.ch.cam.ac.uk/GMIN/,institutional
 http://fluidity-project.org,software_specific_website
-https://opensbli.github.io/,public_commercial_code_repo
+https://opensbli.github.io/,software_specific_website
 missing,missing
 https://github.com/AlphaGenes,public_commercial_code_repo
 missing,missing
@@ -6307,26 +6307,26 @@ https://www.nektar.info/,software_specific_website
 http://doc.gold.ac.uk/~mas02mg/software/hmmweka/,institutional
 http://www.imperial.ac.uk/process-systems-engineering/research/free-software/sobolgsa-software/,institutional
 missing,missing
-http://www.isale-code.github.io,public_commercial_code_repo
+http://www.isale-code.github.io,software_specific_website
 http://www.siremol.org/Sire/Home.html,discipline_software_repo
 missing,missing
 missing,missing
-https://choishingwan.github.io/PRSice/,public_commercial_code_repo
+https://choishingwan.github.io/PRSice/,software_specific_website
 missing,missing
 https://github.com/swise5/SimpleDriverDemo,public_commercial_code_repo
 https://github.com/biospi/seamass,public_commercial_code_repo
 https://wheatis.tgac.ac.uk/grassroots/api/,institutional
 missing,missing
-http://basp-group.github.io/sopt/,public_commercial_code_repo
-http://astro-informatics.github.io/ssht/,public_commercial_code_repo
-http://astro-informatics.github.io/s2let/,public_commercial_code_repo
+http://basp-group.github.io/sopt/,software_specific_website
+http://astro-informatics.github.io/ssht/,software_specific_website
+http://astro-informatics.github.io/s2let/,software_specific_website
 http://stchem.bham.ac.uk/~quantics/,institutional
 https://www.ccpn.ac.uk,institutional
 missing,missing
 missing,missing
 https://ccpn.ac.uk,institutional
 missing,missing
-http://varoudis.github.io/depthmapX/,public_commercial_code_repo
+http://varoudis.github.io/depthmapX/,software_specific_website
 missing,missing
 missing,missing
 https://infobiotics.org/index.html,software_specific_website
@@ -6388,7 +6388,7 @@ https://monod.ls.manchester.ac.uk/alacat/,institutional
 missing,missing
 https://zenodo.org/record/4075143,public_noncommercial_archive_repo
 https://github.com/LooseLab/ru,public_commercial_code_repo
-https://boydorr.github.io/Simulation.jl/dev,public_commercial_code_repo
+https://boydorr.github.io/Simulation.jl/dev,software_specific_website
 https://github.com/dwaithe/quantifly,public_commercial_code_repo
 https://www.biorxiv.org/node/83724.full,preprint_site
 missing,missing
@@ -6404,13 +6404,13 @@ http://www.dandeliion.com,software_specific_website
 http://www.quantemol.com/quantemol-ec/,commercial website
 https://www.lsc-group.phys.uwm.edu/daswg/projects/lal/nightly/docs/html/group__ch__inference.html,international_institutional
 https://github.com/concurrency/kroc,public_commercial_code_repo
-http://cvitolo.github.io/r_amca/,public_commercial_code_repo
+http://cvitolo.github.io/r_amca/,software_specific_website
 https://github.com/Parmeggiani-Lab/elfin,public_commercial_code_repo
 http://gabrielegan.com/WAN/,personal website
 missing,missing
 missing,missing
 http://swainlab.bio.ed.ac.uk/software/fitderiv/,institutional
-https://edinburgh-genome-foundry.github.io/genedom/,public_commercial_code_repo
+https://edinburgh-genome-foundry.github.io/genedom/,software_specific_website
 missing,missing
 missing,missing
 https://github.com/Edinburgh-Genome-Foundry/zymp,public_commercial_code_repo
@@ -6446,7 +6446,7 @@ http://dx.doi.org/10.1007/978-3-030-04651-4_24,publisher
 missing,missing
 missing,missing
 http://www.ukerc.ac.uk/programmes/decision-making/energy-transport-systemic-change/transport-energy-and-air-pollution-model-team-.html,institutional
-http://jgomezdans.github.io/gp_emulator,public_commercial_code_repo
+http://jgomezdans.github.io/gp_emulator,software_specific_website
 missing,missing
 https://figshare.shef.ac.uk/articles/MATLAB_Implementation_of_a_Box_Particle_Filter_for_tracking_multiple_extended_objects/7654889,institutional
 https://link.springer.com/article/10.1007/s10858-018-0182-5?wt_mc=alerts.TOCjournals&utm_source=toc&utm_medium=email&utm_content=10858&utm_campaign=#citeas,publisher
@@ -6456,7 +6456,7 @@ https://figshare.shef.ac.uk/articles/software/PhD_Thesis_Additional_Data_BioFlux
 missing,missing
 missing,missing
 https://doi.org/10.5281/zenodo.5769677,public_noncommercial_archive_repo
-http://sanger-pathogens.github.io/gubbins,public_commercial_code_repo
+http://sanger-pathogens.github.io/gubbins,software_specific_website
 https://sites.google.com/site/therepiproject/r-pac/about,software_specific_website
 http://www.repidemicsconsortium.org/outbreaker2,project or consortium
 https://github.com/mrc-ide/skygrowth,public_commercial_code_repo
@@ -6613,7 +6613,7 @@ http://homepages.inf.ed.ac.uk/mhennig/herdingspikes/,institutional
 http://www.ifs.org.uk/publications/8014,publisher
 missing,missing
 https://github.com/j-towns/craystack,public_commercial_code_repo
-https://wmcoombs.github.io/,public_commercial_code_repo
+https://wmcoombs.github.io/,software_specific_website
 http://reality.cs.ucl.ac.uk/projects/haines/haines16meanshift.html,institutional
 missing,missing
 missing,missing
@@ -6622,7 +6622,7 @@ https://doi.org/10.5281/zenodo.3560207,public_noncommercial_archive_repo
 https://github.com/jacmarjorie/trance,public_commercial_code_repo
 missing,missing
 https://www.ccpn.ac.uk/,institutional
-http://basp-group.github.io/sopt/,public_commercial_code_repo
+http://basp-group.github.io/sopt/,software_specific_website
 missing,missing
 http://psrg.org.uk,institutional
 https://github.com/GenomeRIK/tama,public_commercial_code_repo
@@ -6747,7 +6747,7 @@ missing,missing
 missing,missing
 https://github.com/samcoveney/GP_emu_UQSA,public_commercial_code_repo
 http://www.llcsjournal.org/index.php/llcs/article/view/478,publisher
-http://pele-python.github.io/pele/,public_commercial_code_repo
+http://pele-python.github.io/pele/,software_specific_website
 https://pubs.acs.org/doi/10.1021/acs.nanolett.0c03332,publisher
 https://www.horizon.ac.uk/project/wiseparks/,institutional
 http://cran.r-project.org/web/packages/PReMiuM/index.html,public_noncommercial_package_repo
@@ -6756,7 +6756,7 @@ https://github.com/evotools/nf-LO,public_commercial_code_repo
 https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13510,publisher
 http://www.lancaster.ac.uk/pg/hyder/Downloads/DDCAR-Source/ddcar-source.html,institutional
 https://github.com/quadram-institute-bioscience/galru,public_commercial_code_repo
-https://bioconda.github.io/recipes/covtobed/README.html,public_commercial_code_repo
+https://bioconda.github.io/recipes/covtobed/README.html,software_specific_website
 https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18posterdemo-final4.pdf,conference site
 https://github.com/robstewart57/hdph-rs,public_commercial_code_repo
 https://github.com/PatrickMaier/HdpH,public_commercial_code_repo
@@ -6850,7 +6850,7 @@ https://www.sciencedirect.com/science/article/pii/S0969212620300125,publisher
 https://dev.azure.com/hexstudios/ViveProjectionMapping,public_commercial_code_repo
 missing,missing
 https://figshare.manchester.ac.uk/articles/software/GPR_analysis_script_for_JSI_radiation_dataset/14152061,institutional
-https://icarus-sim.github.io/,public_commercial_code_repo
+https://icarus-sim.github.io/,software_specific_website
 missing,missing
 http://copperdroid.isg.rhul.ac.uk,institutional
 missing,missing
@@ -6884,7 +6884,7 @@ https://zenodo.org/record/6339242,public_noncommercial_archive_repo
 https://zenodo.org/record/3619355,public_noncommercial_archive_repo
 http://www.gla.ac.uk/cfd,institutional
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-https://alcestes.github.io/effpi/,public_commercial_code_repo
+https://alcestes.github.io/effpi/,software_specific_website
 https://bitbucket.org/julien-lange/gmc-synthesis/wiki/Home,public_commercial_code_repo
 https://bitbucket.org/cogumbreiro/armus/wiki/PPoPP15,public_commercial_code_repo
 http://ico2s.org/software/biohel.html,project or consortium
@@ -6906,7 +6906,7 @@ https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables,public_commercial
 https://github.com/Edinburgh-Genome-Foundry/DnaCauldron,public_commercial_code_repo
 https://github.com/Edinburgh-Genome-Foundry/GoldenHinges,public_commercial_code_repo
 https://play.google.com/store/apps/details?id=com.onezoom&hl=en_GB,commercial appstore
-https://leaflims.github.io,public_commercial_code_repo
+https://leaflims.github.io,software_specific_website
 https://github.com/connor-lab/vapor,public_commercial_code_repo
 http://www.louisaslett.com/EncryptedStats/,personal website
 missing,missing
@@ -6929,7 +6929,7 @@ missing,missing
 http://psrg.org.uk,institutional
 https://github.com/genn-team/genn,public_commercial_code_repo
 missing,missing
-https://nuscr.github.io/nuscr/,public_commercial_code_repo
+https://nuscr.github.io/nuscr/,software_specific_website
 https://zenodo.org/record/4048297,public_noncommercial_archive_repo
 https://doi.org/10.5281/zenodo.3516299,public_noncommercial_archive_repo
 https://github.com/JuliaApproximation/ClassicalOrthogonalPolynomials.jl,public_commercial_code_repo
@@ -7017,7 +7017,7 @@ missing,missing
 https://bitbucket.org/TonyBagnall/time-series-classification,public_commercial_code_repo
 http://www2.mrc-lmb.cam.ac.uk/groups/murshudov/,institutional
 http://cran.r-project.org/web/packages/locits/index.html,public_noncommercial_package_repo
-https://wmcoombs.github.io/,public_commercial_code_repo
+https://wmcoombs.github.io/,software_specific_website
 http://inlabru.org/,software_specific_website
 http://www.eecs.qmul.ac.uk/~ioannisp/source.htm,institutional
 https://github.com/boydorr/rdiversity,public_commercial_code_repo
@@ -7031,7 +7031,7 @@ https://zenodo.org/record/4068217,public_noncommercial_archive_repo
 missing,missing
 https://github.com/pmlmodelling/ncplot,public_commercial_code_repo
 https://zenodo.org/record/4155209,public_noncommercial_archive_repo
-https://british-oceanographic-data-centre.github.io/COAsT/docs/,public_commercial_code_repo
+https://british-oceanographic-data-centre.github.io/COAsT/docs/,software_specific_website
 https://zenodo.org/record/4594276,public_noncommercial_archive_repo
 missing,missing
 http://tapas-h2020.eu/results/,Non-responsive
@@ -7072,7 +7072,7 @@ https://github.com/sknepneklab/SAMoS,public_commercial_code_repo
 http://www.nltg.brighton.ac.uk/research/lg-eval,institutional
 https://github.com/ImperialCollegeLondon/django-drf-filepond,public_commercial_code_repo
 missing,missing
-http://basp-group.github.io/purify/,public_commercial_code_repo
+http://basp-group.github.io/purify/,software_specific_website
 https://sites.google.com/site/therepiproject/r-pac/outbreaker,software_specific_website
 missing,missing
 missing,missing
@@ -7163,7 +7163,7 @@ https://camcops.readthedocs.io/,documentation_site
 http://accelrys.com/products/materials-studio/quantum-and-catalysis-software.html,commercial website
 https://github.com/DavidStirling/QuantiFish,public_commercial_code_repo
 http://groups.inf.ed.ac.uk/security/RasE/ifipsec18/,institutional
-http://lucmoreau.github.io/ProvToolbox/,public_commercial_code_repo
+http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 https://sociam.org/data-safe-havens,project or consortium
 https://github.com/sociam/indx,public_commercial_code_repo
 https://zenodo.org/record/6346651,public_noncommercial_archive_repo
@@ -7173,7 +7173,7 @@ missing,missing
 http://isa-tools.org/2017/01/isa-api-milestone/,software_specific_website
 http://www.sat.dundee.ac.uk/animation-viewer-guide.html,institutional
 https://www.neodaas.ac.uk/bulk/,institutional
-https://mrc-ide.github.io/sircovid,public_commercial_code_repo
+https://mrc-ide.github.io/sircovid,software_specific_website
 missing,missing
 missing,missing
 https://github.com/justyncw/STAR_MELT,public_commercial_code_repo
