@@ -15,6 +15,8 @@ df_grouped_cat_count = (
 df_grouped_cat_count.reset_index("category")
 print(df_grouped_cat_count)
 
+#TODO is total here including missing?  Should it?
+
 total_count = df.index.size
 print("total unique urls", total_count)
 
@@ -65,6 +67,8 @@ counts = [
 
 
 # % of total urls per public commercial repo
+
+# TODO should this include missing?
 df_breakdown = pd.DataFrame(data=[counts], columns=[names]).T
 df_breakdown["% of total urls"] = 100 * df_breakdown / total_count
 
@@ -73,3 +77,14 @@ print(df_breakdown)
 
 
 # TODO can we get use of github over time
+
+df_all_data = pd.read_csv(
+        filepath_or_buffer="data/gtr_raw_data.csv", index_col="GTR OutcomeId", header=0
+    )
+print(df_all_data.keys())
+df_year_url = df_all_data[['Url','Year Produced']]
+
+
+df_merge = pd.merge(df_grouped_pub_comm_repo, df_year_url, left_on='url', right_on='Url')
+
+print(df_merge)
