@@ -15,7 +15,7 @@ df_grouped_cat_count = (
 df_grouped_cat_count.reset_index("category")
 print(df_grouped_cat_count)
 
-#TODO is total here including missing?  Should it?
+# TODO is total here including missing?  Should it?
 
 total_count = df.index.size
 print("total unique urls", total_count)
@@ -79,12 +79,17 @@ print(df_breakdown)
 # TODO can we get use of github over time
 
 df_all_data = pd.read_csv(
-        filepath_or_buffer="data/gtr_raw_data.csv", index_col="GTR OutcomeId", header=0
-    )
+    filepath_or_buffer="data/gtr_raw_data.csv", index_col="GTR OutcomeId", header=0
+)
 print(df_all_data.keys())
-df_year_url = df_all_data[['Url','Year Produced']]
+df_year_url = df_all_data[["Url", "Year Produced"]]
 
 
-df_merge = pd.merge(df_grouped_pub_comm_repo, df_year_url, left_on='url', right_on='Url')
+df_merge = pd.merge(
+    df_grouped_pub_comm_repo, df_year_url, left_on="url", right_on="Url"
+)
 
 print(df_merge)
+
+## can we do an analysis of institutes that do have software ability in repository for returns that arent institutional
+## IE could put it in repository but dont

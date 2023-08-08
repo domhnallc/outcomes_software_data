@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
-import seaborn as sns
+import numpy as np
 
 
 """gtr_raw_data.csv headers:
@@ -82,7 +82,7 @@ def count_per_open_sourced(df_in: pd.DataFrame):
 
 
 def count_per_year(df_in: pd.DataFrame):
-    df_in["Year Produced"] = df_in["Year Produced"].fillna(0).astype(int)
+    df_in["Year Produced"] = df_in["Year Produced"].fillna("Missing")
     vals = df_in.groupby("Year Produced", sort=True).size()
 
     return vals
@@ -109,14 +109,18 @@ def main():
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
     funder = count_per_funder(df_funder)
     print_out("Counts per funder", funder)
+    # print(funder.to_latex())
 
     # Counts per PI using PIId (orcid is missing a lot)
     df_PrincipleInv = pd.DataFrame(df_all_data, columns=["PIId"])
     print_out("Counts per PI", count_per_PI(df_PrincipleInv))
+    # print(df_PrincipleInv.to_latex())
 
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     print_out("Counts per RO", count_per_RO(df_RO))
+    count_per_RO(df_RO).to_csv("./output/count_per_ro.csv")
+    # print(df_RO.to_latex())
 
     # Counts per open source
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
@@ -125,7 +129,12 @@ def main():
 
     # Counts per year
     df_year = pd.DataFrame(df_all_data, columns=["Year Produced"])
-    print_out("Counts per year", count_per_year(df_year))
+    total_count_year = count_per_year(df_year)
+    print_out("Counts per year", total_count_year)
+    total_count_year.plot()
+    plt.ylabel("Count of Software")
+    plt.xlabel("Year of Output")
+    plt.show()
 
     # Counts per dept
     df_dept = pd.DataFrame(df_all_data, columns=["Department"])
@@ -206,7 +215,9 @@ def main():
     )
     print(df_grouped)
 
-    # funder per year
+    ###################
+    # funder per year #
+    ###################
     df_funder_per_year = pd.DataFrame(
         df_all_data, columns=["Year Produced", "Funding OrgName"]
     )
@@ -224,6 +235,8 @@ def main():
     df_grouped.to_csv("./output/funder_per_year.csv")
     # plot
     df_grouped.T.plot()
+    plt.ylabel("Count of Software")
+    plt.xlabel("Year of Output")
     plt.show()
 
     # os per year
@@ -242,6 +255,42 @@ def main():
     print(df_grouped_os)
     # plot
     df_grouped_os.T.plot()
+    # total_count_year.plot()
+    plt.show()
+
+    df_merge = pd.concat([df_grouped_os.T, total_count_year], axis=1)
+    print(df_merge)
+    df_merge.plot()
+    plt.xlabel("Year produced", fontsize=20)
+    plt.ylabel("Software Count", fontsize=20)
+    plt.legend(fontsize=16)
+
+    plt.legend().get_texts()[0].set_text("Open sourced")
+    plt.legend().get_texts()[1].set_text("Software count")
+    plt.yticks(fontsize=16)
+    plt.xticks(
+        np.arange(0, len(df_merge) - 1, 1),
+        labels=[
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+        ],
+        fontsize=16,
+    )
     plt.show()
 
 
