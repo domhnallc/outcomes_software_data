@@ -25,6 +25,7 @@ def main():
             responses.append(response)
     with open("responses.csv", "w") as outfile:
         writer = csv.writer(outfile)
+        writer.writerow(["Url","Response"])
         writer.writerows(responses)
     """
 
@@ -33,6 +34,24 @@ def main():
         cat = url, analyse_keywords_in_url(url)
         categories.append(cat)
     with open("cats.csv", "w") as outfile:
+        writer = csv.writer(outfile)
+        writer.writerows(categories)
+
+    # redo this with only the 3946 2** responses
+    df_only_200 = get_df_from_csv("./data/responses.csv")
+    print(df_only_200)
+    df_only_200 = df_only_200.loc[
+        (df_only_200["response"] == "200") | (df_only_200["response"] == "202")
+    ]
+    print(df_only_200)
+    # df.loc[df['column_name'] == some_value]
+
+    url_list = df_only_200["url"]
+    categories = []
+    for url in url_list:
+        cat = url, analyse_keywords_in_url(url)
+        categories.append(cat)
+    with open("cats_only_200.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(categories)
 

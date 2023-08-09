@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
 import numpy as np
+import seaborn as sns
 
 
 """gtr_raw_data.csv headers:
@@ -141,9 +142,35 @@ def main():
     print_out("Counts per dept", count_per_department(df_dept))
 
     # Get count of each http response code
-    # df_responses = get_dataframe_from_csv('./data/responses.csv')
+    df_responses = get_dataframe_from_csv("./data/responses.csv")
 
-    # print(df_responses.groupby(1).count())
+    print(df_responses.groupby(1).count())
+    df_responses.groupby(1).count().to_csv("./output/http_responses.csv")
+
+    df_responses.groupby(1).count().plot.pie(
+        y=0,
+        title="Count per http response",
+        legend=False,
+        autopct="%1.1f%%",
+        startangle=0,
+        textprops={"fontsize": 10},
+    )
+
+    ## Summarise responses into code families and plot
+
+    response_summary = {"2**": 3946, "4**": 710, "5**": 51, "Non-HTTP Error": 462}
+    df_response_summary = pd.DataFrame.from_dict(
+        response_summary, orient="index", columns=["Count"]
+    )
+    print(df_response_summary)
+    df_response_summary.plot.pie(
+        y="Count",
+        title="Title",
+        legend=False,
+        autopct="%1.1f%%",
+        startangle=0,
+        textprops={"fontsize": 17},
+    )
 
     ####subanalysis of sware being open sourced
 
