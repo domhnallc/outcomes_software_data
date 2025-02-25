@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from urllib import parse
 from requests.exceptions import ConnectionError, TooManyRedirects, ReadTimeout
+import helper as hlp
 
 """
 Reads in the URL list. Generates a csv file of URLs and their http code when 
