@@ -33,29 +33,34 @@ def main():
         writer.writerows(responses)
     """
 
-    categories = []
-    for url in url_list:
-        cat = url, analyse_keywords_in_url(url)
-        categories.append(cat)
-    with open("cats.csv", "w") as outfile:
-        writer = csv.writer(outfile)
-        writer.writerows(categories)
+    categorise_urls(url_list)
 
     # redo this with only the 3946 2** responses
-    df_only_200 = get_df_from_csv("./data/responses.csv")
-    print(df_only_200)
-    df_only_200 = df_only_200.loc[
-        (df_only_200["response"] == "200") | (df_only_200["response"] == "202")
+    df_only_http200s = get_df_from_csv("./data/responses.csv")
+    print(df_only_http200s)
+    df_only_http200s = df_only_http200s.loc[
+        (df_only_http200s["response"] == "200")
+        | (df_only_http200s["response"] == "202")
     ]
-    print(df_only_200)
+    print(df_only_http200s)
     # df.loc[df['column_name'] == some_value]
 
-    url_list = df_only_200["url"]
+    url_list = df_only_http200s["url"]
     categories = []
     for url in url_list:
         cat = url, analyse_keywords_in_url(url)
         categories.append(cat)
     with open("cats_only_200.csv", "w") as outfile:
+        writer = csv.writer(outfile)
+        writer.writerows(categories)
+
+
+def categorise_urls(url_list):
+    categories = []
+    for url in url_list:
+        cat = url, analyse_keywords_in_url(url)
+        categories.append(cat)
+    with open(f"{output_results_folder}/categorized_urls.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(categories)
 
