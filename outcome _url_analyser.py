@@ -16,14 +16,16 @@ url_input_csv = f"{input_data_folder}/outcomes_software_urls.csv"
 
 
 def main():
-
+    # TODO: should this check for unique?
+    # TODO: if not, maybe run an analysis of the num of duplicates and tld dupes
     df = get_df_from_csv(url_input_csv)
     url_list = get_urls(df)
     check_urls_for_http_response(url_list)
     categorise_urls(url_list)
 
-def check_urls_for_http_response(url_list)
-    
+
+def check_urls_for_http_response(url_list):
+    responses = []
     for url in url_list:
         if url == "missing":
             print("missing")
@@ -31,15 +33,15 @@ def check_urls_for_http_response(url_list)
             response = check_url(url)
             print(response[0], response[1])
             responses.append(response)
-    with open("responses.csv", "w") as outfile:
+    with open(f"{output_results_folder}/responses.csv", "w") as outfile:
         writer = csv.writer(outfile)
-        writer.writerow(["Url","Response"])
+        writer.writerow(["Url", "Response"])
         writer.writerows(responses)
-    
 
-def check_urls_for_2xx_responses()
+
+def check_urls_for_2xx_responses():
     # redo this with only the 2xx responses
-    df_only_http200s = get_df_from_csv("./data/responses.csv")
+    df_only_http200s = get_df_from_csv(f"{output_results_folder}/responses.csv")
     print(df_only_http200s)
     df_only_http200s = df_only_http200s.loc[
         (df_only_http200s["response"] == "200")
