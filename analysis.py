@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 import numpy as np
 import seaborn as sns
+import helper as hlp
 
 
 """gtr_raw_data.csv headers:
@@ -31,77 +32,9 @@ LeadROId
 PIId
 """
 
-"""Helper functions"""
-
-
-def get_dataframe_from_csv(
-    file: str,
-) -> pd.DataFrame:
-    df_all_data = pd.read_csv(file, header=None)
-
-    return df_all_data
-
-
-def filter_dataframe(df_in: pd.DataFrame, columns: list) -> pd.DataFrame:
-    filtered_df = df_in[columns]
-    return filtered_df
-
-
-def csv_to_df(csv_in: str, index_col: str, header: int) -> pd.DataFrame:
-    df = pd.read_csv(csv_in, index_col=index_col, header=0, encoding="utf-8-sig")
-
-    return df
-
-
-def count_per_funder(df_in: pd.DataFrame):
-    vals = (
-        df_in.groupby("Funding OrgName", sort=True).size().sort_values(ascending=False)
-    )
-
-    return vals
-
-
-def count_per_PI(df_in: pd.DataFrame):
-    vals = df_in.groupby("PIId", sort=True).size().sort_values(ascending=False)
-
-    return vals
-
-
-def count_per_RO(df_in: pd.DataFrame):
-    vals = df_in.groupby("LeadRO Name", sort=True).size().sort_values(ascending=False)
-
-    return vals
-
-
-def count_per_open_sourced(df_in: pd.DataFrame):
-    vals = (
-        df_in.groupby("Software Open Sourced?", sort=True)
-        .size()
-        .sort_values(ascending=False)
-    )
-    return vals
-
-
-def count_per_year(df_in: pd.DataFrame):
-    df_in["Year Produced"] = df_in["Year Produced"].fillna("Missing")
-    vals = df_in.groupby("Year Produced", sort=True).size()
-
-    return vals
-
-
-def count_per_department(df_in: pd.DataFrame):
-    vals = df_in.groupby("Department", sort=True).size().sort_values(ascending=False)
-
-    return vals
-
-
-def print_out(title: str, df_in: pd.DataFrame):
-    print("\n\n", title, "\n\n")
-    print(df_in.describe())
-    print(df_in)
-
 
 input_data_folder = "./feb25_data"
+results_folder = "./feb25_output"
 main_data_csv = f"{input_data_folder}/gtr_raw_data.csv"
 
 
@@ -113,30 +46,30 @@ def main():
 
     # Counts per funder
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
-    funder = count_per_funder(df_funder)
-    print_out("Counts per funder", funder)
+    funder = hlp.count_per_funder(df_funder)
+    hlp.print_out("Counts per funder", funder)
     # print(funder.to_latex())
 
     # Counts per PI using PIId (orcid is missing a lot)
     df_PrincipleInv = pd.DataFrame(df_all_data, columns=["PIId"])
-    print_out("Counts per PI", count_per_PI(df_PrincipleInv))
+    hlp.print_out("Counts per PI", hlp.count_per_PI(df_PrincipleInv))
     # print(df_PrincipleInv.to_latex())
 
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
-    print_out("Counts per RO", count_per_RO(df_RO))
-    count_per_RO(df_RO).to_csv("./output/count_per_ro.csv")
+    hlp.print_out("Counts per RO", hlp.count_per_RO(df_RO))
+    hlp.count_per_RO(df_RO).to_csv("./output/count_per_ro.csv")
     # print(df_RO.to_latex())
 
     # Counts per open source
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
     df_os.fillna("No/missing", inplace=True)
-    print_out("Counts of Open Source", count_per_open_sourced(df_os))
+    hlp.print_out("Counts of Open Source", hlp.count_per_open_sourced(df_os))
 
     # Counts per year
     df_year = pd.DataFrame(df_all_data, columns=["Year Produced"])
-    total_count_year = count_per_year(df_year)
-    print_out("Counts per year", total_count_year)
+    total_count_year = hlp.count_per_year(df_year)
+    hlp.print_out("Counts per year", total_count_year)
     total_count_year.plot()
     plt.ylabel("Count of Software")
     plt.xlabel("Year of Output")
@@ -144,13 +77,13 @@ def main():
 
     # Counts per dept
     df_dept = pd.DataFrame(df_all_data, columns=["Department"])
-    print_out("Counts per dept", count_per_department(df_dept))
+    hlp.print_out("Counts per dept", hlp.count_per_department(df_dept))
 
     # Get count of each http response code
-    df_responses = get_dataframe_from_csv("./data/responses.csv")
+    df_responses = hlp.get_dataframe_from_csv(f"{input_data_folder}/responses.csv")
 
     print(df_responses.groupby(1).count())
-    df_responses.groupby(1).count().to_csv("./output/http_responses.csv")
+    df_responses.groupby(1).count().to_csv(f"{results_folder}/http_responses.csv")
 
     df_responses.groupby(1).count().plot.pie(
         y=0,
@@ -264,7 +197,7 @@ def main():
         .fillna(0)
     )
     print(df_grouped)
-    df_grouped.to_csv("./output/funder_per_year.csv")
+    df_grouped.to_csv(f"{results_folder}/funder_per_year.csv")
     # plot
     df_grouped.T.plot()
     plt.ylabel("Count of Software")
@@ -302,6 +235,7 @@ def main():
     plt.yticks(fontsize=16)
     plt.xticks(
         np.arange(0, len(df_merge) - 1, 1),
+        # TODO: def func to find year range to create labels
         labels=[
             2006,
             2007,
@@ -320,6 +254,8 @@ def main():
             2020,
             2021,
             2022,
+            2023,
+            2024,
         ],
         fontsize=16,
     )
