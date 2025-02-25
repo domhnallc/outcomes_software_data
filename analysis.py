@@ -58,7 +58,7 @@ def main():
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     hlp.print_out("Counts per RO", hlp.count_per_RO(df_RO))
-    hlp.count_per_RO(df_RO).to_csv("./output/count_per_ro.csv")
+    hlp.count_per_RO(df_RO).to_csv(f"{results_folder}/count_per_ro.csv")
     # print(df_RO.to_latex())
 
     # Counts per open source
