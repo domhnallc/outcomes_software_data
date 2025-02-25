@@ -15,11 +15,14 @@ url_input_csv = f"{input_data_folder}/outcomes_software_urls.csv"
 
 
 def main():
-    """"""
+
     df = get_df_from_csv(url_input_csv)
     url_list = get_urls(df)
+    check_urls_for_http_response(url_list)
+    categorise_urls(url_list)
 
-    """
+def check_urls_for_http_response(url_list)
+    
     for url in url_list:
         if url == "missing":
             print("missing")
@@ -31,11 +34,10 @@ def main():
         writer = csv.writer(outfile)
         writer.writerow(["Url","Response"])
         writer.writerows(responses)
-    """
+    
 
-    categorise_urls(url_list)
-
-    # redo this with only the 3946 2** responses
+def check_urls_for_2xx_responses()
+    # redo this with only the 2xx responses
     df_only_http200s = get_df_from_csv("./data/responses.csv")
     print(df_only_http200s)
     df_only_http200s = df_only_http200s.loc[
@@ -46,6 +48,7 @@ def main():
     # df.loc[df['column_name'] == some_value]
 
     url_list = df_only_http200s["url"]
+
     categories = []
     for url in url_list:
         cat = url, analyse_keywords_in_url(url)

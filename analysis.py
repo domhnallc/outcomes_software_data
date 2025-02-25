@@ -101,9 +101,14 @@ def print_out(title: str, df_in: pd.DataFrame):
     print(df_in)
 
 
+input_data_folder = "./feb25_data"
+main_data_csv = f"{input_data_folder}/gtr_raw_data.csv"
+
+
 def main():
+    # load in all data
     df_all_data = pd.read_csv(
-        filepath_or_buffer="data/gtr_raw_data.csv", index_col="GTR OutcomeId", header=0
+        filepath_or_buffer=main_data_csv, index_col="GTR OutcomeId", header=0
     )
 
     # Counts per funder
