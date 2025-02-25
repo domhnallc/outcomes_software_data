@@ -35,7 +35,7 @@ PIId
 
 input_data_folder = "./feb25_data"
 results_folder = "./feb25_output"
-main_data_csv = f"{input_data_folder}/gtr_raw_data.csv"
+main_data_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
 
 
 def main():
