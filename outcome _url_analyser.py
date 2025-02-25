@@ -8,11 +8,15 @@ from requests.exceptions import ConnectionError, TooManyRedirects, ReadTimeout
 Reads in the URL list. Generates a csv file of URLs and their http code when 
 attempts made to reach URL. Saves to ./responses.csv.
 """
+input_data_folder = "./jul23_data"
+output_results_folder = "./jul23_output"
+
+url_input_csv = f"{input_data_folder}/outcomes_software_urls.csv"
 
 
 def main():
     """"""
-    df = get_df_from_csv("./data/outcomes_software_urls.csv")
+    df = get_df_from_csv(url_input_csv)
     url_list = get_urls(df)
 
     """
