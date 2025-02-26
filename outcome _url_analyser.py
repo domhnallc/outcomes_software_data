@@ -199,8 +199,9 @@ def check_url(url: str):
         "Sec-Fetch-Site": "same-origin",
     }
 
+    # changed from get to head to see if speeds up
     try:
-        r = requests.get(
+        r = requests.head(
             url, headers=headers, timeout=10, stream=True
         )  # set stream to True to avoid automatic decompression
         return url, r.status_code
