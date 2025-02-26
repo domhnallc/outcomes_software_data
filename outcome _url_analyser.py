@@ -9,10 +9,10 @@ import helper as hlp
 Reads in the URL list. Generates a csv file of URLs and their http code when 
 attempts made to reach URL. Saves to ./responses.csv.
 """
-input_data_folder = "./jul23_data"
-output_results_folder = "./jul23_output"
+input_data_folder = "./feb25_data"
+output_results_folder = "./feb25_output"
 
-url_input_csv = f"{input_data_folder}/outcomes_software_urls.csv"
+url_input_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
 
 
 def main():
@@ -20,19 +20,24 @@ def main():
     # TODO: if not, maybe run an analysis of the num of duplicates and tld dupes
     df = get_df_from_csv(url_input_csv)
     url_list = get_urls(df)
+    print(f"Analysing {len(url_list)} urls.")
     check_urls_for_http_response(url_list)
     categorise_urls(url_list)
 
 
 def check_urls_for_http_response(url_list):
     responses = []
+    counter = 0
     for url in url_list:
+        counter = counter + 1
         if url == "missing":
             print("missing")
         else:
+            print(f"[{counter}:{len(url_list)}]", url)
             response = check_url(url)
             print(response[0], response[1])
             responses.append(response)
+
     with open(f"{output_results_folder}/responses.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerow(["Url", "Response"])
@@ -72,7 +77,6 @@ def categorise_urls(url_list):
 
 
 def analyse_keywords_in_url(url: str):
-    
 
     if url == "missing":
         return "missing"
@@ -205,6 +209,8 @@ def check_url(url: str):
         return url, "TooManyRedirectsError"
     except ReadTimeout:
         return url, "ReadTimeoutError"
+    except UnicodeDecodeError:
+        return url, "DecodeError"
 
 
 def get_hostname_from_url(url: str) -> str:
