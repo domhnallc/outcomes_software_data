@@ -1,24 +1,24 @@
-# Title
+## Title
 Outcomes analyser
-# Description
+## Description
 This takes the current data from UKRI's Gateway to Research and searches it for software.  Used in the following research:
 -
 -
 -
 
-# Table of Contents
+## Table of Contents
 
-# Installation
+## Installation
 `pip install -r requirements.txt'
 No installation required.
-# Usage
+## Usage
 
-# Contributing
+## Contributing
 
-# License
+## License
 GPLv3
-# Credits
+## Credits
 Author: Domhnallc
-# Contact Information
+## Contact Information
 E: d.carlin@qub.ac.uk
 GitHub: domhnallc
