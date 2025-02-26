@@ -200,7 +200,9 @@ def check_url(url: str):
     }
 
     try:
-        r = requests.get(url, headers=headers, timeout=10, stream=True) #set stream to True to avoid automatic decompression
+        r = requests.get(
+            url, headers=headers, timeout=10, stream=True
+        )  # set stream to True to avoid automatic decompression
         return url, r.status_code
 
     except ConnectionError:
@@ -211,7 +213,8 @@ def check_url(url: str):
         return url, "ReadTimeoutError"
     except UnicodeDecodeError:
         return url, "DecodeError"
-    except zlib.
+    except requests.exceptions.RequestException:
+        return url, "DecompressionError"
 
 
 def get_hostname_from_url(url: str) -> str:
