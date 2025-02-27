@@ -196,6 +196,7 @@ def main():
         .astype("Int64")
         .fillna(0)
     )
+    df_grouped.columns = df_grouped.columns.astype(str)
     print(df_grouped)
     df_grouped.to_csv(f"{results_folder}/funder_per_year.csv")
     # plot
