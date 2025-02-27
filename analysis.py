@@ -80,7 +80,7 @@ def main():
     hlp.print_out("Counts per dept", hlp.count_per_department(df_dept))
 
     # Get count of each http response code
-    df_responses = hlp.get_dataframe_from_csv(f"{input_data_folder}/responses.csv")
+    df_responses = hlp.get_dataframe_from_csv(f"{results_folder}/responses.csv")
 
     print(df_responses.groupby(1).count())
     df_responses.groupby(1).count().to_csv(f"{results_folder}/http_responses.csv")
