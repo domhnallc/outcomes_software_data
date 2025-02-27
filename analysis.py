@@ -36,7 +36,7 @@ PIId
 input_data_folder = "./feb25_data"
 results_folder = "./feb25_output"
 main_data_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
-
+latex = True
 
 def main():
     # load in all data
@@ -48,18 +48,21 @@ def main():
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
     funder = hlp.count_per_funder(df_funder)
     hlp.print_out("Counts per funder", funder)
-    # print(funder.to_latex())
+    if latex:
+        print(funder.to_latex())
 
     # Counts per PI using PIId (orcid is missing a lot)
     df_PrincipleInv = pd.DataFrame(df_all_data, columns=["PIId"])
     hlp.print_out("Counts per PI", hlp.count_per_PI(df_PrincipleInv))
-    # print(df_PrincipleInv.to_latex())
+    if latex:
+        print(df_PrincipleInv.to_latex())
 
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     hlp.print_out("Counts per RO", hlp.count_per_RO(df_RO))
     hlp.count_per_RO(df_RO).to_csv(f"{results_folder}/count_per_ro.csv")
-    # print(df_RO.to_latex())
+    if latex:
+        print(df_RO.to_latex())
 
     # Counts per open source
     df_os = pd.DataFrame(df_all_data, columns=["Software Open Sourced?"])
