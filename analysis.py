@@ -4,6 +4,7 @@ import datetime as dt
 import numpy as np
 import seaborn as sns
 import helper as hlp
+import config as cfg
 
 
 """gtr_raw_data.csv headers:
@@ -33,36 +34,30 @@ PIId
 """
 
 
-input_data_folder = "./feb25_data"
-results_folder = "./feb25_output"
-main_data_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
-latex = True
-output_to_results_file = True
-
 def main():
     # load in all data
     df_all_data = pd.read_csv(
-        filepath_or_buffer=main_data_csv, index_col="GTR OutcomeId", header=0,dtype={'Year Produced': str}
+        filepath_or_buffer=cfg.main_data_csv, index_col="GTR OutcomeId", header=0,dtype={'Year Produced': str}
     )
 
     # Counts per funder
     df_funder = pd.DataFrame(df_all_data, columns=["Funding OrgName"])
     funder = hlp.count_per_funder(df_funder)
     hlp.print_out("Counts per funder", funder)
-    if latex:
+    if cfg.latex:
         print(funder.to_latex())
 
     # Counts per PI using PIId (orcid is missing a lot)
     df_PrincipleInv = pd.DataFrame(df_all_data, columns=["PIId"])
     hlp.print_out("Counts per PI", hlp.count_per_PI(df_PrincipleInv))
-    if latex:
+    if cfg.latex:
         print(df_PrincipleInv.to_latex())
 
     # Counts per Research Organisation (lead)
     df_RO = pd.DataFrame(df_all_data, columns=["LeadRO Name"])
     hlp.print_out("Counts per RO", hlp.count_per_RO(df_RO))
-    hlp.count_per_RO(df_RO).to_csv(f"{results_folder}/count_per_ro.csv")
-    if latex:
+    hlp.count_per_RO(df_RO).to_csv(f"{cfg.results_folder}/count_per_ro.csv")
+    if cfg.latex:
         print(df_RO.to_latex())
 
     # Counts per open source
@@ -84,10 +79,10 @@ def main():
     hlp.print_out("Counts per dept", hlp.count_per_department(df_dept))
 
     # Get count of each http response code
-    df_responses = hlp.get_dataframe_from_csv(f"{results_folder}/responses.csv")
+    df_responses = hlp.get_dataframe_from_csv(f"{cfg.results_folder}/responses.csv")
 
     print(df_responses.groupby(1).count())
-    df_responses.groupby(1).count().to_csv(f"{results_folder}/http_responses.csv")
+    df_responses.groupby(1).count().to_csv(f"{cfg.results_folder}/http_responses.csv")
 
     df_responses.groupby(1).count().plot.pie(
         y=0,
@@ -202,7 +197,7 @@ def main():
     )
     df_grouped.columns = df_grouped.columns.astype(str)
     print(df_grouped)
-    df_grouped.to_csv(f"{results_folder}/funder_per_year.csv")
+    df_grouped.to_csv(f"{cfg.results_folder}/funder_per_year.csv")
     # plot
     df_grouped.T.plot()
     plt.ylabel("Count of Software")
