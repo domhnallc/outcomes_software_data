@@ -69,6 +69,10 @@ def print_out(title: str, df_in: pd.DataFrame):
     print(df_in.describe())
     print(df_in)
 
+def write_to_results_file(results_file: str, title: str, data:object):
+    with open(results_file, "w") as f:
+        f.write(data)
+
 institutional_group = [
         "https://ctiuk.org/projects/cogstack/",
         "https://braindynamicslab.org/code/",

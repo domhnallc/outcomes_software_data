@@ -37,11 +37,12 @@ input_data_folder = "./feb25_data"
 results_folder = "./feb25_output"
 main_data_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
 latex = True
+output_to_results_file = True
 
 def main():
     # load in all data
     df_all_data = pd.read_csv(
-        filepath_or_buffer=main_data_csv, index_col="GTR OutcomeId", header=0
+        filepath_or_buffer=main_data_csv, index_col="GTR OutcomeId", header=0,dtype={'Year Produced': str}
     )
 
     # Counts per funder
