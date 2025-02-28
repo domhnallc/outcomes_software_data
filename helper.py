@@ -69,19 +69,22 @@ def print_out(title: str, df_in: pd.DataFrame):
     print(df_in.describe())
     print(df_in)
 
-def write_to_results_file(results_file: str, title: str, data:object):
+
+def write_to_results_file(results_file: str, title: str, data: object):
     with open(results_file, "w") as f:
         f.write(data)
 
+
 institutional_group = [
-        "https://ctiuk.org/projects/cogstack/",
-        "https://braindynamicslab.org/code/",
-        "http://spindynamics.org",
-        "soft-dev.org",
-        "http://www.arg-tech.org",
-        "www.bioinf.org.uk",
-    ]
+    "https://ctiuk.org/projects/cogstack/",
+    "https://braindynamicslab.org/code/",
+    "http://spindynamics.org",
+    "soft-dev.org",
+    "http://www.arg-tech.org",
+    "www.bioinf.org.uk",
+]
 institutional = [
+    "https://genopaths.africa/",
     "http://www.spass-prover.org/",
     "http://www.biospi.org",
     "http://t-stor.teagasc.ie/bitstream/11019/380/1/berry_imputation.pdf",
@@ -133,6 +136,7 @@ public_noncommercial_archive_repo = [
     "https://doi.org/10.17862/cranfield.rd.c.3292031",
 ]
 public_noncommercial_package_repo = [
+    "https://workflowhub.eu/",
     "https://anaconda.org/",
     "http://www.taverna.org.uk",
     "http://www.eclipse.org",
@@ -150,6 +154,8 @@ public_noncommercial_package_repo = [
 ]
 public_openscience_repo = ["osf.io", "http://www.iplantcollaborative.org"]
 publisher = [
+    "https://nhess.copernicus.org/",
+    "drops.dagstuhl.de",
     "https://aip.scitation.org",
     "http://www.stata-journal.com",
     "http://www.llcsjournal.org/",
@@ -219,6 +225,10 @@ publisher = [
 ]
 documentation_site = ["readthedocs"]
 software_specific_website = [
+    "http://mlighter.freedevelop.org/",
+    "https://unmute.tech/toolkit/",
+    "https://www.stride.codes/",
+    "http://alps.space/",
     "github.io",
     "http://www.nmr-titan.com",
     "https://docs.lightkurve.org/index.html",
@@ -497,7 +507,11 @@ project_or_consortium = [
     "observablehq.com",
 ]  # doesnt link to software, just
 preprint_site = ["arxiv", "biorxiv.org", "https://doi.org/10.1101/481754"]
-software_paper = ["joss.theoj.org", "https://doi.org/10.21105/joss.02043"]
+software_paper = [
+    "joss.theoj.org",
+    "https://doi.org/10.21105/joss.02043",
+    "www.theoj.org/joss-papers",
+]
 discipline_software_repo = [
     "https://ascl.net/",
     "http://www.timeseriesclassification.com",
@@ -533,6 +547,7 @@ discipline_non_software_repo = [
 video = ["youtu.be", "youtube", "vimeo"]
 social_media = ["twitter.com"]
 commercial_appstore = [
+    "store.steampowered.com",
     "unrealengine",
     "play.google.com",
     "itunes.apple.com",
@@ -544,6 +559,7 @@ non_commercial_appstore = [
     "https://www.food4rhino.com/",
 ]
 commercial_website = [
+    "https://www.3ds.com/",
     "http://www.manageplaces.com/",
     "http://www.wtjohnson.co.uk/",
     "http://www.ravenscience.com",
@@ -791,3 +807,4 @@ data_platform = [
     "http://gigadb.org/",
     "https://contribute.data.humancellatlas.org/",
 ]
+ukri_related = ["https://dataciseopenlearning.org/"]

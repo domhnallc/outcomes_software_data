@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 
 import config as cfg
 
+#######################
+# count of cats       #
+#######################
+
 cols = ["url", "category"]
 
 with open(cfg.categories_file) as data_in:
     df = pd.read_csv(data_in, names=cols, index_col="url").fillna("missing")
 
-
-#######################
-# count of cats       #
-#######################
 
 df_grouped_cat_count = (
     df.groupby(["category"])
