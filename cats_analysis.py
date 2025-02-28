@@ -8,6 +8,11 @@ cols = ["url", "category"]
 with open(cfg.categories_file) as data_in:
     df = pd.read_csv(data_in, names=cols, index_col="url").fillna("missing")
 
+
+#######################
+# count of cats       #
+#######################
+
 df_grouped_cat_count = (
     df.groupby(["category"])
     .size()
@@ -15,8 +20,12 @@ df_grouped_cat_count = (
     .sort_values(by="dfcount", ascending=False)
 )
 df_grouped_cat_count.reset_index("category")
-print(df_grouped_cat_count)
+print("\n\nGrouped Cat Count\n\n", df_grouped_cat_count)
 df_grouped_cat_count.to_csv(f"{cfg.results_folder}/grouped_cat_count.csv")
+
+#############################
+# count of cats  no missing #
+#############################
 
 # with missing url removed
 df_grouped_cat_count_no_missing = df.query("category != 'missing'")
@@ -33,10 +42,12 @@ print("total software", total_count)
 print("missing url ", total_count - urls_no_missing)
 print("\n\n\n")
 
-
+#############################
+# count of cats - top 10 fig#
+#############################
 df_grouped_cat_count.head(10).plot.pie(
     y="dfcount",
-    title="Title",
+    title="Count of software in each category",
     legend=False,
     autopct="%1.1f%%",
     startangle=0,

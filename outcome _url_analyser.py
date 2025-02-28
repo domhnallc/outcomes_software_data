@@ -61,7 +61,7 @@ def check_urls_for_2xx_responses():
     for url in url_list:
         cat = url, analyse_keywords_in_url(url)
         categories.append(cat)
-    with open("cats_only_200.csv", "w") as outfile:
+    with open(f"{output_results_folder}/cats_only_200.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(categories)
 
