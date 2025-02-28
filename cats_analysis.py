@@ -64,7 +64,7 @@ plt.show()
 
 # Analysis of only 200 code urls
 
-with open("./cats_only_200.csv") as data_in:
+with open(f"{cfg.results_folder}/cats_only_200.csv") as data_in:
     df_200_only_cats = pd.read_csv(
         data_in, names=["url", "response"], index_col=0
     ).fillna("missing")

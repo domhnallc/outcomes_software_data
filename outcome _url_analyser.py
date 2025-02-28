@@ -21,8 +21,9 @@ def main():
     df = get_df_from_csv(url_input_csv)
     url_list = get_urls(df)
     print(f"Analysing {len(url_list)} urls.")
-    check_urls_for_http_response(url_list)
-    categorise_urls(url_list)
+    # check_urls_for_http_response(url_list)
+    check_urls_for_2xx_responses()
+    # categorise_urls(url_list)
 
 
 def check_urls_for_http_response(url_list):
@@ -49,13 +50,13 @@ def check_urls_for_2xx_responses():
     df_only_http200s = get_df_from_csv(f"{output_results_folder}/responses.csv")
     print(df_only_http200s)
     df_only_http200s = df_only_http200s.loc[
-        (df_only_http200s["response"] == "200")
-        | (df_only_http200s["response"] == "202")
+        (df_only_http200s["Response"] == "200")
+        | (df_only_http200s["Response"] == "202")
     ]
-    print(df_only_http200s)
+    print("\n\nONLY HTTP200s\n\n", df_only_http200s)
     # df.loc[df['column_name'] == some_value]
 
-    url_list = df_only_http200s["url"]
+    url_list = df_only_http200s["Url"]
 
     categories = []
     for url in url_list:
