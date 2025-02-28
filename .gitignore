@@ -7,3 +7,4 @@ feb25_output/count_per_year.png
 .gitignore
 feb25_output/os_per_year_and_total.png
 feb25_output/funder_per_year.png
+__pycache__/config.cpython-312.pyc
