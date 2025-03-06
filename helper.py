@@ -76,6 +76,8 @@ def write_to_results_file(results_file: str, title: str, data: object):
 
 
 institutional_group = [
+    "https://colalab.ai/docs/research/landscapes/",
+    "https://robotic-esp.com/",
     "https://ctiuk.org/projects/cogstack/",
     "https://braindynamicslab.org/code/",
     "http://spindynamics.org",
@@ -84,6 +86,8 @@ institutional_group = [
     "www.bioinf.org.uk",
 ]
 institutional = [
+    "infn.it",
+    "https://www.crystal.unito.it/index.html",
     "https://genopaths.africa/",
     "http://www.spass-prover.org/",
     "http://www.biospi.org",
@@ -136,6 +140,7 @@ public_noncommercial_archive_repo = [
     "https://doi.org/10.17862/cranfield.rd.c.3292031",
 ]
 public_noncommercial_package_repo = [
+    "https://cran.rstudio.com/",
     "https://workflowhub.eu/",
     "https://anaconda.org/",
     "http://www.taverna.org.uk",
@@ -154,6 +159,8 @@ public_noncommercial_package_repo = [
 ]
 public_openscience_repo = ["osf.io", "http://www.iplantcollaborative.org"]
 publisher = [
+    "https://www.cambridge.org/core/journals/paleobiology/article/new-approach-for-investigating-spatial-relationships-of-ichnofossils-a-case-study-of-ediacarancambrian-animal-traces",
+    "https://www.computer.org/csdl/journal/ta/5555/01/10428080/1UmXkjfL4hW",
     "https://nhess.copernicus.org/",
     "drops.dagstuhl.de",
     "https://aip.scitation.org",
@@ -225,6 +232,13 @@ publisher = [
 ]
 documentation_site = ["readthedocs"]
 software_specific_website = [
+    "https://bonsai-rx.org/python-scripting/",
+    "nubopy.com",
+    "https://www.cheribsd.org/",
+    "mocapstreamer",
+    "https://www.mrtrix.org/",
+    "https://foodcase.org/",
+    "https://anvio.org/",
     "http://mlighter.freedevelop.org/",
     "https://unmute.tech/toolkit/",
     "https://www.stride.codes/",
@@ -443,6 +457,14 @@ patent = [
     "google.com/patents",
 ]
 project_or_consortium = [
+    "openforcefield.org",
+    "https://www.ga4gh.org/",
+    "https://unmute.tech/toolkit/",
+    "https://urbangrammarai.xyz/",
+    "https://wipigroup.wordpress.com/",
+    "https://www.seamlesswave.com/",
+    "https://www.spliceselect.org/",
+    "llvm.org",
     "https://digitalinclusiontoolkit.org/",
     "https://amt4oceansatflux.org/",
     "https://ai.biennial.com/#howitworks",
@@ -506,13 +528,14 @@ project_or_consortium = [
     "https://cometinitiative.org/DelphiManager/",
     "observablehq.com",
 ]  # doesnt link to software, just
-preprint_site = ["arxiv", "biorxiv.org", "https://doi.org/10.1101/481754"]
+preprint_site = ["arxiv", "biorxiv.org", "https://doi.org/10.1101/481754", "medrxiv.org"]
 software_paper = [
     "joss.theoj.org",
     "https://doi.org/10.21105/joss.02043",
-    "www.theoj.org/joss-papers",
+    "www.theoj.org/joss-papers"
 ]
 discipline_software_repo = [
+    "hepforge.org/",
     "https://ascl.net/",
     "http://www.timeseriesclassification.com",
     "http://www.mybiosoftware.com",
@@ -559,6 +582,11 @@ non_commercial_appstore = [
     "https://www.food4rhino.com/",
 ]
 commercial_website = [
+    "clwstwr.org.uk",
+    "https://nuestra-agua-aquacol.hub.arcgis.com/",
+    "dulux.co.uk",
+    "https://www.neuroconcise.co.uk/",
+    "https://nmr.oxinst.com",
     "https://www.3ds.com/",
     "http://www.manageplaces.com/",
     "http://www.wtjohnson.co.uk/",
@@ -611,6 +639,8 @@ forum_mailing_list_blog = [
     "https://medium.com/",
 ]
 conference_site = [
+    "proceedings.neurips.cc",
+    "https://easychair.org/smart-program/FLoC2022/",
     "https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18posterdemo-final4.pdf",
     "http://proceedings.asmedigitalcollection.asme.org",
     "http://papers.nips.cc",
@@ -632,12 +662,15 @@ uk_public_govt_news = [
 ]  # with no links to software
 uk_govt_software = ["http://ekn.defra.gov.uk", "https://code.metoffice.gov.uk/"]
 internations_public_govt = [
+
     "http://www.osti.gov/",
     "https://sohowww.nascom.nasa.gov/solarsoft/radio/lofar/",
     "https://lambda.gsfc.nasa.gov/",
 ]  # with code
 search_site = ["scholar.google."]
 personal_site = [
+    "stephenwestland.co.uk",
+    "https://thestatsgeek.com/",
     "http://www.tom-ridge.com",
     "http://www.louisaslett.com/",
     "http://www.laurenceanthony.net/",
@@ -659,6 +692,7 @@ personal_site = [
     "http://louismccallum.com",
 ]
 non_software_website = [
+    "https://hias.org/",
     "http://earlymusictheory.org/Tinctoris",
     "https://ecohairandbeauty.com/virtual-salon/",
 ]
@@ -803,6 +837,7 @@ cloud_filestore = [
     "http://purl.oclc.org/NET/cudaMap",
 ]
 data_platform = [
+    "data.nls.uk",
     "datadryad.org",
     "http://gigadb.org/",
     "https://contribute.data.humancellatlas.org/",
