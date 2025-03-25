@@ -98,10 +98,10 @@ https://isabelle-utp.york.ac.uk/,institutional
 https://github.com/isabelle-utp/interaction-trees,public_commercial_code_repo
 https://github.com/johnveitch/cpnest,public_commercial_code_repo
 https://github.com/lukasz-migas/ORIGAMI,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://biomodelanalyzer.org/,web app
 https://github.com/soli/casq,public_commercial_code_repo
 https://github.com/michaelhall28/darwinian_shift,public_commercial_code_repo
@@ -164,7 +164,7 @@ https://ucrel.github.io/pymusas/,software_specific_website
 https://bitbucket.org/byornski/dft-python-api/,public_commercial_code_repo
 https://github.com/cribbslab/TallyTriN,public_commercial_code_repo
 https://github.com/Acribbs/TallyNN,public_commercial_code_repo
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://github.com/AI-for-Net-Zero,public_commercial_code_repo
 https://cran.r-project.org/web/packages/crctStepdown/index.html,public_noncommercial_package_repo
 https://cran.r-project.org/web/packages/glmmrBase/index.html,public_noncommercial_package_repo
@@ -292,10 +292,10 @@ https://peerj.com/articles/645/,publisher
 https://github.com/jwoollia/DenHaag/blob/master/DenHaag.pdf,public_commercial_code_repo
 https://github.com/hjgodwin/eyeTrackR,public_commercial_code_repo
 https://github.com/MathisHain/MyAMI,public_commercial_code_repo
-https://www.stride.codes/,unknown
+https://www.stride.codes/,software_specific_website
 http://www.gwoptics.org/finesse/,software_specific_website
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://github.com/PRIDE-reanalysis/DIA-reanalysis,public_commercial_code_repo
 https://www.cl.cam.ac.uk/~tmj32/data/,institutional
 https://www.cl.cam.ac.uk/~tmj32/data/,institutional
@@ -314,7 +314,7 @@ https://grassroots.tools,project or consortium
 https://grassroots.tools,project or consortium
 https://github.com/dstansby/pfsspy,public_commercial_code_repo
 https://figshare.com/articles/software/Little_2023_among-sampler_var_in_fuel_moisture_field_measurements/22683352,public_noncommercial_archive_repo
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 https://onetep.org/,software_specific_website
 https://wmcoombs.github.io/,software_specific_website
 https://github.com/ilapros/winfapReader,public_commercial_code_repo
@@ -401,7 +401,7 @@ https://github.com/tquaife/bayesLC,public_commercial_code_repo
 https://github.com/genn-team/genn,public_commercial_code_repo
 https://github.com/SpineML/SpineCreator,public_commercial_code_repo
 https://arxiv.org/abs/2001.07629,preprint_site
-https://nhess.copernicus.org/articles/22/303/2022/,unknown
+https://nhess.copernicus.org/articles/22/303/2022/,publisher
 https://cran.r-project.org/web/packages/smcfcs/index.html,public_noncommercial_package_repo
 https://ideas.repec.org/c/boc/bocode/s457968.html,discipline_software_repo
 https://ideas.repec.org/c/boc/bocode/s457825.html,discipline_software_repo
@@ -473,7 +473,7 @@ https://github.com/srivaschennu/MOHAWK/wiki,public_commercial_code_repo
 https://pypi.org/project/nunchaku/,public_noncommercial_package_repo
 https://github.com/ronnyerrmann/exohspec/,public_commercial_code_repo
 https://lscsoft.docs.ligo.org/bilby/,project or consortium
-https://unmute.tech/toolkit/,unknown
+https://unmute.tech/toolkit/,software_specific_website
 http://www.lstm.co.uk,commercial website
 http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 http://gadgetron.github.io,software_specific_website
@@ -518,7 +518,7 @@ https://www.pyfr.org/,software_specific_website
 https://www.pyfr.org/,software_specific_website
 https://github.com/BASIC-DNA-ASSEMBLY/DNA-BOT,public_commercial_code_repo
 https://github.com/UKLLC/File-Checker,public_commercial_code_repo
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://pylag.readthedocs.io/en/latest/,documentation_site
 https://github.com/viorik/unsupgpu,public_commercial_code_repo
 https://www.syncphonia.co.uk/,software_specific_website
@@ -566,7 +566,7 @@ http://fg.oisin.rc-harwell.ac.uk/projects/clipper-progs/,institutional
 http://www.ccp4.ac.uk/download/,institutional
 https://fg.oisin.rc-harwell.ac.uk/projects/clipper-python/,institutional
 https://github.com/gap-packages/aaa,public_commercial_code_repo
-https://store.steampowered.com/app/1363210/Live_by_the_Sword_Tactics/,unknown
+https://store.steampowered.com/app/1363210/Live_by_the_Sword_Tactics/,commercial appstore
 https://github.com/BakerEA/POLARIS,public_commercial_code_repo
 https://github.com/tseemann/phastaf,public_commercial_code_repo
 https://github.com/ChrisSuess/Project-Xbow/tree/master/xbow,public_commercial_code_repo
@@ -746,7 +746,7 @@ http://visual.cs.ucl.ac.uk/pubs/handwriting/,institutional
 https://pubmed.ncbi.nlm.nih.gov/34497419/,publisher
 https://github.com/unikraft/loupe,public_commercial_code_repo
 https://olivierpierre.github.io/project-flexcap/,software_specific_website
-https://anvio.org/help/main/programs/anvi-script-reformat-bam/,unknown
+https://anvio.org/help/main/programs/anvi-script-reformat-bam/,software_specific_website
 https://bioconda.github.io/recipes/metaprokka/README.html,software_specific_website
 https://gillianplatform.github.io/,software_specific_website
 https://github.com/ome/omero-mapr,public_commercial_code_repo
@@ -770,7 +770,7 @@ https://github.com/tspooner/rsrl,public_commercial_code_repo
 https://github.com/hughjonesd/huxtable,public_commercial_code_repo
 https://gitlab.com/rob.izzard/librinterpolate,public_commercial_code_repo
 https://gitlab.com/rob.izzard/libmemoize,public_commercial_code_repo
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 https://github.com/diffqc/dqc,public_commercial_code_repo
 https://arxiv.org/abs/2010.01921,preprint_site
 http://www.gridqtl.org.uk,"forum, mailinglist, blog"
@@ -792,7 +792,7 @@ https://basp-group.github.io/BASPLib/,software_specific_website
 https://arxiv.org/abs/2002.05626,preprint_site
 https://github.com/xdslproject/devito,public_commercial_code_repo
 https://github.com/xdslproject/ftn,public_commercial_code_repo
-https://mlir.llvm.org/docs/Dialects/MPI/,unknown
+https://mlir.llvm.org/docs/Dialects/MPI/,project or consortium
 https://github.com/dovstekellab/mcmc-pma,public_commercial_code_repo
 http://www.acceleratar.uk/,project or consortium
 https://github.com/pynbody/pynbody/pull/487,public_commercial_code_repo
@@ -831,7 +831,7 @@ https://github.com/zt-chen/PMFault,public_commercial_code_repo
 http://gabrielegan.com/WAN/,personal website
 https://github.com/reillytilbury/coppafish,public_commercial_code_repo
 https://github.com/thehyve/fairspace,public_commercial_code_repo
-https://foodcase.org/,unknown
+https://foodcase.org/,software_specific_website
 https://github.com/bartongroup/RATS,public_commercial_code_repo
 https://github.com/GaetanBenoitDev/metaMDBG,public_commercial_code_repo
 https://github.com/JuusolaLab/Microsaccadic_Sampling_Paper,public_commercial_code_repo
@@ -852,7 +852,7 @@ https://github.com/krcools/BEAST.jl,public_commercial_code_repo
 http://arxiv.org/abs/1511.04285,preprint_site
 https://github.com/consult-kcl/drug-interaction,public_commercial_code_repo
 https://github.com/biobankinguk/biobankinguk,public_commercial_code_repo
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://github.com/stefano-bragaglia/XHAIL,public_commercial_code_repo
 https://github.com/ralna/Normal_DD,public_commercial_code_repo
 https://github.com/sodestream/acl2023-email-da-dataset,public_commercial_code_repo
@@ -902,7 +902,7 @@ http://ico2s.org/software/vrmlgen.html,project or consortium
 https://arxiv.org/abs/2201.03339,preprint_site
 https://www.seedstor.ac.uk/,institutional
 http://www.ccp4.ac.uk/download/,institutional
-https://robotic-esp.com/code/tmitstar/,unknown
+https://robotic-esp.com/code/tmitstar/,institutional_group
 https://github.com/MicroPasts,public_commercial_code_repo
 https://github.com/MicroPasts/MicroPasts-Scripts,public_commercial_code_repo
 https://github.com/MicroPasts,public_commercial_code_repo
@@ -938,7 +938,7 @@ https://github.com/alexarice/lin_inf,public_commercial_code_repo
 https://github.com/saluzzi/TT-Gradient-Cross,public_commercial_code_repo
 https://github.com/dolgov/TT-HJB,public_commercial_code_repo
 https://opensbli.github.io/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://topas-nbio.readthedocs.io/en/latest/getting-started/Members.html,documentation_site
 https://gitlab.com/rob.izzard/librinterpolate,public_commercial_code_repo
 https://gitlab.com/rob.izzard/libmemoize,public_commercial_code_repo
@@ -984,10 +984,10 @@ https://grassroots.tools,project or consortium
 https://grassroots.tools,project or consortium
 https://github.com/krasileva-group/scvep,public_commercial_code_repo
 https://github.com/cschu/royal_dragen,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 http://www.prismmodelchecker.org/qprover/,software_specific_website
 http://www.prismmodelchecker.org/,software_specific_website
 https://figshare.com/articles/software/riboviz_software_for_analysis_and_visualization_of_ribosome_profiling_datasets/12624200/3,public_noncommercial_archive_repo
@@ -1012,10 +1012,10 @@ https://figshare.com/articles/software/hepatitisModelling/19740364,public_noncom
 https://amplemr.wordpress.com/,software_specific_website
 https://github.com/rigdenlab/conkit,public_commercial_code_repo
 https://github.com/COLA-Laboratory/DaNuoYi,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://github.com/LCAS/rosdistro/wiki,public_commercial_code_repo
 https://github.com/June01/WFSAL-icmr21,public_commercial_code_repo
 https://personalpages.manchester.ac.uk/staff/alessandro.patti/default.htm,institutional
@@ -1076,7 +1076,7 @@ https://www.biorxiv.org/content/10.1101/527184v1,preprint_site
 https://grassroots.tools,project or consortium
 https://github.com/billyfish/eirods-dav/releases/tag/1.4.1,public_commercial_code_repo
 https://github.com/cluelab/eulersketch,public_commercial_code_repo
-https://wipigroup.wordpress.com/software-and-codes/,unknown
+https://wipigroup.wordpress.com/software-and-codes/,project or consortium
 https://joss.theoj.org/papers/10.21105/joss.01716,software_paper
 https://github.com/epournaras/EPOS/tree/hard_constraints,public_commercial_code_repo
 https://sysmic.ac.uk,institutional
@@ -1142,11 +1142,11 @@ https://github.com/marshlab/assembly-prediction,public_commercial_code_repo
 https://github.com/PRISBteam/,public_commercial_code_repo
 https://github.com/PRISBteam/Voronoi_PCC_Analyser,public_commercial_code_repo
 https://github.com/PRISBteam/,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://github.com/olantwin/muon_shield_optimisation,public_commercial_code_repo
 https://wellcomeopenresearch.org/articles/3-145/v1#ref-12,publisher
 https://github.com/dickwillingale,public_commercial_code_repo
@@ -1154,7 +1154,7 @@ https://github.com/klusta-team/klustakwik,public_commercial_code_repo
 https://github.com/klusta-team/spikedetekt2,public_commercial_code_repo
 https://github.com/klusta-team/klustaviewa,public_commercial_code_repo
 https://opensbli.github.io/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://cran.r-project.org/web/packages/PAFway/index.html,public_noncommercial_package_repo
 https://www.stata-journal.com/article.html?article=st0571,publisher
 https://github.com/wangtengyao/MissInspect,public_commercial_code_repo
@@ -1175,10 +1175,10 @@ https://eprints.soton.ac.uk/428655/,institutional
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
 https://github.com/bitml-lang,public_commercial_code_repo
 https://github.com/nickng/dingo-hunter,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://alcestes.github.io/effpi/,software_specific_website
 https://github.com/julien-lange/asynchronous-subtyping,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://bitbucket.org/julien-lange/k-checking,public_commercial_code_repo
 https://session-type-provider.github.io/,software_specific_website
 https://bitbucket.org/MobilityReadingGroup/godel-checker,public_commercial_code_repo
@@ -1188,8 +1188,8 @@ https://bitbucket.org/julien-lange/gmc-synthesis/wiki/Home,public_commercial_cod
 https://alcestes.github.io/mpstk/,software_specific_website
 https://bitbucket.org/cogumbreiro/armus/wiki/Home,public_commercial_code_repo
 https://bitbucket.org/cogumbreiro/armus/wiki/PPoPP15,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://github.com/rumineykova/sessionactors,public_commercial_code_repo
 http://alcestes.github.io/lchannels/,software_specific_website
 https://keigoimai.info/session-ocaml/,software_specific_website
@@ -1237,13 +1237,13 @@ https://cran.r-project.org/web/packages/incR/index.html,public_noncommercial_pac
 https://github.com/robashaw/basisopt,public_commercial_code_repo
 https://github.com/pdledger/hpfem-mpt/tree/master,public_commercial_code_repo
 https://github.com/PRiME-project/PRiME-Framework,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 http://alcestes.github.io/lchannels/,software_specific_website
 https://github.com/julien-lange/asynchronous-subtyping,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://alcestes.github.io/effpi/,software_specific_website
 https://github.com/nickng/gong,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://keigoimai.info/session-ocaml/,software_specific_website
 https://session-type-provider.github.io/,software_specific_website
 https://bitbucket.org/cogumbreiro/armus/wiki/Home,public_commercial_code_repo
@@ -1251,7 +1251,7 @@ https://github.com/nickng/dingo-hunter,public_commercial_code_repo
 https://alcestes.github.io/mpstk/,software_specific_website
 https://bitbucket.org/MobilityReadingGroup/godel-checker,public_commercial_code_repo
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://bitbucket.org/julien-lange/gmc-synthesis/wiki/Home,public_commercial_code_repo
 https://bitbucket.org/cogumbreiro/armus/wiki/PPoPP15,public_commercial_code_repo
 https://github.com/rumineykova/sessionactors,public_commercial_code_repo
@@ -1265,7 +1265,7 @@ https://github.com/EPCCed/cs2-sdk-training,public_commercial_code_repo
 https://github.com/xdslproject/mlir-aie/tree/xdsl_tutorials/tutorials,public_commercial_code_repo
 https://ieeexplore.ieee.org/document/9792455,publisher
 https://arxiv.org/abs/2312.09740,preprint_site
-https://www.computer.org/csdl/journal/ta/5555/01/10428080/1UmXkjfL4hW,unknown
+https://www.computer.org/csdl/journal/ta/5555/01/10428080/1UmXkjfL4hW,publisher
 https://ieeexplore.ieee.org/document/9320226,publisher
 https://ieeexplore.ieee.org/document/10042642,publisher
 https://gitlab.com/jameskermode/ase,public_commercial_code_repo
@@ -1286,7 +1286,7 @@ https://figshare.com/articles/software/KOunt_v1_2_0_zip/23607834,public_noncomme
 https://github.com/WatsonLab/MAGpy,public_commercial_code_repo
 https://arxiv.org/abs/2005.05777,preprint_site
 https://arxiv.org/abs/1904.00889,preprint_site
-https://proceedings.neurips.cc/paper/2020/file/52d2752b150f9c35ccb6869cbf074e48-Paper.pdf,unknown
+https://proceedings.neurips.cc/paper/2020/file/52d2752b150f9c35ccb6869cbf074e48-Paper.pdf,conference site
 https://arxiv.org/abs/2112.04846,preprint_site
 https://arxiv.org/abs/2001.08972,preprint_site
 https://ccpn.ac.uk/software/analysisscreen/,institutional
@@ -1310,12 +1310,12 @@ https://rs.figshare.com/articles/software/Script_S1_separate_file_from_Evolution
 https://figshare.com/articles/software/R_Code_Rmd_for_The_influence_of_geochemical_variation_among_Globigerinoides_ruber_individuals_on_paleoceanographic_reconstructions_/21071224,public_noncommercial_archive_repo
 https://github.com/waqarnabi/mp-stream,public_commercial_code_repo
 http://tytra.org.uk/,Non-responsive
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
 https://github.com/wimvanderbauwhede/AutoParallel-Fortran,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://github.com/wimvanderbauwhede/OpenCLIntegration,public_commercial_code_repo
 https://github.com/wimvanderbauwhede/RefactorF4Acc,public_commercial_code_repo
 https://github.com/beatbox-heart,public_commercial_code_repo
@@ -1391,11 +1391,11 @@ https://ideas.repec.org/c/boc/bocode/s456798.html,discipline_software_repo
 https://github.com/RISCVtestbed/rvv-rollback,public_commercial_code_repo
 http://www.firthlab.path.cam.ac.uk/virad.html,institutional
 https://www.youtube.com/watch?v=Fgi9-Sdup-Y,video
-https://colalab.ai/docs/research/landscapes/,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://colalab.ai/docs/research/landscapes/,institutional_group
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://www.lammps.org,software_specific_website
 http://dynamxl.chem.ox.ac.uk,institutional
 https://degiacomi.org/software/biobox/,software_specific_website
@@ -1485,7 +1485,7 @@ https://topas-nbio.readthedocs.io/en/latest/getting-started/Members.html,documen
 https://figshare.manchester.ac.uk/articles/software/Millennia_Pro_Interlock_ESP32_code/20037176,institutional
 https://figshare.com/articles/software/PLEXUS_NGIF_-_Numerical_Modelling/17303792,public_noncommercial_archive_repo
 https://github.com/lschmidtke/shape_templates,public_commercial_code_repo
-https://www.neuroconcise.co.uk/,unknown
+https://www.neuroconcise.co.uk/,commercial website
 https://github.com/IraKorshunova/folk-rnn,public_commercial_code_repo
 https://code.soundsoftware.ac.uk/projects/nimfks,institutional
 https://github.com/wimvanderbauwhede/RefactorF4Acc,public_commercial_code_repo
@@ -1559,7 +1559,7 @@ https://www.idris-lang.org/,software_specific_website
 https://github.com/ukri-excalibur/excalibur-tests,public_commercial_code_repo
 https://github.com/spack/spack,public_commercial_code_repo
 https://github.com/spack/spack/pull/36164,public_commercial_code_repo
-https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,unknown
+https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,preprint_site
 https://github.com/Abdulah-Fawaz/continuous_cGAN/blob/main/LICENSE,public_commercial_code_repo
 https://github.com/lschmidtke/shape_templates,public_commercial_code_repo
 https://github.com/Miniball/MiniballCoulexSort,public_commercial_code_repo
@@ -1596,7 +1596,7 @@ https://github.com/gingsmith/cocoa,public_commercial_code_repo
 https://github.com/schultzlab/rita,public_commercial_code_repo
 https://figshare.com/articles/software/Isabelle_Files_for_Integrating_Owicki-Gries_for_C11-Style_Memory_Models_into_Isabelle_HOL_/14387201,public_noncommercial_archive_repo
 http://meshadaptation.github.io/,software_specific_website
-https://hias.org/news/how-innovative-algorithm-helps-ukrainian-refugees-find-new-homes/,unknown
+https://hias.org/news/how-innovative-algorithm-helps-ukrainian-refugees-find-new-homes/,Non-software website
 http://www.coxphysics.com/lr/,personal website
 http://www.coxphysics.com/3b/,personal website
 https://ascl.net/2103.003,discipline_software_repo
@@ -1618,7 +1618,7 @@ https://ideas.repec.org/c/boc/bocode/s457936.html,discipline_software_repo
 https://econpapers.repec.org/software/bocbocode/s458366.htm,discipline_software_repo
 https://iopscience.iop.org/article/10.3847/2515-5172/ab30c8,publisher
 http://alps.space,unknown
-https://nmr.oxinst.com/application-detail/illicit-drugs-testing,unknown
+https://nmr.oxinst.com/application-detail/illicit-drugs-testing,commercial website
 https://ieeexplore.ieee.org/abstract/document/8806715,publisher
 http://fg.oisin.rc-harwell.ac.uk/projects/clipper-progs/,institutional
 https://data.ncl.ac.uk/articles/software/SenseMyStreet_Sensor_Commissioning_Toolkit_for_Communities/22153961,institutional
@@ -1665,7 +1665,7 @@ https://github.com/c4-project,public_commercial_code_repo
 https://github.com/bioinfologics/w2rap/,public_commercial_code_repo
 https://github.com/bioinfologics/skm-tools,public_commercial_code_repo
 https://f1000research.com/articles/8-1490,publisher
-https://thestatsgeek.com/2022/05/24/perfect-prediction-handling-in-smcfcs-for-r/,unknown
+https://thestatsgeek.com/2022/05/24/perfect-prediction-handling-in-smcfcs-for-r/,personal website
 https://jwb133.github.io/gFormulaMI/,software_specific_website
 https://bonvision.github.io/#,software_specific_website
 https://github.com/JuusolaLab/Microsaccadic_Sampling_Paper,public_commercial_code_repo
@@ -1735,7 +1735,7 @@ https://codeocean.com/capsule/4406887/tree/v1,public_commercial_code_repo
 https://opticapublishing.figshare.com/articles/software/Opti-MSFA_Code_and_Repository/17061428/1,public_noncommercial_archive_repo
 https://opticapublishing.figshare.com/articles/software/Opti-MSFA_Code_and_Repository/17061428,public_noncommercial_archive_repo
 https://h1jet.hepforge.org/,software_specific_website
-https://powhegbox.mib.infn.it/#NLOps,unknown
+https://powhegbox.mib.infn.it/#NLOps,institutional
 https://github.com/monicadragan/GeneValidator/,public_commercial_code_repo
 https://nms.kcl.ac.uk/lev.kantorovitch/codes/lev00/index.html,institutional
 https://bitbucket.org/sclaus/dolfin-cutfem-1.3.0,public_commercial_code_repo
@@ -1806,7 +1806,7 @@ https://github.com/ekazakos/auditory-slow-fast,public_commercial_code_repo
 https://www.robots.ox.ac.uk/~vgg/software/image-compare/counterfeit-spotter/#usecases,institutional
 https://github.com/epic-kitchens/epic-Fields-code,public_commercial_code_repo
 https://github.com/prajwalkr/vtp#readme,public_commercial_code_repo
-https://data.nls.uk/data/digitised-collections/chapbooks-printed-in-scotland/,unknown
+https://data.nls.uk/data/digitised-collections/chapbooks-printed-in-scotland/,Data platform
 https://www.robots.ox.ac.uk/~vgg/research/vtp-for-lip-reading/,institutional
 https://www.robots.ox.ac.uk/~vgg/research/synchformer/,institutional
 https://www.robots.ox.ac.uk/~vgg/software/follow-things-around/,institutional
@@ -1847,7 +1847,7 @@ https://data.ncl.ac.uk/articles/software/Quantifying_invasive_pest_dynamics_thro
 https://data.ncl.ac.uk/articles/software/Quantifying_invasive_pest_dynamics_through_inference_of_a_two-node_epidemic_network_model/22341289/2,institutional
 https://cran.r-project.org/web/packages/greatR/index.html,public_noncommercial_package_repo
 https://arxiv.org/abs/2309.06225,preprint_site
-https://www.mrtrix.org/,unknown
+https://www.mrtrix.org/,software_specific_website
 https://cran.r-project.org/web/packages/gesttools/index.html,public_noncommercial_package_repo
 https://cran.r-project.org/web/packages/gesttools/index.html,public_noncommercial_package_repo
 https://github.com/sheffieldnlp/AMR2Text-summ,public_commercial_code_repo
@@ -1863,14 +1863,14 @@ https://rdr.ucl.ac.uk/articles/software/cellX-predict_code/19207923,institutiona
 https://github.com/Tchanders/InformationMeasures.jl,public_commercial_code_repo
 https://www.biorxiv.org/content/10.1101/657650v1,preprint_site
 https://www.seamlesswave.com/Flood_Human_ABM.html,software_specific_website
-https://www.seamlesswave.com/LISFLOOD8.0,unknown
+https://www.seamlesswave.com/LISFLOOD8.0,project or consortium
 https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,software_specific_website
-https://easychair.org/smart-program/FLoC2022/paper2189.html,unknown
+https://easychair.org/smart-program/FLoC2022/paper2189.html,conference site
 https://arxiv.org/abs/2111.13110,preprint_site
 https://gitlab.com/lewis-chambers/matlab-magnet,public_commercial_code_repo
 https://github.com/howroyd/ELEVATE,public_commercial_code_repo
 https://github.com/ahadjigeorghiou/TESSPositionalProbability,public_commercial_code_repo
-https://urbangrammarai.xyz/blog/post21_tobler_once_again.html,unknown
+https://urbangrammarai.xyz/blog/post21_tobler_once_again.html,project or consortium
 https://xyzservices.readthedocs.io/en/stable/,documentation_site
 https://github.com/urbangrammarai/graphics/releases/tag/v1.2.3,public_commercial_code_repo
 https://figshare.com/articles/software/KOunt_v1_1_0_tar_gz/22250662,public_noncommercial_archive_repo
@@ -1912,12 +1912,12 @@ https://github.com/danielwilhelm/STATA-NPIV,public_commercial_code_repo
 https://github.com/danielwilhelm/R-GMM-bandwidth,public_commercial_code_repo
 https://github.com/danielwilhelm/STATA-ME-test,public_commercial_code_repo
 https://k-plan.io/,commercial website
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://github.com/samcoveney/maGPy,public_commercial_code_repo
 https://code.soundsoftware.ac.uk/projects/smallbox,institutional
 https://github.com/quantumgizmos/bp_osd,public_commercial_code_repo
 https://www.nmr.chemistry.manchester.ac.uk/?q=node/450,institutional
-https://www.spliceselect.org/wp-content/uploads/2024/02/FluoroTensor-v6.6.8r-Full-User-Guide.pdf,unknown
+https://www.spliceselect.org/wp-content/uploads/2024/02/FluoroTensor-v6.6.8r-Full-User-Guide.pdf,project or consortium
 https://github.com/vittpi/ol-ems,public_commercial_code_repo
 https://arxiv.org/abs/2002.03678,preprint_site
 https://arxiv.org/abs/2110.03117,preprint_site
@@ -1980,7 +1980,7 @@ https://github.com/nicksavill/kDNA-annotation,public_commercial_code_repo
 https://github.com/GaetanBenoitDev/metaMDBG,public_commercial_code_repo
 https://github.com/chrisquince/STRONG,public_commercial_code_repo
 https://gitlab.com/openflexure/openflexure-microscope-jsclient,public_commercial_code_repo
-http://mlighter.freedevelop.org/,unknown
+http://mlighter.freedevelop.org/,software_specific_website
 https://github.com/Cobot-Maker-Space/tas-hrt-uvc-sensor,public_commercial_code_repo
 https://orda.shef.ac.uk/articles/software/Code_for_Nonlinear_Rydberg_exciton-polaritons_in_Cu2O_microcavities/25233025,institutional
 https://blogs.city.ac.uk/inca/makewrite/,institutional
@@ -2000,9 +2000,9 @@ https://github.com/paajanen/RenSeq,public_commercial_code_repo
 https://hesperia.gsfc.nasa.gov/ssw/packages/xray/idl/f_thick_warm.pro,international_institutional
 http://louismccallum.com/portfolio/learner-js,personal website
 https://github.com/micknoise/Maximilian,public_commercial_code_repo
-https://www.dulux.co.uk/en/colour-inspiration/colour-play#/colourplay/,unknown
-https://stephenwestland.co.uk/chrominium/,unknown
-https://nubopy.com/_build/html/index.html,unknown
+https://www.dulux.co.uk/en/colour-inspiration/colour-play#/colourplay/,commercial website
+https://stephenwestland.co.uk/chrominium/,personal website
+https://nubopy.com/_build/html/index.html,software_specific_website
 https://github.com/BinPro/CONCOCT,public_commercial_code_repo
 https://github.com/derpycode/cgenie.muffin/tree/v0.9.49,public_commercial_code_repo
 https://github.com/jma1991/Daim,public_commercial_code_repo
@@ -2026,10 +2026,10 @@ https://github.com/uofgravity/glasflow,public_commercial_code_repo
 https://git.ecdf.ed.ac.uk/taylor-lab/GenomeArtiFinder,institutional
 https://figshare.com/articles/software/Isabelle_HOL_files_for_Mechanised_Operational_Reasoning_for_C11_Programs_with_Relaxed_Dependencies_/21507636,public_noncommercial_archive_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://github.com/HECBioSim/Longbow/releases/tag/v1.5.0,public_commercial_code_repo
 https://contribute.data.humancellatlas.org/,Data platform
 https://github.com/RodentDataAnalytics/mwm-ml-gen,public_commercial_code_repo
@@ -2053,12 +2053,12 @@ https://github.com/connorourke/crystal_torture,public_commercial_code_repo
 https://github.com/DiamondLightSource/python-icebreaker,public_commercial_code_repo
 https://arxiv.org/pdf/2002.07516,preprint_site
 https://github.com/bonsai-rx/bonsai/releases/tag/2.8.0,public_commercial_code_repo
-https://bonsai-rx.org/python-scripting/,unknown
+https://bonsai-rx.org/python-scripting/,software_specific_website
 https://staffnet.cs.manchester.ac.uk/acso/thermal-analyzer/,institutional
 https://staffnet.cs.manchester.ac.uk/acso/thermal-analyzer/,institutional
 https://bitbucket.org/njet/njet/wiki/Home,public_commercial_code_repo
 https://nms.kcl.ac.uk/lev.kantorovitch/codes/lev00/index.html,institutional
-https://www.cheribsd.org/,unknown
+https://www.cheribsd.org/,software_specific_website
 https://github.com/JuliaRheology/RHEOS.jl,public_commercial_code_repo
 https://cran.r-project.org/web/packages/HCmodelSets/index.html,public_noncommercial_package_repo
 https://github.com/wilkesma/rbta,public_commercial_code_repo
@@ -2070,13 +2070,13 @@ https://sweights.readthedocs.io/en/latest/,documentation_site
 https://gammacombo.github.io,software_specific_website
 https://github.com/JuliaRheology/RHEOS.jl,public_commercial_code_repo
 https://lscsoft.docs.ligo.org/bilby/,project or consortium
-https://www.mocapstreamer.live/mocap-streamer-app,unknown
+https://www.mocapstreamer.live/mocap-streamer-app,software_specific_website
 https://github.com/fathomlabs/IceApp,public_commercial_code_repo
 https://github.com/TeamMacLean/install_opimage/blob/master/README.md,public_commercial_code_repo
 https://github.com/photonbec/PyPBEC,public_commercial_code_repo
 https://docs.openmicroscopy.org/bio-formats/6.0.0/about/whats-new.html,discipline_software_repo
 https://github.com/ISA-tools/isa-api,public_commercial_code_repo
-https://www.mocapstreamer.live/mocap-streamer-app,unknown
+https://www.mocapstreamer.live/mocap-streamer-app,software_specific_website
 https://github.com/feshie/contiki/tree/mountain-sensing-master/mountainsensing,public_commercial_code_repo
 https://github.com/ESMValGroup/ESMValTool,public_commercial_code_repo
 https://github.com/valeriupredoi/bgcval2,public_commercial_code_repo
@@ -2113,9 +2113,9 @@ https://github.com/mininet/oflops,public_commercial_code_repo
 http://bioinf.cs.ucl.ac.uk/psipred,institutional
 https://gitlab.com/ccp5/dl-poly/-/releases/5.0.0,public_commercial_code_repo
 https://quest.qtechtheory.org/,software_specific_website
-https://www.crystal.unito.it/index.html,unknown
+https://www.crystal.unito.it/index.html,institutional
 https://quest.qtechtheory.org/,software_specific_website
-https://www.neuroconcise.co.uk/,unknown
+https://www.neuroconcise.co.uk/,commercial website
 https://github.com/eastmallingresearch/crosslink,public_commercial_code_repo
 http://kahlan.eps.surrey.ac.uk/featurespace/tld/,institutional
 https://arxiv.org/abs/1811.08161,preprint_site
@@ -2145,7 +2145,7 @@ http://www0.cs.ucl.ac.uk/staff/b.jin/software/gpdasc.zip,institutional
 https://elifesciences.org/articles/52743,publisher
 https://elifesciences.org/articles/52743,publisher
 https://elifesciences.org/articles/52743,publisher
-https://clwstwr.org.uk/gorilla-making-post-production-editing-toolkit-fit-remote-work,unknown
+https://clwstwr.org.uk/gorilla-making-post-production-editing-toolkit-fit-remote-work,commercial website
 https://pyfibrebundle.readthedocs.io/en/latest/,documentation_site
 https://github.com/garrettj403/QMix,public_commercial_code_repo
 https://github.com/agnwinds/python/,public_commercial_code_repo
@@ -2174,7 +2174,7 @@ https://github.com/ExoMol/dvr3d,public_commercial_code_repo
 https://bitbucket.org/rkutlak/aspic,public_commercial_code_repo
 https://bitbucket.org/rkutlak/sassy,public_commercial_code_repo
 https://arxiv.org/abs/2104.03822,preprint_site
-https://unmute.tech/toolkit/,unknown
+https://unmute.tech/toolkit/,software_specific_website
 https://github.com/EPCCed/pynmmso,public_commercial_code_repo
 https://github.com/SVRTK/aide-svrtk,public_commercial_code_repo
 https://www.simdynamics.org,software_specific_website
@@ -2196,16 +2196,16 @@ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188717,publis
 http://www.mecourse.com/landinig/software/threshgrad/threshgrad.html,Non-responsive
 https://bitbucket.org/byornski/dft-python-api/,public_commercial_code_repo
 https://basp-group.github.io/BASPLib/,software_specific_website
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://bitbucket.org/julien-lange/k-checking,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
 https://bl.iro.bl.uk/concern/datasets/519981d9-bdeb-4c0b-8729-16927d48f517,unknown
 https://github.com/redcap-tools/PyCap/releases/tag/1.1.0,public_commercial_code_repo
 https://crateanon.readthedocs.io/en/latest/nlp/nlprp.html,documentation_site
-https://jetvheto.hepforge.org/,unknown
+https://jetvheto.hepforge.org/,discipline_software_repo
 https://figshare.com/articles/software/Matlab_code_used_in_analysis_of_ant_tracks/14748195,public_noncommercial_archive_repo
 https://brainsonboard.github.io/bob_robotics/,software_specific_website
 https://github.com/genn-team/genn,public_commercial_code_repo
@@ -2230,7 +2230,7 @@ https://mrc-ide.github.io/covid19-short-term-forecasts/index.html,software_speci
 https://www.mdpi.com/2073-4425/10/9/687,publisher
 https://mandrake.readthedocs.io/en/latest/,documentation_site
 https://github.com/reconhub/vimes,public_commercial_code_repo
-https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,unknown
+https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,preprint_site
 https://github.com/reconhub/epiflows,public_commercial_code_repo
 https://github.com/mrc-ide/skygrowth,public_commercial_code_repo
 https://github.com/WGS-TB/GroupTesting,public_commercial_code_repo
@@ -2359,7 +2359,7 @@ https://www.pricemyers.com/news/price--myers-launch-embodied-carbon-software-pan
 https://pubs.rsc.org/en/content/articlelanding/2018/nj/c8nj03237h#!divAbstract,publisher
 https://epic337255300.wordpress.com/our-product/,commercial website
 https://robostar.cs.york.ac.uk/robotool/,institutional
-http://mlighter.freedevelop.org/,unknown
+http://mlighter.freedevelop.org/,software_specific_website
 https://figshare.com/projects/NSPN_Adolescent_consolidation_of_human_connectome_hubs/4710,public_noncommercial_archive_repo
 https://www.stata-journal.com/article.html?article=st0571,publisher
 https://github.com/caitiecollins/treeWAS,public_commercial_code_repo
@@ -2442,8 +2442,8 @@ https://github.com/transientlunatic/elk,public_commercial_code_repo
 http://www.code.daniel-williams.co.uk/minke/,personal website
 https://github.com/transientlunatic/heron,public_commercial_code_repo
 https://github.com/Tchanders/InformationMeasures.jl,public_commercial_code_repo
-https://cran.rstudio.com/web/packages/anomaly/index.html,unknown
-https://workflowhub.eu/workflows/471,unknown
+https://cran.rstudio.com/web/packages/anomaly/index.html,public_noncommercial_package_repo
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://github.com/TBradley27/FilTar,public_commercial_code_repo
 https://github.com/basp-group/Psi,public_commercial_code_repo
 https://github.com/basp-group/Puri-Psi,public_commercial_code_repo
@@ -2453,7 +2453,7 @@ https://sussex.figshare.com/articles/software/Building_a_Feminist_Chatbot_Code_R
 https://github.com/nilmtk/nilmtk,public_commercial_code_repo
 http://lucmoreau.github.io/ProvToolbox/,software_specific_website
 https://www.itrc.org.uk/highlights/popnation-predicts-household-distribution-to-incredible-level-of-detail/,project or consortium
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://github.com/moreno-betancur/mice,public_commercial_code_repo
 https://github.com/EMPadilla/Sinterp,public_commercial_code_repo
 https://ccpem-pipeliner.readthedocs.io/en/latest/,documentation_site
@@ -2510,7 +2510,7 @@ https://github.com/PlasmaFAIR/nc-complex,public_commercial_code_repo
 https://gyrokinetics.gitlab.io/gs2/,public_commercial_code_repo
 http://srna-workbench.cmp.uea.ac.uk/,institutional
 http://www.empiricalimaging.com,software_specific_website
-https://www.cambridge.org/core/journals/paleobiology/article/new-approach-for-investigating-spatial-relationships-of-ichnofossils-a-case-study-of-ediacarancambrian-animal-traces/1D478C99852CCFF8226593BC0AE447A1,unknown
+https://www.cambridge.org/core/journals/paleobiology/article/new-approach-for-investigating-spatial-relationships-of-ichnofossils-a-case-study-of-ediacarancambrian-animal-traces/1D478C99852CCFF8226593BC0AE447A1,publisher
 https://www.ccpsynerbi.ac.uk/,institutional
 https://github.com/UCL/PETPVC,public_commercial_code_repo
 https://github.com/UCL/pet-rd-tools/,public_commercial_code_repo
@@ -2523,7 +2523,7 @@ https://bitbucket.org/vidalje/shine/src/master/,public_commercial_code_repo
 https://bitbucket.org/vidalje/swan/src/master/,public_commercial_code_repo
 https://www.code-saturne.org,software_specific_website
 https://www.nektar.info/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://github.com/gymprecice/gymprecice,public_commercial_code_repo
 https://github.com/krasileva-group/scvep,public_commercial_code_repo
 https://github.com/cschu/royal_dragen,public_commercial_code_repo
@@ -2711,7 +2711,7 @@ https://opticapublishing.figshare.com/articles/software/Code_1_zip/19544722,publ
 https://opticapublishing.figshare.com/articles/software/Code_1_zip/19544722/1,public_noncommercial_archive_repo
 https://github.com/js2264/periodicDNA,public_commercial_code_repo
 https://github.com/js2264/VplotR,public_commercial_code_repo
-https://docs.openforcefield.org/projects/bespokefit/en/latest/index.html,unknown
+https://docs.openforcefield.org/projects/bespokefit/en/latest/index.html,project or consortium
 https://github.com/qubekit/QUBEKit,public_commercial_code_repo
 https://gitlab.com/jameskermode/ase,public_commercial_code_repo
 https://github.com/cortner/SaddleSearch.jl,public_commercial_code_repo
@@ -2737,7 +2737,7 @@ https://github.com/H-E-L-P/XID_basic,public_commercial_code_repo
 https://covid19.cimr.cam.ac.uk/roc-curve-plotting/,institutional
 https://github.com/UCL-CERU/CESMapper,public_commercial_code_repo
 https://github.com/HDRUK/schemata,public_commercial_code_repo
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://topas-nbio.readthedocs.io/en/latest/getting-started/Members.html,documentation_site
 https://lscsoft.docs.ligo.org/lalsuite/lalinference/index.html,project or consortium
 https://lscsoft.docs.ligo.org/bilby/index.html,project or consortium
@@ -2770,7 +2770,7 @@ https://github.com/Fermat/FCR,public_commercial_code_repo
 http://www.macs.hw.ac.uk/~ek19/CoALP/,institutional
 https://more.bham.ac.uk/beams/,institutional
 https://waterpurity.github.io/Clean-the-River/index.html,software_specific_website
-https://nuestra-agua-aquacol.hub.arcgis.com/,unknown
+https://nuestra-agua-aquacol.hub.arcgis.com/,commercial website
 https://figshare.com/articles/software/Research_data_and_code_supporting_Formation_of_Gaps_in_Self-gravitating_Debris_Disks_by_Secular_Resonance_in_a_Single-planet_System_II_Toward_a_Self-consistent_Model_/22598377,public_noncommercial_archive_repo
 https://figshare.com/articles/software/Research_data_and_code_supporting_Formation_of_Gaps_in_Self-gravitating_Debris_Disks_by_Secular_Resonance_in_a_Single-planet_System_II_Toward_a_Self-consistent_Model_/22598377/1,public_noncommercial_archive_repo
 https://github.com/klusta-team/spikedetekt2,public_commercial_code_repo
@@ -2794,5 +2794,5 @@ https://artifacts.iacr.org/tches/2021/a2/,discipline-specific (non-software repo
 https://github.com/jovanbulck/0xbadc0de,public_commercial_code_repo
 https://github.com/zt-chen/PMFault,public_commercial_code_repo
 https://github.com/Sebastien-Raguideau/Metahood,public_commercial_code_repo
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 https://onetep.org/,software_specific_website

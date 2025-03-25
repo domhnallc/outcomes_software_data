@@ -23,7 +23,7 @@ def main():
     print(f"Analysing {len(url_list)} urls.")
     # check_urls_for_http_response(url_list)
     check_urls_for_2xx_responses()
-    # categorise_urls(url_list)
+    categorise_urls(url_list)
 
 
 def check_urls_for_http_response(url_list):

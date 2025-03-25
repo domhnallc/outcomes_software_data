@@ -353,12 +353,12 @@ http://inlabru.org/,software_specific_website
 https://github.com/johnveitch/cpnest,public_commercial_code_repo
 https://www.lsc-group.phys.uwm.edu/daswg/projects/lal/nightly/docs/html/group__ch__inference.html,international_institutional
 https://github.com/lukasz-migas/ORIGAMI,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://biomodelanalyzer.org/,web app
@@ -634,7 +634,7 @@ http://www.castep.org,software_specific_website
 missing,missing
 https://doi.org/10.5281/zenodo.6354701,public_noncommercial_archive_repo
 http://www.menpo.org/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://github.com/AI-for-Net-Zero,public_commercial_code_repo
 http://www.incompact3d.com,software_specific_website
 https://cran.r-project.org/web/packages/crctStepdown/index.html,public_noncommercial_package_repo
@@ -686,7 +686,7 @@ https://zenodo.org/record/6339242,public_noncommercial_archive_repo
 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005995,publisher
 missing,missing
 missing,missing
-https://www.medrxiv.org/content/10.1101/2021.10.15.21265069v1,unknown
+https://www.medrxiv.org/content/10.1101/2021.10.15.21265069v1,preprint_site
 https://pangea.stanford.edu/researchgroups/jordan/,international_institutional
 https://doi.org/10.1016/j.envsoft.2019.104538,publisher
 https://zenodo.org/record/7233986,public_noncommercial_archive_repo
@@ -975,7 +975,7 @@ missing,missing
 https://github.com/MathisHain/MyAMI,public_commercial_code_repo
 https://lambda.gsfc.nasa.gov/product/act/actpol_cmb_lh_get.cfm,International public govt
 missing,missing
-https://www.stride.codes/,unknown
+https://www.stride.codes/,software_specific_website
 http://www.gwoptics.org/finesse/,software_specific_website
 missing,missing
 http://www.cs.kent.ac.uk/projects/ofa/kroc/,institutional
@@ -983,8 +983,8 @@ missing,missing
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://dl.acm.org/doi/10.1145/3563331,publisher
 missing,missing
 https://zenodo.org/doi/10.5281/zenodo.10810509,public_noncommercial_archive_repo
@@ -1045,7 +1045,7 @@ missing,missing
 missing,missing
 missing,missing
 https://figshare.com/articles/software/Little_2023_among-sampler_var_in_fuel_moisture_field_measurements/22683352,public_noncommercial_archive_repo
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 https://onetep.org/,software_specific_website
 http://www.pureintrawise.org/,Non-responsive
 http://www.oerc.ox.ac.uk/~ska/oskar/,institutional
@@ -1317,7 +1317,7 @@ https://github.com/genn-team/genn,public_commercial_code_repo
 https://github.com/SpineML/SpineCreator,public_commercial_code_repo
 https://arxiv.org/abs/2001.07629,preprint_site
 missing,missing
-https://nhess.copernicus.org/articles/22/303/2022/,unknown
+https://nhess.copernicus.org/articles/22/303/2022/,publisher
 http://www.starlink.ac.uk/topcat/,institutional
 http://www.starlink.ac.uk/stil/,institutional
 http://www.star.bris.ac.uk/~mbt/jsamp/,institutional
@@ -1508,7 +1508,7 @@ missing,missing
 https://psrqpy.readthedocs.io,documentation_site
 https://zenodo.org/record/4024433,public_noncommercial_archive_repo
 https://lscsoft.docs.ligo.org/bilby/,project or consortium
-https://unmute.tech/toolkit/,unknown
+https://unmute.tech/toolkit/,software_specific_website
 http://sleepful.me/download,software_specific_website
 https://mdhurst1.github.io/RoBoCoP_CRN_Documentation/,software_specific_website
 missing,missing
@@ -1718,7 +1718,7 @@ http://doi.org/10.5281/zenodo.3632569,public_noncommercial_archive_repo
 https://zenodo.org/record/3670154,public_noncommercial_archive_repo
 https://zenodo.org/record/3670155,public_noncommercial_archive_repo
 https://zenodo.org/record/5529834,public_noncommercial_archive_repo
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 missing,missing
 https://github.com/Health-Informatics-UoN/rquest-tools,public_commercial_code_repo
 https://zenodo.org/record/6617165,public_noncommercial_archive_repo
@@ -1833,7 +1833,7 @@ https://fg.oisin.rc-harwell.ac.uk/projects/clipper-python/,institutional
 http://reaction-networks.net/control/,software_specific_website
 http://www.cs.ox.ac.uk/chaste,institutional
 https://github.com/gap-packages/aaa,public_commercial_code_repo
-https://store.steampowered.com/app/1363210/Live_by_the_Sword_Tactics/,unknown
+https://store.steampowered.com/app/1363210/Live_by_the_Sword_Tactics/,commercial appstore
 missing,missing
 https://digitalcreativity.ac.uk/cuttingroom,institutional
 http://www.itrc.org.uk/nismod/#.WMbLiH8qtdg,Non-responsive
@@ -2430,7 +2430,7 @@ https://olivierpierre.github.io/project-flexcap/,software_specific_website
 missing,missing
 missing,missing
 missing,missing
-https://anvio.org/help/main/programs/anvi-script-reformat-bam/,unknown
+https://anvio.org/help/main/programs/anvi-script-reformat-bam/,software_specific_website
 https://bioconda.github.io/recipes/metaprokka/README.html,software_specific_website
 missing,missing
 https://gillianplatform.github.io/,software_specific_website
@@ -2505,7 +2505,7 @@ https://www.dur.ac.uk/music/intcompviolproject/examples/,institutional
 https://www.dur.ac.uk/music/intcompviolproject/examples/,institutional
 missing,missing
 http://www.gla.ac.uk/cfd,institutional
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 missing,missing
 missing,missing
 missing,missing
@@ -2568,7 +2568,7 @@ missing,missing
 missing,missing
 https://github.com/xdslproject/devito,public_commercial_code_repo
 https://github.com/xdslproject/ftn,public_commercial_code_repo
-https://mlir.llvm.org/docs/Dialects/MPI/,unknown
+https://mlir.llvm.org/docs/Dialects/MPI/,project or consortium
 missing,missing
 missing,missing
 https://doi.org/10.5281/zenodo.5653503,public_noncommercial_archive_repo
@@ -2721,7 +2721,7 @@ missing,missing
 http://gabrielegan.com/WAN/,personal website
 https://github.com/reillytilbury/coppafish,public_commercial_code_repo
 https://github.com/thehyve/fairspace,public_commercial_code_repo
-https://foodcase.org/,unknown
+https://foodcase.org/,software_specific_website
 https://zenodo.org/record/6342230,public_noncommercial_archive_repo
 missing,missing
 http://thetisproject.org/,software_specific_website
@@ -2806,7 +2806,7 @@ missing,missing
 http://www.cossan.co.uk/software/open-cossan-engine.php,Non-responsive
 https://github.com/biobankinguk/biobankinguk,public_commercial_code_repo
 missing,missing
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://github.com/Health-Informatics-UoN/rquest-tools,public_commercial_code_repo
 missing,missing
 missing,missing
@@ -2967,9 +2967,9 @@ missing,missing
 missing,missing
 missing,missing
 http://mloss.org/software/view/386/,discipline_software_repo
-https://robotic-esp.com/code/tmitstar/,unknown
+https://robotic-esp.com/code/tmitstar/,institutional_group
 http://ompl.kavrakilab.org/,software_specific_website
-https://robotic-esp.com/code/pdt,unknown
+https://robotic-esp.com/code/pdt,institutional_group
 https://github.com/MicroPasts,public_commercial_code_repo
 https://github.com/MicroPasts/MicroPasts-Scripts,public_commercial_code_repo
 https://github.com/MicroPasts/neighborly,public_commercial_code_repo
@@ -3082,7 +3082,7 @@ missing,missing
 http://eprints.hud.ac.uk/31506/,institutional
 http://www.incompact3d.com,software_specific_website
 https://opensbli.github.io/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 missing,missing
 missing,missing
 missing,missing
@@ -3254,16 +3254,16 @@ missing,missing
 missing,missing
 http://www.isale-code.github.io,software_specific_website
 http://hts.sp.nitech.ac.jp,software_specific_website
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
 missing,missing
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
 https://zenodo.org/record/4046892,public_noncommercial_archive_repo
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://drops.dagstuhl.de/opus/volltexte/2019/10791/,international_institutional
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 http://mmcheng.net/dss/,personal website
@@ -3315,11 +3315,11 @@ missing,missing
 https://github.com/COLA-Laboratory/DaNuoYi,public_commercial_code_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 missing,missing
 https://github.com/LCAS/rosdistro/wiki,public_commercial_code_repo
@@ -3496,7 +3496,7 @@ http://www.brighton.ac.uk/cem/research/adige/,institutional
 https://github.com/cluelab/eulersketch,public_commercial_code_repo
 missing,missing
 missing,missing
-https://wipigroup.wordpress.com/software-and-codes/,unknown
+https://wipigroup.wordpress.com/software-and-codes/,project or consortium
 missing,missing
 https://joss.theoj.org/papers/10.21105/joss.01716,software_paper
 missing,missing
@@ -3733,14 +3733,14 @@ https://github.com/PRISBteam/Voronoi_PCC_Analyser,public_commercial_code_repo
 https://github.com/PRISBteam/,public_commercial_code_repo
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
 https://zenodo.org/record/4581294,public_noncommercial_archive_repo
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://github.com/olantwin/muon_shield_optimisation,public_commercial_code_repo
 http://vallico.net/casinoqmc,discipline_software_repo
 missing,missing
@@ -3770,7 +3770,7 @@ http://noc.ac.uk/project/marmot/marmot-11-software,institutional
 missing,missing
 https://opensbli.github.io/,software_specific_website
 http://www.incompact3d.com,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 http://mloss.org/software/view/386/,discipline_software_repo
 missing,missing
 https://cran.r-project.org/web/packages/PAFway/index.html,public_noncommercial_package_repo
@@ -3811,14 +3811,14 @@ https://github.com/bitml-lang,public_commercial_code_repo
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 https://github.com/nickng/dingo-hunter,public_commercial_code_repo
 https://www.cognizant.com/ZDLC,commercial website
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://alcestes.github.io/effpi/,software_specific_website
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
 missing,missing
 missing,missing
 https://github.com/julien-lange/asynchronous-subtyping,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://bitbucket.org/julien-lange/k-checking,public_commercial_code_repo
 https://session-type-provider.github.io/,software_specific_website
 https://nuscr.github.io/nuscr/,software_specific_website
@@ -3836,11 +3836,11 @@ https://bitbucket.org/cogumbreiro/armus/wiki/Home,public_commercial_code_repo
 https://doi.org/10.5281/zenodo.3516299,public_noncommercial_archive_repo
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
 https://bitbucket.org/cogumbreiro/armus/wiki/PPoPP15,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 http://savara.jboss.org/,software_specific_website
 missing,missing
 missing,missing
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://github.com/rumineykova/sessionactors,public_commercial_code_repo
 http://alcestes.github.io/lchannels/,software_specific_website
@@ -3985,13 +3985,13 @@ https://github.com/NERC-FieldSpectroscopyFacility/PyMicrotops3,public_commercial
 http://uk.mathworks.com/matlabcentral/fileexchange/31547-field-spectroscopy-facility-post-processing-toolbox,public_noncommercial_package_repo
 missing,missing
 https://zenodo.org/record/4048297,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://nuscr.github.io/nuscr/,software_specific_website
 http://alcestes.github.io/lchannels/,software_specific_website
 https://github.com/julien-lange/asynchronous-subtyping,public_commercial_code_repo
 missing,missing
 missing,missing
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://gitlab.doc.ic.ac.uk/rn710/codeINspire,institutional
 https://zenodo.org/record/4581294,public_noncommercial_archive_repo
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
@@ -3999,7 +3999,7 @@ https://www.cognizant.com/ZDLC,commercial website
 https://alcestes.github.io/effpi/,software_specific_website
 missing,missing
 https://github.com/nickng/gong,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://keigoimai.info/session-ocaml/,software_specific_website
 https://session-type-provider.github.io/,software_specific_website
 https://bitbucket.org/cogumbreiro/armus/wiki/Home,public_commercial_code_repo
@@ -4008,7 +4008,7 @@ missing,missing
 https://alcestes.github.io/mpstk/,software_specific_website
 https://bitbucket.org/MobilityReadingGroup/godel-checker,public_commercial_code_repo
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 missing,missing
 https://zenodo.org/record/4051783,public_noncommercial_archive_repo
 https://bitbucket.org/julien-lange/gmc-synthesis/wiki/Home,public_commercial_code_repo
@@ -4071,7 +4071,7 @@ https://github.com/EPCCed/cs2-sdk-training,public_commercial_code_repo
 https://github.com/xdslproject/mlir-aie/tree/xdsl_tutorials/tutorials,public_commercial_code_repo
 https://ieeexplore.ieee.org/document/9792455,publisher
 https://arxiv.org/abs/2312.09740,preprint_site
-https://www.computer.org/csdl/journal/ta/5555/01/10428080/1UmXkjfL4hW,unknown
+https://www.computer.org/csdl/journal/ta/5555/01/10428080/1UmXkjfL4hW,publisher
 https://ieeexplore.ieee.org/document/9320226,publisher
 https://ieeexplore.ieee.org/document/10042642,publisher
 missing,missing
@@ -4142,7 +4142,7 @@ missing,missing
 https://arxiv.org/abs/2005.05777,preprint_site
 https://arxiv.org/abs/1904.00889,preprint_site
 missing,missing
-https://proceedings.neurips.cc/paper/2020/file/52d2752b150f9c35ccb6869cbf074e48-Paper.pdf,unknown
+https://proceedings.neurips.cc/paper/2020/file/52d2752b150f9c35ccb6869cbf074e48-Paper.pdf,conference site
 https://arxiv.org/abs/2112.04846,preprint_site
 https://link.springer.com/article/10.1007/s11263-022-01718-1,publisher
 https://arxiv.org/abs/2001.08972,preprint_site
@@ -4188,15 +4188,15 @@ https://zenodo.org/record/4700588,public_noncommercial_archive_repo
 https://github.com/waqarnabi/mp-stream,public_commercial_code_repo
 http://tytra.org.uk/,Non-responsive
 missing,missing
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
 https://github.com/wimvanderbauwhede/AutoParallel-Fortran,public_commercial_code_repo
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://github.com/wimvanderbauwhede/OpenCLIntegration,public_commercial_code_repo
 https://github.com/wimvanderbauwhede/RefactorF4Acc,public_commercial_code_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
@@ -4455,12 +4455,12 @@ https://doi.org/10.5281/zenodo.57398,public_noncommercial_archive_repo
 http://www.ucl.ac.uk/klmc/Software/,institutional
 missing,missing
 https://www.youtube.com/watch?v=Fgi9-Sdup-Y,video
-https://colalab.ai/docs/research/landscapes/,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://colalab.ai/docs/research/landscapes/,institutional_group
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
@@ -4713,7 +4713,7 @@ http://coiledcoils.chm.bris.ac.uk/app/cc_builder/,institutional
 https://figshare.com/articles/software/PLEXUS_NGIF_-_Numerical_Modelling/17303792,public_noncommercial_archive_repo
 https://github.com/lschmidtke/shape_templates,public_commercial_code_repo
 missing,missing
-https://www.neuroconcise.co.uk/,unknown
+https://www.neuroconcise.co.uk/,commercial website
 http://www2.tcm.phy.cam.ac.uk/onetep/Main/Documentation,institutional
 https://zenodo.org/record/6319903,public_noncommercial_archive_repo
 https://github.com/IraKorshunova/folk-rnn,public_commercial_code_repo
@@ -4962,7 +4962,7 @@ https://github.com/spack/spack,public_commercial_code_repo
 https://github.com/spack/spack/pull/36164,public_commercial_code_repo
 https://zenodo.org/record/7686066,public_noncommercial_archive_repo
 https://www.ifs.org.uk/publications/8331,software_specific_website
-https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,unknown
+https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,preprint_site
 https://www.nature.com/articles/s43588-022-00313-1#Bib1,publisher
 missing,missing
 https://github.com/Abdulah-Fawaz/continuous_cGAN/blob/main/LICENSE,public_commercial_code_repo
@@ -5079,7 +5079,7 @@ http://www.pyfr.org,software_specific_website
 http://www.pyfr.org,software_specific_website
 http://www.pyfr.org,software_specific_website
 http://www.nektar.info/downloads/file/nektar-source-tar-gz/,software_specific_website
-https://hias.org/news/how-innovative-algorithm-helps-ukrainian-refugees-find-new-homes/,unknown
+https://hias.org/news/how-innovative-algorithm-helps-ukrainian-refugees-find-new-homes/,Non-software website
 http://www.refugees.ai,project or consortium
 http://www.coxphysics.com/lr/,personal website
 missing,missing
@@ -5134,7 +5134,7 @@ https://econpapers.repec.org/software/bocbocode/s458366.htm,discipline_software_
 https://iopscience.iop.org/article/10.3847/2515-5172/ab30c8,publisher
 http://alps.space,unknown
 missing,missing
-https://nmr.oxinst.com/application-detail/illicit-drugs-testing,unknown
+https://nmr.oxinst.com/application-detail/illicit-drugs-testing,commercial website
 missing,missing
 missing,missing
 https://ieeexplore.ieee.org/abstract/document/8806715,publisher
@@ -5261,7 +5261,7 @@ https://f1000research.com/articles/8-1490,publisher
 missing,missing
 http://cheart.co.uk,Non-responsive
 missing,missing
-https://thestatsgeek.com/2022/05/24/perfect-prediction-handling-in-smcfcs-for-r/,unknown
+https://thestatsgeek.com/2022/05/24/perfect-prediction-handling-in-smcfcs-for-r/,personal website
 https://jwb133.github.io/gFormulaMI/,software_specific_website
 http://constraintmodelling.org/minion/,software_specific_website
 http://constraintmodelling.org/conjure/,software_specific_website
@@ -5454,7 +5454,7 @@ https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-5-7591&id=469746,publisher
 https://opticapublishing.figshare.com/articles/software/Opti-MSFA_Code_and_Repository/17061428,public_noncommercial_archive_repo
 http://performancewithoutbarriers.com/vrinstrument/,project or consortium
 https://h1jet.hepforge.org/,software_specific_website
-https://powhegbox.mib.infn.it/#NLOps,unknown
+https://powhegbox.mib.infn.it/#NLOps,institutional
 http://www.maths.ed.ac.uk/~prichtar/code/StochBFGS.zip,institutional
 http://www.maths.ed.ac.uk/~prichtar/code/InvRand.zip,institutional
 http://www.maths.ed.ac.uk/~prichtar/code/RandomLinearLab.zip,institutional
@@ -5699,7 +5699,7 @@ https://github.com/prajwalkr/vtp#readme,public_commercial_code_repo
 missing,missing
 https://zenodo.org/record/7876369,public_noncommercial_archive_repo
 missing,missing
-https://data.nls.uk/data/digitised-collections/chapbooks-printed-in-scotland/,unknown
+https://data.nls.uk/data/digitised-collections/chapbooks-printed-in-scotland/,Data platform
 missing,missing
 https://www.robots.ox.ac.uk/~vgg/research/vtp-for-lip-reading/,institutional
 https://arxiv.org/pdf/2208.13721.pdf,preprint_site
@@ -5854,7 +5854,7 @@ https://arxiv.org/abs/2309.06225,preprint_site
 missing,missing
 missing,missing
 missing,missing
-https://www.mrtrix.org/,unknown
+https://www.mrtrix.org/,software_specific_website
 missing,missing
 missing,missing
 missing,missing
@@ -5921,14 +5921,14 @@ https://zenodo.org/record/4266585,public_noncommercial_archive_repo
 missing,missing
 https://www.biorxiv.org/content/10.1101/657650v1,preprint_site
 https://www.seamlesswave.com/Flood_Human_ABM.html,software_specific_website
-https://www.seamlesswave.com/LISFLOOD8.0,unknown
+https://www.seamlesswave.com/LISFLOOD8.0,project or consortium
 https://zenodo.org/record/3941722,public_noncommercial_archive_repo
 http://users.rsise.anu.edu.au/~baumgart/systems/yarralumla,international_institutional
 missing,missing
 http://www.droiditor.com,unknown
 https://doi.org/10.5523/bris.2s1zavsbkctna2bnh6g6os9n2k,institutional
 https://ssvlab.github.io/lucasccordeiro/papers/fase2022.pdf,software_specific_website
-https://easychair.org/smart-program/FLoC2022/paper2189.html,unknown
+https://easychair.org/smart-program/FLoC2022/paper2189.html,conference site
 https://zenodo.org/record/7235766,public_noncommercial_archive_repo
 https://arxiv.org/abs/2111.13110,preprint_site
 https://research.manchester.ac.uk/en/publications/ebf-42-black-box-cooperative-verification-for-concurrent-programs,institutional
@@ -5963,7 +5963,7 @@ https://zenodo.org/record/6010921,public_noncommercial_archive_repo
 https://zenodo.org/record/5877992,public_noncommercial_archive_repo
 https://zenodo.org/record/5921117,public_noncommercial_archive_repo
 https://zenodo.org/record/5547493,public_noncommercial_archive_repo
-https://urbangrammarai.xyz/blog/post21_tobler_once_again.html,unknown
+https://urbangrammarai.xyz/blog/post21_tobler_once_again.html,project or consortium
 https://xyzservices.readthedocs.io/en/stable/,documentation_site
 https://zenodo.org/record/8202396,public_noncommercial_archive_repo
 https://github.com/urbangrammarai/graphics/releases/tag/v1.2.3,public_commercial_code_repo
@@ -6087,7 +6087,7 @@ missing,missing
 missing,missing
 missing,missing
 https://github.com/Health-Informatics-UoN/rquest-tools,public_commercial_code_repo
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://doi.org/10.17862/cranfield.rd.c.3292031,public_noncommercial_archive_repo
 missing,missing
 missing,missing
@@ -6123,7 +6123,7 @@ http://paccanarolab.org/gossto,international_institutional
 https://zenodo.org/record/4748247,public_noncommercial_archive_repo
 missing,missing
 https://www.nmr.chemistry.manchester.ac.uk/?q=node/450,institutional
-https://www.spliceselect.org/wp-content/uploads/2024/02/FluoroTensor-v6.6.8r-Full-User-Guide.pdf,unknown
+https://www.spliceselect.org/wp-content/uploads/2024/02/FluoroTensor-v6.6.8r-Full-User-Guide.pdf,project or consortium
 https://github.com/vittpi/ol-ems,public_commercial_code_repo
 https://arxiv.org/abs/2002.03678,preprint_site
 https://arxiv.org/abs/2110.03117,preprint_site
@@ -6294,7 +6294,7 @@ https://zenodo.org/record/3699730,public_noncommercial_archive_repo
 https://gitlab.com/openflexure/openflexure-microscope-jsclient,public_commercial_code_repo
 https://zenodo.org/record/5541934,public_noncommercial_archive_repo
 https://zenodo.org/record/3699731,public_noncommercial_archive_repo
-http://mlighter.freedevelop.org/,unknown
+http://mlighter.freedevelop.org/,software_specific_website
 https://github.com/Cobot-Maker-Space/tas-hrt-uvc-sensor,public_commercial_code_repo
 https://zenodo.org/record/8079524,public_noncommercial_archive_repo
 https://orda.shef.ac.uk/articles/software/Code_for_Nonlinear_Rydberg_exciton-polaritons_in_Cu2O_microcavities/25233025,institutional
@@ -6393,13 +6393,13 @@ http://www.wtjohnson.co.uk/,commercial website
 missing,missing
 missing,missing
 missing,missing
-https://www.dulux.co.uk/en/colour-inspiration/colour-play#/colourplay/,unknown
+https://www.dulux.co.uk/en/colour-inspiration/colour-play#/colourplay/,commercial website
 missing,missing
-https://stephenwestland.co.uk/chrominium/,unknown
+https://stephenwestland.co.uk/chrominium/,personal website
 missing,missing
 missing,missing
 https://www.sciencedirect.com/science/article/pii/S0584854718305597,publisher
-https://nubopy.com/_build/html/index.html,unknown
+https://nubopy.com/_build/html/index.html,software_specific_website
 missing,missing
 missing,missing
 missing,missing
@@ -6473,14 +6473,14 @@ http://www.zoompast.org,web app
 http://homepages.abdn.ac.uk/cgi-bin/cgiwrap/csc323/RegenT/demo.cgi,institutional
 https://zenodo.org/record/4046892,public_noncommercial_archive_repo
 https://dl.acm.org/doi/10.1145/3563331,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 missing,missing
 missing,missing
 missing,missing
@@ -6577,7 +6577,7 @@ missing,missing
 https://arxiv.org/pdf/1812.00548.pdf,preprint_site
 https://arxiv.org/pdf/2002.07516,preprint_site
 https://github.com/bonsai-rx/bonsai/releases/tag/2.8.0,public_commercial_code_repo
-https://bonsai-rx.org/python-scripting/,unknown
+https://bonsai-rx.org/python-scripting/,software_specific_website
 missing,missing
 https://staffnet.cs.manchester.ac.uk/acso/thermal-analyzer/,institutional
 https://staffnet.cs.manchester.ac.uk/acso/thermal-analyzer/,institutional
@@ -6599,7 +6599,7 @@ https://zenodo.org/record/4572728,public_noncommercial_archive_repo
 https://zenodo.org/record/4105891,public_noncommercial_archive_repo
 https://eppi.ioe.ac.uk/cms/er4/,institutional
 https://cheribsd.org/,unknown
-https://www.cheribsd.org/,unknown
+https://www.cheribsd.org/,software_specific_website
 https://github.com/JuliaRheology/RHEOS.jl,public_commercial_code_repo
 https://figshare.shef.ac.uk/articles/software/Simple_Monte_Carlo_Simulator_v1_0_0/5683939,institutional
 https://figshare.shef.ac.uk/articles/software/Simple_Monte_Carlo_Simulator_v1_0_0/5683939/1,institutional
@@ -6638,7 +6638,7 @@ https://zenodo.org/record/4024433,public_noncommercial_archive_repo
 https://lscsoft.docs.ligo.org/bilby/,project or consortium
 missing,missing
 missing,missing
-https://www.mocapstreamer.live/mocap-streamer-app,unknown
+https://www.mocapstreamer.live/mocap-streamer-app,software_specific_website
 https://github.com/fathomlabs/IceApp,public_commercial_code_repo
 https://github.com/TeamMacLean/install_opimage/blob/master/README.md,public_commercial_code_repo
 http://haselofflab.github.io/CellModeller/,software_specific_website
@@ -6656,7 +6656,7 @@ http://doi.org/10.5281/zenodo.3533450,public_noncommercial_archive_repo
 https://zenodo.org/record/7717081#.ZAtXki-l20o,public_noncommercial_archive_repo
 https://suews-docs.readthedocs.io,documentation_site
 https://zenodo.org/record/2574404,public_noncommercial_archive_repo
-https://www.mocapstreamer.live/mocap-streamer-app,unknown
+https://www.mocapstreamer.live/mocap-streamer-app,software_specific_website
 https://github.com/feshie/contiki/tree/mountain-sensing-master/mountainsensing,public_commercial_code_repo
 https://github.com/glampouras/JLOLS_NLG,public_commercial_code_repo
 http://www.macs.hw.ac.uk/InteractionLab/E2E/,institutional
@@ -6792,10 +6792,10 @@ http://bioinf.cs.ucl.ac.uk/psipred,institutional
 https://gitlab.com/ccp5/dl-poly/-/releases/5.0.0,public_commercial_code_repo
 https://quest.qtechtheory.org/,software_specific_website
 http://www.crystal.unito.it/index.php,software_specific_website
-https://www.crystal.unito.it/index.html,unknown
+https://www.crystal.unito.it/index.html,institutional
 https://quest.qtechtheory.org/,software_specific_website
 https://github.com/aniabrown/QuEST,public_commercial_code_repo
-https://www.neuroconcise.co.uk/,unknown
+https://www.neuroconcise.co.uk/,commercial website
 https://github.com/eastmallingresearch/crosslink,public_commercial_code_repo
 http://www.eclipse.org/epsilon,public_noncommercial_package_repo
 http://kahlan.eps.surrey.ac.uk/featurespace/tld/,institutional
@@ -6869,8 +6869,8 @@ missing,missing
 https://elifesciences.org/articles/52743,publisher
 https://elifesciences.org/articles/52743,publisher
 https://elifesciences.org/articles/52743,publisher
-https://clwstwr.org.uk/gorilla-making-post-production-editing-toolkit-fit-remote-work,unknown
-https://clwstwr.org.uk/projects/crit-spec,unknown
+https://clwstwr.org.uk/gorilla-making-post-production-editing-toolkit-fit-remote-work,commercial website
+https://clwstwr.org.uk/projects/crit-spec,commercial website
 https://pyfibrebundle.readthedocs.io/en/latest/,documentation_site
 http://www.surrey.ac.uk/ati/ibc/research/ion_beam_analysis/ndf.htm,institutional
 missing,missing
@@ -6991,7 +6991,7 @@ https://bitbucket.org/rkutlak/sassy,public_commercial_code_repo
 https://arxiv.org/abs/2104.03822,preprint_site
 https://www.ccp5.ac.uk/DL_MONTE,institutional
 missing,missing
-https://unmute.tech/toolkit/,unknown
+https://unmute.tech/toolkit/,software_specific_website
 https://github.com/EPCCed/pynmmso,public_commercial_code_repo
 missing,missing
 https://github.com/SVRTK/aide-svrtk,public_commercial_code_repo
@@ -7109,17 +7109,17 @@ https://zenodo.org/record/5786034,public_noncommercial_archive_repo
 https://nuscr.github.io/nuscr/,software_specific_website
 missing,missing
 https://zenodo.org/record/4046893,public_noncommercial_archive_repo
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.35,publisher
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://doi.org/10.5281/zenodo.3516299,public_noncommercial_archive_repo
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 missing,missing
 missing,missing
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.21,publisher
 https://bitbucket.org/julien-lange/k-checking,public_commercial_code_repo
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 missing,missing
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.8.2.9,publisher
 https://crates.io/crates/dot-parser,public_noncommercial_package_repo
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
 https://zenodo.org/record/4581294,public_noncommercial_archive_repo
@@ -7131,7 +7131,7 @@ https://camcops.readthedocs.io/,documentation_site
 https://github.com/redcap-tools/PyCap/releases/tag/1.1.0,public_commercial_code_repo
 https://crateanon.readthedocs.io/en/latest/nlp/nlprp.html,documentation_site
 http://www.latfield.org/,Non-responsive
-https://jetvheto.hepforge.org/,unknown
+https://jetvheto.hepforge.org/,discipline_software_repo
 https://figshare.com/articles/software/Matlab_code_used_in_analysis_of_ant_tracks/14748195,public_noncommercial_archive_repo
 https://brainsonboard.github.io/bob_robotics/,software_specific_website
 https://github.com/genn-team/genn,public_commercial_code_repo
@@ -7190,7 +7190,7 @@ https://www.mdpi.com/2073-4425/10/9/687,publisher
 https://mandrake.readthedocs.io/en/latest/,documentation_site
 missing,missing
 https://github.com/reconhub/vimes,public_commercial_code_repo
-https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,unknown
+https://www.medrxiv.org/content/10.1101/2022.08.31.22279450v2,preprint_site
 https://github.com/reconhub/epiflows,public_commercial_code_repo
 http://pyseer.readthedocs.io/,documentation_site
 https://mrc-ide.github.io/sircovid,software_specific_website
@@ -7610,7 +7610,7 @@ https://github.com/computational-metabolomics/beams-galaxy,public_commercial_cod
 https://pds.group/ava-clastics/,"forum, mailinglist, blog"
 https://www.cs.york.ac.uk/circus/RoboCalc/robotool/,institutional
 https://robostar.cs.york.ac.uk/robotool/,institutional
-http://mlighter.freedevelop.org/,unknown
+http://mlighter.freedevelop.org/,software_specific_website
 https://zenodo.org/record/5720861,public_noncommercial_archive_repo
 https://aip.scitation.org/doi/suppl/10.1063/1.5134143,publisher
 missing,missing
@@ -7868,13 +7868,13 @@ http://www.code.daniel-williams.co.uk/minke/,personal website
 https://github.com/transientlunatic/heron,public_commercial_code_repo
 https://github.com/Tchanders/InformationMeasures.jl,public_commercial_code_repo
 missing,missing
-https://cran.rstudio.com/web/packages/anomaly/index.html,unknown
+https://cran.rstudio.com/web/packages/anomaly/index.html,public_noncommercial_package_repo
 http://www.tech.dmu.ac.uk/~syang/Codes/CPSO.tar.gz,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/EAlib.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/dynamic_multicast_general.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/DBGP.zip,institutional
 http://www.tech.dmu.ac.uk/~syang/Codes/wmn_multicast.zip,institutional
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://github.com/Health-Informatics-UoN/rquest-tools,public_commercial_code_repo
 https://zenodo.org/record/6834888,public_noncommercial_archive_repo
 missing,missing
@@ -7919,7 +7919,7 @@ missing,missing
 https://www.itrc.org.uk/highlights/popnation-predicts-household-distribution-to-incredible-level-of-detail/,project or consortium
 https://zenodo.org/record/7974824,public_noncommercial_archive_repo
 https://link.springer.com/chapter/10.1007/978-3-031-35361-1_11#chapter-info,publisher
-https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,unknown
+https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.10,publisher
 https://dl.acm.org/doi/10.1145/3563331,publisher
 https://pubs.acs.org/doi/10.1021/acs.analchem.1c05339,publisher
 missing,missing
@@ -8075,7 +8075,7 @@ http://www.empiricalimaging.com,software_specific_website
 missing,missing
 https://zenodo.org/record/3969969,public_noncommercial_archive_repo
 https://zenodo.org/record/3969970,public_noncommercial_archive_repo
-https://www.cambridge.org/core/journals/paleobiology/article/new-approach-for-investigating-spatial-relationships-of-ichnofossils-a-case-study-of-ediacarancambrian-animal-traces/1D478C99852CCFF8226593BC0AE447A1,unknown
+https://www.cambridge.org/core/journals/paleobiology/article/new-approach-for-investigating-spatial-relationships-of-ichnofossils-a-case-study-of-ediacarancambrian-animal-traces/1D478C99852CCFF8226593BC0AE447A1,publisher
 missing,missing
 missing,missing
 https://www.dpmms.cam.ac.uk/~jar62/research.html,institutional
@@ -8113,7 +8113,7 @@ https://bitbucket.org/vidalje/swan/src/master/,public_commercial_code_repo
 http://www.incompact3d.com,software_specific_website
 https://www.code-saturne.org,software_specific_website
 https://www.nektar.info/,software_specific_website
-https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,unknown
+https://www.theoj.org/joss-papers/joss.05813/10.21105.joss.05813.pdf,software_paper
 https://bitbucket.org/rmerrison/fireflies,public_commercial_code_repo
 missing,missing
 missing,missing
@@ -8685,7 +8685,7 @@ http://rtaylor-essex.droppages.com/esrc2/default.htm,personal website
 http://rtaylor-essex.droppages.com/esrc2/default.htm,personal website
 https://zenodo.org/doi/10.5281/zenodo.10474463,public_noncommercial_archive_repo
 missing,missing
-https://docs.openforcefield.org/projects/bespokefit/en/latest/index.html,unknown
+https://docs.openforcefield.org/projects/bespokefit/en/latest/index.html,project or consortium
 https://github.com/qubekit/QUBEKit,public_commercial_code_repo
 https://doi.org/10.1098/rspa.2023.0343,unknown
 https://zenodo.org/record/7105598,public_noncommercial_archive_repo
@@ -8789,7 +8789,7 @@ https://github.com/Health-Informatics-UoN/rquest-tools,public_commercial_code_re
 missing,missing
 https://www.healthdatagateway.org/,unknown
 https://co-connect.ac.uk/,institutional
-https://workflowhub.eu/workflows/471,unknown
+https://workflowhub.eu/workflows/471,public_noncommercial_package_repo
 https://doi.org/10.5281/zenodo.4461676,public_noncommercial_archive_repo
 https://zenodo.org/record/4625638,public_noncommercial_archive_repo
 https://topas-nbio.readthedocs.io/en/latest/getting-started/Members.html,documentation_site
@@ -8904,7 +8904,7 @@ https://cran.r-project.org/package=GWmodel,public_noncommercial_package_repo
 http://www.met.reading.ac.uk/~darc/empire/doc/html/methods.html,institutional
 missing,missing
 https://waterpurity.github.io/Clean-the-River/index.html,software_specific_website
-https://nuestra-agua-aquacol.hub.arcgis.com/,unknown
+https://nuestra-agua-aquacol.hub.arcgis.com/,commercial website
 https://figshare.com/articles/software/Research_data_and_code_supporting_Formation_of_Gaps_in_Self-gravitating_Debris_Disks_by_Secular_Resonance_in_a_Single-planet_System_II_Toward_a_Self-consistent_Model_/22598377,public_noncommercial_archive_repo
 https://figshare.com/articles/software/Research_data_and_code_supporting_Formation_of_Gaps_in_Self-gravitating_Debris_Disks_by_Secular_Resonance_in_a_Single-planet_System_II_Toward_a_Self-consistent_Model_/22598377/1,public_noncommercial_archive_repo
 missing,missing
@@ -8975,7 +8975,7 @@ https://github.com/Sebastien-Raguideau/Metahood,public_commercial_code_repo
 missing,missing
 missing,missing
 https://github.com/zooniverse/Orchids,public_commercial_code_repo
-https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,unknown
+https://www.3ds.com/assets/invest/2024-02/whatsnew-biovia-materials-studio-2024.pdf,commercial website
 https://onetep.org/,software_specific_website
 http://www.homepages.ucl.ac.uk/~ucakjdb/MammoCLS_v1.01.zip,institutional
 missing,missing
