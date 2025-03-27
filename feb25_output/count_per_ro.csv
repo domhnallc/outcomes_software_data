@@ -1,4 +1,4 @@
-LeadRO Name,Count
+LeadRO Name,0
 Imperial College London,820
 UNIVERSITY COLLEGE LONDON,590
 UNIVERSITY OF OXFORD,464
@@ -7,8 +7,8 @@ UNIVERSITY OF CAMBRIDGE,438
 University of Bristol,393
 The University of Manchester,333
 University of Glasgow,267
-University of Sheffield,218
 University of Warwick,218
+University of Sheffield,218
 King's College London,180
 University of Southampton,173
 University of Leeds,172
@@ -23,26 +23,26 @@ NOC (Up to 31.10.2019),131
 University of Liverpool,130
 University of Leicester,128
 University of Surrey,117
-Queen Mary University of London,112
 University of Aberdeen,112
+Queen Mary University of London,112
 University of St Andrews,105
 Durham University,97
 UNIVERSITY OF EXETER,96
 CARDIFF UNIVERSITY,93
-STFC - LABORATORIES,90
 EMBL - European Bioinformatics Institute,90
+STFC - LABORATORIES,90
 Plymouth Marine Laboratory,85
 Rothamsted Research,85
 John Innes Centre,72
 University of Bath,68
 Swansea University,63
 University of Strathclyde,62
-University of Sussex,61
 Heriot-Watt University,61
+University of Sussex,61
 UNIVERSITY OF READING,60
-NATIONAL OCEANOGRAPHY CENTRE,54
 Loughborough University,54
 Queen's University of Belfast,54
+NATIONAL OCEANOGRAPHY CENTRE,54
 University of East Anglia,47
 University of Kent,45
 The Alan Turing Institute,44
@@ -52,8 +52,8 @@ QUADRAM INSTITUTE BIOSCIENCE,40
 Aberystwyth University,37
 "Royal Holloway, Univ of London",36
 Goldsmiths College,29
-NERC CEH (Up to 30.11.2019),28
 University of Essex,28
+NERC CEH (Up to 30.11.2019),28
 De Montfort University,27
 Brunel University London,27
 British Geological Survey,26
@@ -62,109 +62,109 @@ University of Salford,23
 The Faraday Institution,22
 "City, University of London",21
 University of Brighton,20
-NERC BRITISH ANTARCTIC SURVEY,19
 CRANFIELD UNIVERSITY,19
-The Open University,18
+NERC BRITISH ANTARCTIC SURVEY,19
 Institute for Fiscal Studies,18
+The Open University,18
 Coventry University,17
 University of Huddersfield,17
+Birkbeck College,16
 University of Portsmouth,16
 University of Plymouth,16
-Birkbeck College,16
 Nottingham Trent University,15
 University of Hull,14
 SOAS University of London,13
 UK CENTRE FOR ECOLOGY & HYDROLOGY,11
 National Inst of Agricultural Botany,11
-Diamond Light Source,10
 Babraham Institute,10
-MRC Laboratory of Molecular Biology,9
-Oxford Brookes University,9
+Diamond Light Source,10
 Health Data Research UK (HDR UK),9
-THE PIRBRIGHT INSTITUTE,8
-University of the West of England,8
+Oxford Brookes University,9
+MRC Laboratory of Molecular Biology,9
 Liverpool John Moores University,8
-Birmingham City University,8
 Edinburgh Napier University,8
-JAGUAR LAND ROVER LIMITED,7
+THE PIRBRIGHT INSTITUTE,8
+Birmingham City University,8
+University of the West of England,8
+Bournemouth University,7
 Liverpool School of Tropical Medicine,7
 University of Hertfordshire,7
-Science Museum Group,7
 Manchester Metropolitan University,7
+JAGUAR LAND ROVER LIMITED,7
+Science Museum Group,7
 University of Greenwich,7
 Keele University,7
-Bournemouth University,7
 Aston University,6
-University of Bradford,6
-The National Gallery,6
 The Natural History Museum,6
-Wellcome Trust Sanger Institute,5
+The National Gallery,6
+University of Bradford,6
 The Francis Crick Institute,5
 SRUC,5
 Royal Veterinary College,5
-Northumbria University,4
-H R Wallingford Ltd,4
+Wellcome Trust Sanger Institute,5
 University of Ulster,4
 The Robert Gordon University,4
-The National Archives,4
+H R Wallingford Ltd,4
 Institute of Cancer Research,4
-Fera Science Limited,3
-CCFE/UKAEA,3
-Bangor University,3
-University of Lincoln,3
-MRC Human Genome Mapping Project,3
-National Institute of Economic & Soc Res,3
+Northumbria University,4
+The National Archives,4
 University of Central Lancashire,3
+Bangor University,3
 The Wellcome Trust Ltd,3
 University Hospitals Birmingham NHS FT,3
-MRC Centre Cambridge,3
+Fera Science Limited,3
+University of Lincoln,3
 EAST MALLING RESEARCH,3
+National Institute of Economic & Soc Res,3
+CCFE/UKAEA,3
+MRC Human Genome Mapping Project,3
+MRC Centre Cambridge,3
+Then Try This,2
+London South Bank University,2
+Middlesex University,2
+University of Passau,2
 Institute of Development Studies,2
 University of Stirling,2
-University of Passau,2
-Teesside University,2
 Institute of Education,2
-London South Bank University,2
+Teesside University,2
 The Rosalind Franklin Institute,2
-Then Try This,2
-Middlesex University,2
-British Library,1
-Cambridge Crystallographic Data Centre,1
-Basque Centre for Climate Change bc3,1
+University of Glamorgan,1
+Wrexham University,1
+University of the Arts London,1
+University of Westminster,1
 Abertay University,1
-Armagh Observatory and Planetarium,1
-Anglia Ruskin University,1
-Bath Spa University,1
+University of Chester,1
 Duke Kunshan University,1
 Human Sciences Research Council,1
 Howard Miller Design Ltd,1
-Guildhall School of Music and Drama,1
 Harvard University,1
-Falmouth University,1
+Guildhall School of Music and Drama,1
 Fiocruz (Oswaldo Cruz Foundation),1
+Falmouth University,1
 Cardiff Metropolitan University,1
-THE JAMES HUTTON INSTITUTE,1
-Techniquest,1
-Obafemi Awolowo University,1
-MRC Social and Public Health Sciences,1
-MRC Human Genetics Unit,1
-Museum of London Archaeology,1
-McMaster University,1
-Marine Biological Association,1
-NERC National Ctr for Atmospheric Sci,1
 Institute for Financial Management & Res,1
+Cambridge Crystallographic Data Centre,1
+British Library,1
+Bath Spa University,1
+Basque Centre for Climate Change bc3,1
+Armagh Observatory and Planetarium,1
+Anglia Ruskin University,1
 ICDDRB,1
-Scottish Association For Marine Science,1
-Sheffield Hallam University,1
+MRC Human Genetics Unit,1
+UNIVERSITY OF SOUTH WALES,1
 Royal College of Art,1
+Techniquest,1
+THE JAMES HUTTON INSTITUTE,1
+Sheffield Hallam University,1
+Scottish Association For Marine Science,1
 Royal Conservatoire of Scotland,1
 Royal College of Music,1
 Royal Botanic Gardens Kew,1
+MRC Social and Public Health Sciences,1
 Research Complex at Harwell,1
-UNIVERSITY OF SOUTH WALES,1
-University of Chester,1
-University of Glamorgan,1
-University of the Arts London,1
-University of Westminster,1
-Wrexham University,1
+Obafemi Awolowo University,1
+NERC National Ctr for Atmospheric Sci,1
+Museum of London Archaeology,1
+McMaster University,1
+Marine Biological Association,1
 Zoological Soc London Inst of Zoology,1

@@ -1,0 +1,331 @@
+
+
+ Counts per funder 
+
+
+count      20.000000
+mean      449.400000
+std       948.441236
+min         1.000000
+25%        20.750000
+50%        75.500000
+75%       352.000000
+max      4078.000000
+dtype: float64
+Funding OrgName
+EPSRC                       4078
+BBSRC                       1566
+NERC                         967
+MRC                          824
+STFC                         517
+ESRC                         297
+AHRC                         186
+SPF                          116
+ISCF                         110
+UKRI FLF                      95
+GCRF                          56
+COVID                         55
+UKRI                          38
+UUI                           29
+NEWTON FUND                   22
+FIC                           17
+HORIZON EUROPE GUARANTEE       8
+INFRASTRUCTURE FUND            3
+DRI                            3
+UKRI INN.SCHOLAR               1
+dtype: int64
+None
+
+
+ Counts per PI 
+
+
+count    2597.000000
+mean        3.338082
+std         6.456717
+min         1.000000
+25%         1.000000
+50%         2.000000
+75%         3.000000
+max       144.000000
+dtype: float64
+PIId
+22BC3A28-CB9D-44EA-9FB1-7CE5BAF93258    144
+F25E98C0-1DD0-4F7E-A9BB-557335A34015    117
+4E4AC1C7-7E8D-4375-8F02-D9DD2CC24BEB     76
+CD14A212-54AB-4F9D-860F-10A787C1A476     70
+16C997FB-D386-437B-AE18-A3915AB30AE6     67
+                                       ... 
+73AC883C-B83E-4027-8F09-0E995AF68478      1
+7386E17F-80A2-4FC3-B73E-AF58B90C9BDC      1
+73204076-D370-477B-A9EF-7536FBA2D7DD      1
+72FC3701-F93A-4AFE-9715-B8767BAF7B7A      1
+80EDD7F8-F694-4C1A-BAD4-13C952B76615      1
+Length: 2597, dtype: int64
+None
+
+
+ Counts per RO 
+
+
+count    169.000000
+mean      53.183432
+std      110.926115
+min        1.000000
+25%        2.000000
+50%        8.000000
+75%       54.000000
+max      820.000000
+dtype: float64
+LeadRO Name
+Imperial College London                  820
+UNIVERSITY COLLEGE LONDON                590
+UNIVERSITY OF OXFORD                     464
+University of Edinburgh                  463
+UNIVERSITY OF CAMBRIDGE                  438
+                                        ... 
+NERC National Ctr for Atmospheric Sci      1
+Museum of London Archaeology               1
+McMaster University                        1
+Marine Biological Association              1
+Zoological Soc London Inst of Zoology      1
+Length: 169, dtype: int64
+None
+
+
+ Counts of Open Source 
+
+
+count       2.000000
+mean     4494.000000
+std      2151.018828
+min      2973.000000
+25%      3733.500000
+50%      4494.000000
+75%      5254.500000
+max      6015.000000
+dtype: float64
+Software Open Sourced?
+Yes           6015
+No/missing    2973
+dtype: int64
+None
+
+
+ Counts per year 
+
+
+count     20.000000
+mean     449.400000
+std      343.357938
+min       24.000000
+25%      128.500000
+50%      416.500000
+75%      804.750000
+max      895.000000
+dtype: float64
+Year Produced
+2006        24
+2007        28
+2008        42
+2009        67
+2010       140
+2011       164
+2012       245
+2013       319
+2014       514
+2015       693
+2016       802
+2017       834
+2018       841
+2019       867
+2020       895
+2021       763
+2022       813
+2023       659
+2024       184
+Missing     94
+dtype: int64
+
+
+ Counts per dept 
+
+
+count    721.000000
+mean      12.452150
+std       39.790294
+min        1.000000
+25%        1.000000
+50%        3.000000
+75%        9.000000
+max      544.000000
+dtype: float64
+Department
+Computer Science                           544
+UNLISTED                                   540
+Physics                                    413
+Chemistry                                  323
+Computing                                  238
+                                          ... 
+Collections and Curation                     1
+Neuroscience, Psychology and Behaviour       1
+College of Business and Social Sciences      1
+Net Zero and Resilient Farming               1
+LMB Structural Studies                       1
+Length: 721, dtype: int64
+None
+                     0
+1                     
+200               2798
+301               2510
+302                583
+303                 93
+307                  1
+308                 36
+400                  2
+401                 10
+403                130
+404                165
+405                 10
+500                  2
+501                  1
+502                  3
+503                  1
+522                  1
+ConnectionError    297
+ReadTimeoutError    18
+Response             1
+
+
+
+ Software Open Sourced?                 No/missing   Yes
+LeadRO Name                                            
+Abertay University                            NaN   1.0
+Aberystwyth University                        6.0  31.0
+Anglia Ruskin University                      1.0   NaN
+Armagh Observatory and Planetarium            NaN   1.0
+Aston University                              3.0   3.0
+...                                           ...   ...
+University of the Arts London                 1.0   NaN
+University of the West of England             6.0   2.0
+Wellcome Trust Sanger Institute               NaN   5.0
+Wrexham University                            1.0   NaN
+Zoological Soc London Inst of Zoology         1.0   NaN
+
+[169 rows x 2 columns]
+
+
+
+ Software Open Sourced?    No/missing     Yes
+Funding OrgName                             
+AHRC                            71.0   115.0
+BBSRC                          427.0  1139.0
+COVID                           20.0    35.0
+DRI                              1.0     2.0
+EPSRC                         1393.0  2685.0
+ESRC                           133.0   164.0
+FIC                             11.0     6.0
+GCRF                            24.0    32.0
+HORIZON EUROPE GUARANTEE         1.0     7.0
+INFRASTRUCTURE FUND              3.0     NaN
+ISCF                            28.0    82.0
+MRC                            236.0   588.0
+NERC                           359.0   608.0
+NEWTON FUND                     13.0     9.0
+SPF                             33.0    83.0
+STFC                           162.0   355.0
+UKRI                            15.0    23.0
+UKRI FLF                        20.0    75.0
+UKRI INN.SCHOLAR                 NaN     1.0
+UUI                             23.0     6.0
+
+
+
+ Software Open Sourced?                No/missing    Yes
+PIId                                                   
+002849C9-3108-4DF3-B679-25E5CB51EBE7         NaN    1.0
+0084134C-4FDE-4F83-B7E6-F49C8A2C11F4         1.0    NaN
+00996830-9665-499C-A375-B781483B152A         NaN    1.0
+009A0925-4E53-4280-90F1-6DF7B0F017C2         2.0    1.0
+00A77DAA-FA51-4AED-A22A-6AC608B874A5         1.0    NaN
+...                                          ...    ...
+FF46A463-E1A7-42EA-B84B-2E4A65EA91A5         1.0    NaN
+FF6C32E5-752D-4A29-BFB7-7DBBC91C2FCD         NaN    4.0
+FF76B06C-FF0A-4019-A68F-2BFB943F79C9         1.0    NaN
+FFCB7E0F-D736-49B9-B4D3-FE3087F09E4D         4.0    NaN
+No/missing                                 121.0  198.0
+
+[2598 rows x 2 columns]
+
+
+
+subanalysis of vars over time
+
+
+
+Year Produced                          2006  2007  2008  ...  2023  2024  No/missing
+LeadRO Name                                              ...                        
+Abertay University                     <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+Aberystwyth University                 <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+Anglia Ruskin University               <NA>  <NA>  <NA>  ...     1  <NA>        <NA>
+Armagh Observatory and Planetarium     <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+Aston University                       <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+...                                     ...   ...   ...  ...   ...   ...         ...
+University of the Arts London          <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+University of the West of England      <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+Wellcome Trust Sanger Institute        <NA>  <NA>  <NA>  ...     1  <NA>        <NA>
+Wrexham University                     <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+Zoological Soc London Inst of Zoology  <NA>  <NA>  <NA>  ...  <NA>  <NA>        <NA>
+
+[169 rows x 20 columns]
+Year Produced             2006  2007  2008  2009  ...  2021  2022  2023  2024
+Funding OrgName                                   ...                        
+AHRC                         0     1     0     2  ...     7     4    13     4
+BBSRC                        3     5     8    24  ...    67    56    54    30
+COVID                        0     0     0     0  ...    23    18     9     0
+DRI                          0     0     0     0  ...     0     0     3     0
+EPSRC                        8    15    26    27  ...   338   362   283    61
+ESRC                         2     3     0     5  ...    17    22    28     7
+FIC                          0     0     0     0  ...     1     7     4     3
+GCRF                         0     0     0     0  ...    11    10     2     0
+HORIZON EUROPE GUARANTEE     0     0     0     0  ...     0     1     4     1
+INFRASTRUCTURE FUND          0     0     0     0  ...     0     0     2     1
+ISCF                         0     0     0     0  ...    19    22    27     2
+MRC                          1     1     5     3  ...    92    83    58    21
+NERC                         2     0     3     5  ...   104   128    60    22
+NEWTON FUND                  1     1     0     0  ...     1     1     0     0
+SPF                          0     0     0     0  ...    32    26    26     8
+STFC                         7     2     0     1  ...    27    21    49    13
+UKRI                         0     0     0     0  ...     3     7     7     3
+UKRI FLF                     0     0     0     0  ...    18    32    26     7
+UKRI INN.SCHOLAR             0     0     0     0  ...     0     1     0     0
+UUI                          0     0     0     0  ...     3    12     4     1
+
+[20 rows x 19 columns]
+Year Produced           2006  2007  2008  2009  ...  2021  2022  2023  2024
+Software Open Sourced?                          ...                        
+Yes                       17    17    28    48  ...   595   576   462   132
+
+[1 rows x 19 columns]
+                Yes    0
+Year Produced           
+2006             17   24
+2007             17   28
+2008             28   42
+2009             48   67
+2010             96  140
+2011             67  164
+2012            154  245
+2013            204  319
+2014            367  514
+2015            411  693
+2016            524  802
+2017            534  834
+2018            539  841
+2019            576  867
+2020            642  895
+2021            595  763
+2022            576  813
+2023            462  659
+2024            132  184
+Missing        <NA>   94
