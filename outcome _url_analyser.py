@@ -10,7 +10,7 @@ Reads in the URL list. Generates a csv file of URLs and their http code when
 attempts made to reach URL. Saves to ./responses.csv.
 """
 input_data_folder = "./feb25_data"
-output_results_folder = "./feb25_output"
+import config as cfg
 
 url_input_csv = f"{input_data_folder}/gtr_raw_data_feb25.csv"
 
@@ -36,18 +36,18 @@ def check_urls_for_http_response(url_list):
         else:
             print(f"[{counter}:{len(url_list)}]", url)
             response = check_url(url)
-            print(response[0], response[1])
+            print(response)
             responses.append(response)
 
-    with open(f"{output_results_folder}/responses.csv", "w") as outfile:
+    with open(f"{cfg.results_folder}/responses.csv", "w") as outfile:
         writer = csv.writer(outfile)
-        writer.writerow(["Url", "Response"])
+        writer.writerow(["Url", "Response", "Final URL"])
         writer.writerows(responses)
 
 
 def check_urls_for_2xx_responses():
     # redo this with only the 2xx responses
-    df_only_http200s = get_df_from_csv(f"{output_results_folder}/responses.csv")
+    df_only_http200s = get_df_from_csv(f"{cfg.results_folder}/responses.csv")
     print(df_only_http200s)
     df_only_http200s = df_only_http200s.loc[
         (df_only_http200s["Response"] == "200")
@@ -62,7 +62,7 @@ def check_urls_for_2xx_responses():
     for url in url_list:
         cat = url, analyse_keywords_in_url(url)
         categories.append(cat)
-    with open(f"{output_results_folder}/cats_only_200.csv", "w") as outfile:
+    with open(f"{cfg.results_folder}/cats_only_200.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(categories)
 
@@ -72,7 +72,7 @@ def categorise_urls(url_list):
     for url in url_list:
         cat = url, analyse_keywords_in_url(url)
         categories.append(cat)
-    with open(f"{output_results_folder}/categorized_urls.csv", "w") as outfile:
+    with open(f"{cfg.results_folder}/categorized_urls.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(categories)
 
@@ -203,9 +203,9 @@ def check_url(url: str):
     # changed from get to head to see if speeds up
     try:
         r = requests.head(
-            url, headers=headers, timeout=10, stream=True
+            url, headers=headers, timeout=10, stream=True, allow_redirects=True
         )  # set stream to True to avoid automatic decompression
-        return url, r.status_code
+        return url, r.status_code, r.url
 
     except ConnectionError:
         return url, "ConnectionError"

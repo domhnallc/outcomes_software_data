@@ -75,7 +75,7 @@ df_200_group = (
     df_200_only_cats.groupby(["response"]).size().sort_values(ascending=False)
 )
 print(df_200_group.head(10))
-df_200_group.to_csv("./group_only_200_cats.csv")
+df_200_group.to_csv(f"{cfg.results_folder}/group_only_200_cats.csv")
 df_200_group.head(10).plot.pie(
     y="response",
     title="Analysis of URLs with 2** response",
@@ -129,14 +129,14 @@ counts = [
 # % of total urls per public commercial repo
 
 # TODO should this include missing?
-print("\n\n % of total urls per public commercial repo (including missing)\n\n")
+print("\n\n \%  \of total urls per public commercial repo (including missing)\n\n")
 df_breakdown = pd.DataFrame(data=[counts], columns=[names]).T
 df_breakdown["% of total software"] = 100 * df_breakdown / total_count
-df_breakdown["% of total urls"] = (
-    100 * (df_breakdown.apply(lambda x: x - 2063)) / total_count
-)
+# df_breakdown["% of total urls"] = (
+#    100 * (df_breakdown.apply(lambda x: x - 2063)) / total_count
+# )
 print(df_breakdown)
-df_breakdown.to_csv("./output/breakdown_per_public_code_repo.csv")
+df_breakdown.to_csv(f"{cfg.results_folder}/breakdown_per_public_code_repo.csv")
 
 
 # TODO can we get use of github over time
